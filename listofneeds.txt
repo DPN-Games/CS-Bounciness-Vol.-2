@@ -1,4 +1,4 @@
-Images: [PAKOO]
+Images: [Pakoo]
 	Backgrounds:
 		CS Room
 	Character Files:
@@ -23,3 +23,11 @@ Sounds:
 
 Website: [Nova]
 	All of it, lol.
+	
+Anime Intro:
+	Images:
+		Characters [Pakoo]
+	Music:
+		Awesome Japanese track [Nova]
+	Editing:
+		All of it [Digi]
