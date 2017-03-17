@@ -1,0 +1,23 @@
+Images: [PAKOO]
+	Backgrounds:
+		CS Room
+	Character Files:
+		CS "Oh yes!"
+		Young CS
+		Craptop:
+			error
+			on youtube
+			sticky note "Delete the CS Discord"
+			updating
+Sounds:
+	Voices:
+		All Japanese CS [Pakoo]
+		All Japanese Craptop [Nova]
+		All Japanese Young CS [Digi]
+		Japanese Nova [Nova]
+	Stock sounds: [Digi]
+		Windows XP sounds
+		Discord logon/logoff
+		Flashback sounds
+		Keyboard tapping
+		

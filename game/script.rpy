@@ -30,8 +30,23 @@ label start:
 
     cs "Welp, time to start up the ol' Craptop."
 
-	show craptop1
+    show craptop1
 	
-	ct "Your PC sux. LOL."
+    ct "Your PC sux. LOL."
+    
+    show craptop2
+    
+    Character("Sticky Note") "Delete the CS Discord."
+
+    cs "Eh, maybe tomorrow"
+    
+    show craptop3
+    
+    ct "Downloading update 200/13."
+    ct "Update complete"
+    
+    show cshappy
+    
+    cs "OoOoOoOoO yes!"
 
     return
