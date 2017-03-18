@@ -16,7 +16,7 @@ Sounds:
 		All Japanese Young CS [Digi]
 		Japanese Nova [Nova]
 	Stock sounds: [Digi]
-		Windows XP sounds
+		Windows XP sounds // DONE BY NOVA
 		Discord logon/logoff
 		Flashback sounds
 		Keyboard tapping
