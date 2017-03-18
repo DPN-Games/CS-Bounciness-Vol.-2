@@ -16,8 +16,34 @@ pretty much everyone : *Hey cs*
 Discord : *CS188 IS NOW OFFLINE*
 *nova : hello? cs?*
 *nova : k bye*
-cs: Okay, what source now? 
-cs: *scrolling through YouTube* Hmmm, "we will all die eventually lol by OhManMycONTENT" K GOOD ENOUGH...
+<OUTSIDE TIME>
+cs: Okay, what to do now?
+cs: I could go outside, look at some flowers.
+cs: *looks outside the window*
+cs: ...  Oh look out the window, theres a Michael Rosen!
+cs: yeah, let's go outside.
+cs: ...
+cs: Nice day! 
+cs: Well, I guess it's car time.
+carguy : *walks up* Nice car!
+cs: it's pretty nice, but it's got some scratches.
+carguy : Not so nice scratch...
+carguy : You should try crotch doctor
+CS : OH GOD AN ADVERTISER 
+CS : QUICK START THE CAR START THE CAR.
+...
+cs : whew. that was close.
+cs : should I go get groceries? (player chooses yes / no. but doesn't matter he does anyways)
+(IF NO CHOSEN) cs : you know what screw you i will go anyways
+(IF YES CHOSEN) cs : good idea
+cs : Oh yes! CS-Mart is open!
+cs : *pop* Noice, genergy is on sale!
+cs : I'll just grab them all.
+cs : 2 for 1 on Capri SuS? Nah, not worth my time.
+cs : 
+
+cs: what source now? 
+cs: *scrolling through YouTube* Hmmm, "we will all die eventually lol by OhManMyContent" k good enough...
 cs: "Clipconverter.cs"
 cs: now for premiere. man it was so easy back then, just windows movie maker and some effects. if only that was now...
 <flashback time>
@@ -25,7 +51,11 @@ flashback YOUNG CS: HEY GUYS, YOUNG CS HERE. TODAY I'M gONNA BE EDIT A NEEEW VID
 *KEYBOARD TAPPING*
 Flashback YOUNG CS: OHHHH YeEeEes! THIS IS LOOKIN' GOOD!
 *FLASHBACK ENDS*
-CS: OH GOD. MAN I WAS CRINGEY.
 </flashback time>
+CS: OH GOD. MAN I WAS CRINGEY.
+CS: but that was just back then, who cares about now.
+CS: oh wow, hahahah, this is funny already, hahaha, I have no friends.
+
+
 CS dies somehow (work on this more)
 </start of game>
