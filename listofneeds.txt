@@ -7,7 +7,7 @@ Images: [Pakoo]
 		Craptop:
 			error
 			on youtube
-			sticky note "Delete the CS Discord" (in japanese)
+			sticky note "Delete the CS Discord"
 			updating
 Sounds:
 	Voices:
