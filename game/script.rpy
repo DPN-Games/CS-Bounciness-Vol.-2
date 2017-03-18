@@ -29,13 +29,12 @@ label start:
     cs "Welp, time to start up the ol' Craptop."
 
     show craptop1
-	
+    
     ct "Your PC sux. LOL."
     
     show craptop2
     
     Character("Sticky Note") "Delete the CS Discord."
-
     cs "Eh, maybe tomorrow"
     
     show craptop3
@@ -50,9 +49,7 @@ label start:
     show craptop4
 
     cs "Hey guys!"
-    
     d "Hihihihihihihihihihi"
-    
     cs "Okay bedtime! Bye guys!"
 
     show nova1 at right
