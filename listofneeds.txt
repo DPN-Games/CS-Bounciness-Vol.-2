@@ -9,14 +9,9 @@ Images: [Pakoo]
 	Character Files:
 		CS "Oh yes!"
 		Cs thinking
-		Young CS
 		Craptop:
-			error
-			on youtube
-			sticky note "Delete the CS Discord" (in japanese)
 			updating
 		Micheal Rosen
-		Car Guy
 Sounds:
 	Voices:
 		All Japanese CS [Pakoo]
@@ -35,7 +30,5 @@ Website: [Nova]
 Anime Intro:
 	Images:
 		Characters [Pakoo]
-	Music:
-		Awesome Japanese track [Nova]
 	Editing:
 		All of it [Digi]
