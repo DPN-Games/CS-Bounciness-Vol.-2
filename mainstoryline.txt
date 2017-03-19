@@ -41,8 +41,8 @@ cs : Oh yes! CS-Mart is open!
 cs : *pop* Noice, genergy is on sale!
 cs : I'll just grab them all.
 cs : 2 for 1 on Capri SuS? Nah, not worth my time.
-cs : 
 
+//Inside again.
 cs: what source now? 
 cs: *scrolling through YouTube* Hmmm, "we will all die eventually lol by OhManMyContent" k good enough...
 cs: "Clipconverter.cs"
@@ -56,7 +56,6 @@ Flashback YOUNG CS: OHHHH YeEeEes! THIS IS LOOKIN' GOOD!
 CS: OH GOD. MAN I WAS CRINGEY.
 CS: but that was just back then, who cares about now.
 CS: oh wow, hahahah, this is funny already, hahaha, I have no friends.
-
 
 CS dies somehow (work on this more)
 </start of game>
