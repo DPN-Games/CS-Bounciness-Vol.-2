@@ -1,13 +1,9 @@
 Images: [Pakoo]
 	Backgrounds:
-		CS Room
-		CS Room Window
-		Outside (with a Micheal Rosen)
 		CS Car Outside
 		CS Car Inside
 		Inside Walmart, with Carpi-SuS and Genergy on the shelves
 	Character Files:
-		CS "Oh yes!"
 		Cs thinking
 		Craptop:
 			updating
