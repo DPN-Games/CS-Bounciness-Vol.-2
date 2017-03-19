@@ -1,7 +1,4 @@
-# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
+#Variable decleration.
 
 define cs = Character("CS188")
 define ct = Character("Craptop")
@@ -10,6 +7,7 @@ define n = Character("Nova")
 define ycs = Character("Young CS")
 
 image csroom
+
 image csdefault
 image cshappy
 image craptop1
@@ -24,19 +22,9 @@ image nova1
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
-    scene bg csroom
-
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    scene csroom
 
     show csdefault
-
-    # These display lines of dialogue.
 
     cs "Welp, time to start up the ol' Craptop."
 
