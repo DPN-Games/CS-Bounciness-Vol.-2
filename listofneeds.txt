@@ -1,13 +1,8 @@
 Images: [Pakoo]
 	Backgrounds:
-		CS Car Outside
-		CS Car Inside
-		Inside Walmart, with Carpi-SuS and Genergy on the shelves
+		[none]
 	Character Files:
-		Cs thinking
-		Craptop:
-			updating
-		Micheal Rosen
+		[none]
 Sounds:
 	Voices:
 		All Japanese CS [Pakoo]
