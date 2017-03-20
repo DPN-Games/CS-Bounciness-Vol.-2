@@ -2,7 +2,7 @@ Images: [Pakoo]
 	Backgrounds:
 		[none]
 	Character Files:
-		[none]
+		HoH SiS characters, (Pakoo owns Novedit company?)
 Sounds:
 	Voices:
 		All Japanese CS [Pakoo]
