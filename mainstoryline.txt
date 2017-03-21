@@ -1,4 +1,9 @@
 <start of game>
+<Introduction>
+
+Introduces Cs, other characters and important scenes
+Work on Intro more
+</Introduction>
 <chapter1>
 cs:well, time to start up the old craptop.
 craptop : *windows xp start up sound cut-off by windows xp error sound* your pc sux lol
