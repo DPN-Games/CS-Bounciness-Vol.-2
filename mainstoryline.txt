@@ -1,4 +1,5 @@
 <start of game>
+<chapter1>
 cs:well, time to start up the old craptop.
 craptop : *windows xp start up sound cut-off by windows xp error sound* your pc sux lol
 cs:hmmm, "your pc sux lol" meh, probably not a problem.
@@ -56,6 +57,20 @@ Flashback YOUNG CS: OHHHH YeEeEes! THIS IS LOOKIN' GOOD!
 CS: OH GOD. MAN I WAS CRINGEY.
 CS: but that was just back then, who cares about now.
 CS: oh wow, hahahah, this is funny already, hahaha, I have no friends.
+</chapter1>
+------------------------------------
+<chapter2>
+(cs sitting in chair slowly rolls across the room)
+cs: woah! this house has felt like it was sitting on a giant rock on the side of the house.
+cs: I really need to get some foundation repair on this house.
+cs: better call the HoH SiS
+cs: they are really good at giving me the JoJ!
+cs: (dials phone)
+cs: hello, can you give me the JoJ?
+HoH SiS operator: Is this a prank caller on the line?
+cs: No! my house really needs foundation repair and I need help!
+HoH SiS operator: Alright, that will be 200 cstars. You can pay us afterwards.
+HoH SiS operator: (hangs up)
 
 CS dies somehow (work on this more)
 	someone sabatoges his video, makes it crap
