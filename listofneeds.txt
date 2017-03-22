@@ -1,8 +1,8 @@
 Images: [Pakoo]
 	Backgrounds:
-		[none]
+		More Inside and Outside backgrounds
 	Character Files:
-		HoH SiS characters, (Pakoo owns Novedit company?)
+		[none]
 Sounds:
 	Voices:
 		All Japanese CS [Pakoo]
@@ -23,3 +23,6 @@ Anime Intro:
 		Characters [Pakoo]
 	Editing:
 		All of it [Digi]
+
+DUE DATE MARCH 31st FRIDAY
+(we should also test the game before Cs plays, just to make sure it works and all.)
