@@ -76,6 +76,22 @@ HoH SiS operator: Is this a prank caller on the line?
 cs: No! my house really needs foundation repair and I need help!
 HoH SiS operator: Alright, that will be 200 cstars. You can pay us afterwards.
 HoH SiS operator: (hangs up)
+cs: Well that is one thing taken care of.
+cs: I guess I will work on my new YTP while I wait.
+(time passes)
+<DoorBell Rings>
+cs: Oh! they are here!
+cs: lemme go get the door.
+<door opens>
+cs: Hello! I am Cs188, and I really need foundation repair.
+HoH SiS worker: and you would like to suck a lot of cock, right?
+cs: ummmm... not this time.
+HoH SiS worker: Alright, that will be 200 cstars.
+cs: Alright, lemme get my wallet.
+<gets wallet>
+<pulls out money>
+cs: Here you go!
+HoH SiS worker: You want the JoJ!
 
 CS dies somehow (work on this more)
 	someone sabatoges his video, makes it crap
