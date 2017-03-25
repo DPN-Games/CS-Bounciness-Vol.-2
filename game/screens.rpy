@@ -306,7 +306,7 @@ screen navigation():
 
         textbutton _("Load") action ShowMenu("load")
 
-        textbutton "CSettings" action ShowMenu("preferences")
+        textbutton _("Preferences") action ShowMenu("preferences")
 
         if _in_replay:
 
@@ -759,9 +759,9 @@ screen preferences():
 
                     bar value Preference("text speed")
 
-                    label _("Auto-Forward Time")
+                    label _("CS Bounciness")
 
-                    bar value Preference("auto-forward time")
+                    bar value Preference("CS Bounciness")
                     
                 vbox:
 
