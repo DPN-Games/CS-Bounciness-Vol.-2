@@ -21,19 +21,19 @@ image walmartcheckout = "images/background/Walmart_checkout.jpg"
 image walmartoutside = "images/background/Walmart_Outside.jpg"
 image walmartshelf = "images/background/Walmart_shelf.jpg"
 image cardealer = "images/background/CarDealer.jpg"
-image craptop1
-image craptop2
-image craptop3
-image craptop4
-image craptop5
+image craptop1 = "images/background/Craptop_error.jpg"
+image craptop2 = "images/background/Craptop_Desktop.png"
+image craptop3 = "images/background/Craptop_Updating.jpg"
+# image craptop4
+image craptop5 = "images/background/Craptop_Youtube.jpg"
 
 #Character images.
 image csdefault = "images/characters/Cshocola.png"
-image cshappy = "images/characters/"
-image csscared
-
-image nova1
-image carguy
+image cshappy = "images/characters/csocola_happy.png"
+image csscared = "images/characters/cs-ocola suprised.png"
+image nova1 = "images/characters/Anime nova.png"
+image carguy = "images/characters/Carguy_anime.png"
+image discord = "images/characters/discord.png"
 
 #Sounds.
 #Voices.
