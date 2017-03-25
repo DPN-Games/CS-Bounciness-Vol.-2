@@ -142,7 +142,7 @@ Michael: Hallo!
 cs: What's up Michael!
 Michael: I am feeling *pop* noice.
 cs: same here.
-cs: How are the poems coming along.
+cs: How are the poems coming along?
 Michael: Umm, Actually, they are rather noice.
 cs: That's good.
 cs: What if you put me in one of your poems?
@@ -178,6 +178,57 @@ cs: Oh well, let's go work on my ytp at home.
 </chapter3>
 --------------------------------------
 <chapter4>
+<cs gets home>
+cs: Wow! What a day!
+HoH SiS worker: Your house is all fixed up!
+cs: Oh yay!
+cs: Thank you!
+HoH SiS worker: Remember: If you need foundation repair, just call HoH SiS!
+<HoH SiS worker leaves>
+cs: Alright time to work on my YTP.
+cs: Time to start up the ol' Craptop again.
+<craptop flickers different colors>
+cs: hmm... that's odd....
+Craptop: Startup Complete! Launching Totally_not_virus.exe....
+cs: Hmmm.... What's this?
+<craptop displays random errors and bluescreens>
+cs: Wait... what?
+cs: Lemme try this again.
+<craptop fails again>
+cs: Ok, this a problem.
+cs: I need help...
+<cs looks at ground>
+cs: What's this?
+cs: "Pakoo's Novedits: Hire Novedits to help work for you! Just call: 101010100010010101010"
+cs: Hmmm.... let's see what they have there.
+<drives to Factory>
+cs: Wow... this place gives me the creeps....
+Pakoo: Welcome to Pakoo's Novedit Factory! How can I help ya?
+cs: Ummm.... what are Novedits anyway?
+Pakoo: Whhaaat? Why are you even here?
+Pakoo: Ever seen seen one of these?
+<pulls out a Novedit>
+cs: Perfect! I will buy 3, please.
+Pakoo: Ummm... alright... *1, 2, 3, that will be.... hmm....* That'll be 3000 cstars.
+cs: Oh wow ok... I think I got that...
+cs: Alright here you go!
+Pakoo: *snickers in an evil tone* Alright, here are the 3 little numbskulls you ordered.
+Nova1: Nova?
+Pakoo: Yep, this freak is your owner now.
+Nova3: Novvv... Novvvaa....
+Pakoo: I bet he also **** to Nekos.
+(all Novedits snicker)
+cs: Hey! Shut Up! *dangit...*
+Pakoo: Well have fun with those guys.
+cs: Alrighty, nice doing business with you.
+Pakoo: You too.
+<cs leaves>
+Pakoo: Whew! That was close!
+(Neko voices are heard from the back of the factory)
+Pakoo: SHUTT UP VANILLA!!!
+</chapter4>
+----------------------------
+<chapter5>
 
 CS dies somehow (work on this more)
 	someone sabatoges his video, makes it crap
