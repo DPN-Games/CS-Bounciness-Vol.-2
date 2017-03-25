@@ -10,17 +10,21 @@ define mr = Character("Micheal Rosen")
 define cg = Character("Car Guy")
 
 #Backgrounds.
-image csroom
-image csroom_window
-image outside
-image cscaroutside
-image cscarinside
-image walmartinside
-image walmartoutside
+image csroom = "images/background/Cs_bedroom1.jpg"
+image csroom_night = "images/background/Cs_bedroom3.jpg"
+image csroom_window = "images/background/Cs_bedroom2.jpg"
+image outside = "images/background/Cs_house.jpg"
+image cscaroutside = "images/background/Car_Driveway.jpg"
+image cscarinside = "images/background/Car_Inside.jpg"
+image walmartinside = "images/background/Walmart_Inside.jpg"
+image walmartcheckout = "images/background/Walmart_checkout.jpg"
+image walmartoutside = "images/background/Walmart_Outside.jpg"
+image walmartshelf = "images/background/Walmart_shelf.jpg"
+image cardealer = "images/background/CarDealer.jpg"
 
 #Character images.
-image csdefault
-image cshappy
+image csdefault = "images/characters/Cshocola.png"
+image cshappy = "images/characters/"
 image csscared
 image craptop1
 image craptop2
@@ -46,7 +50,7 @@ label start:
 
     show craptop1
     
-    ct "Your PC sux. LOL."
+    ct "Your PC sux. lol."
     
     show craptop2
     
