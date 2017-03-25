@@ -1,21 +1,21 @@
-Sat Mar 25 17:14:30 2017
+Sat Mar 25 17:35:51 2017
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187
  
 
-Bootstrap to the start of init.init took 0.12s
+Bootstrap to the start of init.init took 0.11s
 Early init took 0.02s
 Loader init took 0.03s
 Loading error handling took 0.03s
-Loading script took 0.44s
+Loading script took 0.28s
 Loading persistent took 0.01s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.15s
-Loading analysis data took 0.03s
+Running init code took 0.13s
+Loading analysis data took 0.07s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Nova\\AppData\\Roaming/RenPy/backups\\csbounciness':
-Dump and make backups. took 0.08s
+Dump and make backups. took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 DPI scale factor: 1.000000
@@ -24,18 +24,18 @@ Cleaning stores took 0.00s
 Init translation took 0.06s
 Build styles took 0.01s
 Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.09s
-Prepare screens took 0.12s
+Analyze screens took 0.02s
+Save screen analysis took 0.11s
+Prepare screens took 0.10s
 Save pyanalysis. took 0.19s
-Save bytecode. took 0.05s
+Save bytecode. took 0.09s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.01s
 
 primary display bounds: (0, 0, 1920, 1080)
 Windowed mode.
-Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(1280, 720)
+Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
 Vendor: 'NVIDIA Corporation'
 Renderer: 'GeForce GT 730/PCIe/SSE2'
 Version: '4.5.0 NVIDIA 376.53'
@@ -383,21 +383,27 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 3.81900000572s
+Total time until interface ready: 3.88000011444s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.101000 seconds.
-- Frame drawn at 0.105000 seconds.
-- Frame drawn at 0.117000 seconds.
-- Frame drawn at 0.134000 seconds.
-- 0.134000 seconds to render 5 frames.
-The window was minimized.
-The window was restored.
+- Frame drawn at 0.140000 seconds.
+- Frame drawn at 0.145000 seconds.
+- Frame drawn at 0.146000 seconds.
+- Frame drawn at 0.159000 seconds.
+- 0.159000 seconds to render 5 frames.
 
 primary display bounds: (0, 0, 1920, 1080)
 Windowed mode.
-Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(1280, 720)
+Screen sizes: virtual=(1280, 720) physical=(1739, 558) drawable=(1739, 558)
 
 primary display bounds: (0, 0, 1920, 1080)
 Windowed mode.
-Screen sizes: virtual=(1280, 720) physical=(1920, 1017) drawable=(1920, 1017)
+Screen sizes: virtual=(1280, 720) physical=(940, 558) drawable=(940, 558)
+
+primary display bounds: (0, 0, 1920, 1080)
+Windowed mode.
+Screen sizes: virtual=(1280, 720) physical=(1001, 558) drawable=(1001, 558)
+
+primary display bounds: (0, 0, 1920, 1080)
+Windowed mode.
+Screen sizes: virtual=(1280, 720) physical=(996, 558

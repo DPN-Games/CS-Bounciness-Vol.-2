@@ -10,30 +10,30 @@ define mr = Character("Micheal Rosen")
 define cg = Character("Car Guy")
 
 #Backgrounds.
-image csroom = "/images/background/Cs_bedroom1.jpg"
-image csroom_night = "/images/background/Cs_bedroom3.jpg"
-image csroom_window = "/images/background/Cs_bedroom2.jpg"
-image outside = "/images/background/Cs_house.jpg"
-image cscaroutside = "/images/background/Car_Driveway.jpg"
-image cscarinside = "/images/background/Car_Inside.jpg"
-image walmartinside = "/images/background/Walmart_Inside.jpg"
-image walmartcheckout = "/images/background/Walmart_checkout.jpg"
-image walmartoutside = "/images/background/Walmart_Outside.jpg"
-image walmartshelf = "/images/background/Walmart_shelf.jpg"
-image cardealer = "/images/background/CarDealer.jpg"
-image craptop1 = "/images/background/Craptop_error.jpg"
-image craptop2 = "/images/background/Craptop_Desktop.png"
-image craptop3 = "/images/background/Craptop_Updating.jpg"
+image csroom = "background/Cs_bedroom1.jpg"
+image csroom_night = "background/Cs_bedroom3.jpg"
+image csroom_window = "background/Cs_bedroom2.jpg"
+image outside = "background/Cs_house.jpg"
+image cscaroutside = "background/Car_Driveway.jpg"
+image cscarinside = "background/Car_Inside.jpg"
+image walmartinside = "background/Walmart_Inside.jpg"
+image walmartcheckout = "background/Walmart_checkout.jpg"
+image walmartoutside = "background/Walmart_Outside.jpg"
+image walmartshelf = "background/Walmart_shelf.jpg"
+image cardealer = "background/CarDealer.jpg"
+image craptop1 = "background/Craptop_error.jpg"
+image craptop2 = "background/Craptop_Desktop.png"
+image craptop3 = "background/Craptop_Updating.jpg"
 # image craptop4
-image craptop5 = "/images/background/Craptop_Youtube.jpg"
+image craptop5 = "background/Craptop_Youtube.jpg"
 
 #Character images.
-image csdefault = "/images/characters/Cshocola.png"
-image cshappy = "/images/characters/csocola_happy.png"
-image csscared = "/images/characters/cs-ocola suprised.png"
-image nova1 = "/images/characters/Anime nova.png"
-image carguy = "/images/characters/Carguy_anime.png"
-image discord = "/images/characters/discord.png"
+image csdefault = "characters/Cshocola.png"
+image cshappy = "characters/csocola_happy.png"
+image csscared = "characters/cs-ocola suprised.png"
+image nova1 = "characters/Anime nova.png"
+image carguy = "characters/Carguy_anime.png"
+image discord = "characters/discord.png"
 
 #Sounds.
 #Voices.
