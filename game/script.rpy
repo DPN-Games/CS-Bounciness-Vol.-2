@@ -21,16 +21,17 @@ image walmartcheckout = "images/background/Walmart_checkout.jpg"
 image walmartoutside = "images/background/Walmart_Outside.jpg"
 image walmartshelf = "images/background/Walmart_shelf.jpg"
 image cardealer = "images/background/CarDealer.jpg"
-
-#Character images.
-image csdefault = "images/characters/Cshocola.png"
-image cshappy = "images/characters/"
-image csscared
 image craptop1
 image craptop2
 image craptop3
 image craptop4
 image craptop5
+
+#Character images.
+image csdefault = "images/characters/Cshocola.png"
+image cshappy = "images/characters/"
+image csscared
+
 image nova1
 image carguy
 
@@ -48,16 +49,16 @@ label start:
 
     cs "Welp, time to start up the ol' Craptop."
 
-    show craptop1
+    scene craptop1
     
     ct "Your PC sux. lol."
     
-    show craptop2
+    scene craptop2
     
     Character("Sticky Note") "Delete the CS Discord."
     cs "Eh, maybe tomorrow"
     
-    show craptop3
+    scene craptop3
     
     ct "Downloading update 200/13."
     ct "Update complete"
@@ -66,7 +67,7 @@ label start:
     
     cs "OoOoOoOoO yes!"
     
-    show craptop4
+    scene craptop4
 
     cs "Hey guys!"
     d "Hihihihihihihihihihi"
@@ -80,13 +81,15 @@ label start:
     
     cs "Bye!"
     
-    show craptop4
+    scene craptop4
 
     d: "CS188 is now offline."
     
     show nova1
     
     n: "k bye"
+	
+	scene csroom
 
     show csdefault
     
@@ -133,7 +136,9 @@ label start:
     
     cs "Alright, what source now?"
     
-    show craptop5
+    scene craptop5
+	
+	show csdefault
     
     cs "Hmmm..."
 
