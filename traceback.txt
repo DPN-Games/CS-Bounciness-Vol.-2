@@ -1,0 +1,80 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+  File "game/screens.rpy", line 708, in prepare_screen
+    screen preferences():
+  File "game/screens.rpy", line 708, in prepare
+    screen preferences():
+  File "game/screens.rpy", line 717, in prepare
+    use game_menu(_("Preferences"), scroll="viewport"):
+  File "game/screens.rpy", line 717, in prepare
+    use game_menu(_("Preferences"), scroll="viewport"):
+  File "game/screens.rpy", line 720, in prepare
+    vbox:
+  File "game/screens.rpy", line 720, in prepare
+    vbox:
+  File "game/screens.rpy", line 752, in prepare
+    hbox:
+  File "game/screens.rpy", line 752, in prepare
+    hbox:
+  File "game/screens.rpy", line 756, in prepare
+    vbox:
+  File "game/screens.rpy", line 756, in prepare
+    vbox:
+  File "game/screens.rpy", line 768, in prepare
+    bar value Preference("cs bounciness")
+  File "game/screens.rpy", line 768, in prepare
+    bar value Preference("cs bounciness")
+  File "../renpy-6.99.12.4-sdk/renpy/common/00preferences.rpy", line 397, in Preference
+    rv = get()
+  File "../renpy-6.99.12.4-sdk/renpy/common/00preferences.rpy", line 395, in get
+    raise Exception("Preference(%r, %r) is unknown." % (name , value))
+Exception: Preference(u'cs bounciness', None) is unknown.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\bootstrap.py", line 295, in bootstrap
+    renpy.main.main()
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\main.py", line 487, in main
+    run(restart)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\main.py", line 88, in run
+    renpy.display.screen.prepare_screens()
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\screen.py", line 848, in prepare_screens
+    s.ast.prepare_screen()
+  File "game/screens.rpy", line 708, in prepare_screen
+    screen preferences():
+  File "game/screens.rpy", line 708, in prepare
+    screen preferences():
+  File "game/screens.rpy", line 717, in prepare
+    use game_menu(_("Preferences"), scroll="viewport"):
+  File "game/screens.rpy", line 717, in prepare
+    use game_menu(_("Preferences"), scroll="viewport"):
+  File "game/screens.rpy", line 720, in prepare
+    vbox:
+  File "game/screens.rpy", line 720, in prepare
+    vbox:
+  File "game/screens.rpy", line 752, in prepare
+    hbox:
+  File "game/screens.rpy", line 752, in prepare
+    hbox:
+  File "game/screens.rpy", line 756, in prepare
+    vbox:
+  File "game/screens.rpy", line 756, in prepare
+    vbox:
+  File "game/screens.rpy", line 768, in prepare
+    bar value Preference("cs bounciness")
+  File "game/screens.rpy", line 768, in prepare
+    bar value Preference("cs bounciness")
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\python.py", line 1743, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<screen language>", line 768, in <module>
+  File "../renpy-6.99.12.4-sdk/renpy/common/00preferences.rpy", line 397, in Preference
+    rv = get()
+  File "../renpy-6.99.12.4-sdk/renpy/common/00preferences.rpy", line 395, in get
+    raise Exception("Preference(%r, %r) is unknown." % (name , value))
+Exception: Preference(u'cs bounciness', None) is unknown.
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+CS Bounciness 1.0

@@ -306,7 +306,7 @@ screen navigation():
 
         textbutton _("Load") action ShowMenu("load")
 
-        textbutton _("Preferences") action ShowMenu("preferences")
+        textbutton "CSettings" action ShowMenu("preferences")
 
         if _in_replay:
 
@@ -716,6 +716,7 @@ screen preferences():
 
     use game_menu(_("Preferences"), scroll="viewport"):
 
+        
         vbox:
 
             hbox:
@@ -761,7 +762,7 @@ screen preferences():
                     label _("Auto-Forward Time")
 
                     bar value Preference("auto-forward time")
-
+                    
                 vbox:
 
                     if config.has_music:
