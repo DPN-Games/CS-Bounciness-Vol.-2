@@ -133,6 +133,51 @@ All: I'm beaming up!
 </chapter2>
 -------------------------------------
 <chapter3>
+cs: what should I do?
+cs: Things sure are boooooring around here.
+cs: Hey, I got an idea!
+cs: let's go to Michael Rosen's house!
+<screen dims to Rosen's house>
+Michael: Hallo!
+cs: What's up Michael!
+Michael: I am feeling *pop* noice.
+cs: same here.
+cs: How are the poems coming along.
+Michael: Umm, Actually, they are rather noice.
+cs: That's good.
+cs: What if you put me in one of your poems?
+Michael: HORRIBLE.
+cs: Hehe... yeah that would be a bad idea.
+cs: Lemme call Billy Mays to come over here.
+<dials phone>
+cs: Hey Billy!
+Billy: Hi. It's Billy!
+Billy: What are you doing in my car?
+cs: I'm not! I'm at Michael Rosen's house!
+Billy: Be there in two minutes!
+<hangs up>
+cs: Billy is so weird sometimes.
+Michael: Actually, that's not very noice.
+<door opens>
+<Billy walks in>
+Billy: Hi. It's Billy.
+Billy: Who wants some Big City Sliders?
+cs: Sure!
+Michael: Right into the mouth... MMMMMmmmmm..... noice.
+Billy: Here, take my Oxi Clean!
+cs: ummm..... thanks?
+Michael: OOHH THERE IT IS!!
+cs: Michael! That's not Chocolate Cake!
+Michael: And I had loads to eat! *omm nomm nomm.....*
+Michael: BLARRUGHHH!!!
+Michael: Worst chocolate cake i've ever had.
+cs: Yep. I'm gonna go now....
+<leaves>
+cs: Well that was a waste of time.
+cs: Oh well, let's go work on my ytp at home.
+</chapter3>
+--------------------------------------
+<chapter4>
 
 CS dies somehow (work on this more)
 	someone sabatoges his video, makes it crap
