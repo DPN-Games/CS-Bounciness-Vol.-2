@@ -75,7 +75,7 @@ label start:
 
     show nova1 at right
 
-    n "But it's like 8:04AM and you just woke up."
+    n "But it's like 804AM and you just woke up."
 
     show csdefault at left
     
@@ -83,50 +83,50 @@ label start:
     
     scene craptop4
 
-    d: "CS188 is now offline."
+    d "CS188 is now offline."
     
     show nova1
     
-    n: "k bye"
-	
-	scene csroom
+    n "k bye"
+
+    scene csroom
 
     show csdefault
     
-    cs: "Okay, what to do now?"
-    cs: "I could go outside, look at some flowers..."
+    cs "Okay, what to do now?"
+    cs "I could go outside, look at some flowers..."
     
     scene csroom_window
     
-    cs: "Oh, look out the window, there's a Micheal Rosen!"
-    cs: "Yeah, let's go outside."
+    cs "Oh, look out the window, there's a Micheal Rosen!"
+    cs "Yeah, let's go outside."
     
     scene outside
     
     show cshappy
     
-    cs: "Nice day!"
-    cs: "Well, I guess it's car time."
+    cs "Nice day!"
+    cs "Well, I guess it's car time."
     
     scene cscaroutside
     
     show carguy at right
     
-    cg: "*walks up* Nice car!"
+    cg "*walks up* Nice car!"
     
     show csdefault at left
     
-    cs: "It's pretty nice, but it's got some scratches."
+    cs "It's pretty nice, but it's got some scratches."
     
     show carguy at right
     
-    cg: "Nooot so nice scratch..."
-    cg: "You should try Crotch Doctor!"
+    cg "Nooot so nice scratch..."
+    cg "You should try Crotch Doctor!"
     
     show csscared at left
     
-    cs: "OH GOD AN ADVERTISER!"
-    cs: "QUICK START THE CAR! START THE CAR!"
+    cs "OH GOD AN ADVERTISER!"
+    cs "QUICK START THE CAR! START THE CAR!"
 
     scene cscarinside
     
@@ -137,8 +137,8 @@ label start:
     cs "Alright, what source now?"
     
     scene craptop5
-	
-	show csdefault
+
+    show csdefault
     
     cs "Hmmm..."
 
