@@ -306,7 +306,7 @@ screen navigation():
 
         textbutton _("Load") action ShowMenu("load")
 
-        textbutton _("Preferences") action ShowMenu("preferences")
+        textbutton "CSettings" action ShowMenu("preferences")
 
         if _in_replay:
 
@@ -714,7 +714,7 @@ screen preferences():
     else:
         $ cols = 4
 
-    use game_menu(_("Preferences"), scroll="viewport"):
+    use game_menu("CSettings", scroll="viewport"):
 
         
         vbox:
@@ -759,9 +759,9 @@ screen preferences():
 
                     bar value Preference("text speed")
 
-                    label _("CS Bounciness")
+                    label "CS Bounciness"
 
-                    bar value Preference("CS Bounciness")
+                    bar value Preference("Auto-Forward Time")
                     
                 vbox:
 

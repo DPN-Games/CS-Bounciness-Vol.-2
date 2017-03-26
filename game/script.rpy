@@ -24,7 +24,7 @@ image cardealer = "background/CarDealer.jpg"
 image craptop1 = "background/Craptop_error.jpg"
 image craptop2 = "background/Craptop_Desktop.png"
 image craptop3 = "background/Craptop_Updating.jpg"
-# image craptop4
+image craptop4 = "background/Craptop_Desktop.png"
 image craptop5 = "background/Craptop_Youtube.jpg"
 
 #Character images.
@@ -50,19 +50,21 @@ label start:
     cs "Welp, time to start up the ol' Craptop."
 
     scene craptop1
-    
+    show csdefault
     ct "Your PC sux. lol."
     
     scene craptop2
-    
+    show csdefault
     Character("Sticky Note") "Delete the CS Discord."
     cs "Eh, maybe tomorrow"
     
     scene craptop3
     
+    show csdefault
     ct "Downloading update 200/13."
+    show csdefault
     ct "Update complete"
-    
+    hide csdefault
     show cshappy
     
     cs "OoOoOoOoO yes!"
@@ -70,9 +72,13 @@ label start:
     scene craptop4
 
     cs "Hey guys!"
+    
+    show discord
     d "Hihihihihihihihihihi"
+    hide discord
+    show csdefault
     cs "Okay bedtime! Bye guys!"
-
+    hide csdefault
     show nova1 at right
 
     n "But it's like 804AM and you just woke up."
@@ -82,16 +88,17 @@ label start:
     cs "Bye!"
     
     scene craptop4
-
+    
+    show discord
     d "CS188 is now offline."
     
-    show nova1
+    show nova1 
     
     n "k bye"
 
     scene csroom
 
-    show csdefault
+    show csdefault at truecenter
     
     cs "Okay, what to do now?"
     cs "I could go outside, look at some flowers..."
@@ -130,7 +137,7 @@ label start:
 
     scene cscarinside
     
-    show csdefault
+    show csdefault at ycenter
     
     
     
