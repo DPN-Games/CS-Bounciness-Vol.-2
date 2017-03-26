@@ -18,7 +18,7 @@ image cscaroutside = "background/Car_Driveway.jpg"
 image cscarinside = "background/Car_Inside.jpg"
 image walmartinside = "background/Walmart_Inside.jpg"
 image walmartcheckout = "background/Walmart_checkout.jpg"
-image walmartoutside = "background/Walmart_Outside.jpg"
+image walmartoutside = "background/Walmart_Outside.png"
 image walmartshelf = "background/Walmart_shelf.jpg"
 image cardealer = "background/CarDealer.jpg"
 image craptop1 = "background/Craptop_error.jpg"
@@ -88,7 +88,7 @@ label start:
     show csdefault at left
     cs "Bye!"
     hide csdefault
-	
+
     scene craptop4
     show discord
     d "CS188 is now offline."
@@ -127,24 +127,24 @@ label start:
     scene cscarinside
     show csdefault
     cs "Whew, that was close."
-	cs "Should I go get groceries?"
-	
-	menu grocerymenu:
-		"Get groceries?"
-		
-		"Yes.":
-			cs "Yeah, it's a good idea to get some stuff."
-		"No.":
-			cs "Screw you, I'm going anyway."
-	
-	scene walmartoutside
-	show cshappy
-	cs: "Oh yes, CSMart is open!"
-	
-	scene walmartinside
-	showcsdefault
-	cs: "*pop* Noice! Genergy is on sale! I'll just grab them all."
-	cs: "2 for 1 on Capri Sus? Nah, not worth my time."
-	
+    cs "Should I go get groceries?"
+
+    menu grocerymenu:
+        "Get groceries?"
+
+        "Yes.":
+            cs "Yeah, it's a good idea to get some stuff."
+        "No.":
+            cs "Screw you, I'm going anyway."
+
+    scene walmartoutside
+    show cshappy
+    cs "Oh yes, CSMart is open!"
+
+    scene walmartinside
+    show csdefault
+    cs "*pop* Noice! Genergy is on sale! I'll just grab them all."
+    cs "2 for 1 on Capri Sus? Nah, not worth my time."
+
 
     return

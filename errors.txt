@@ -2,12 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 124: multiple at clauses are prohibited.
-    show csdefault at left at left
-                             ^
-
-File "game/script.rpy", line 140: multiple at clauses are prohibited.
-    show csdefault at left at ycenter
-                             ^
+File "game/script.rpy", line 142: expected statement.
+    cs: "Oh yes, CSMart is open!"
+      ^
 
 Ren'Py Version: Ren'Py 6.99.12.4.2187

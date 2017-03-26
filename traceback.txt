@@ -1,28 +1,86 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script.rpy", line 140, in script
-    
-  File "game/script.rpy", line 140, in <module>
-    
-NameError: name 'ycenter' is not defined
+While loading <'Image' u'background/Walmart_Outside.jpg'>:
+  File "game/script.rpy", line 142, in script
+    cs "Oh yes, CSMart is open!"
+  File "../renpy-6.99.12.4-sdk/renpy/common/000window.rpy", line 98, in _window_auto_callback
+    _window_show()
+  File "../renpy-6.99.12.4-sdk/renpy/common/000window.rpy", line 60, in _window_show
+    renpy.with_statement(trans)
+IOError: Couldn't find file 'background/Walmart_Outside.jpg'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 140, in script
-    
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\ast.py", line 1075, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\ast.py", line 1036, in show_imspec
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\python.py", line 1749, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\python.py", line 1743, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 140, in <module>
-    
-NameError: name 'ycenter' is not defined
+  File "game/script.rpy", line 142, in script
+    cs "Oh yes, CSMart is open!"
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\ast.py", line 587, in execute
+    statement_name("say")
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\ast.py", line 43, in statement_name
+    i(name)
+  File "../renpy-6.99.12.4-sdk/renpy/common/000window.rpy", line 98, in _window_auto_callback
+    _window_show()
+  File "../renpy-6.99.12.4-sdk/renpy/common/000window.rpy", line 60, in _window_show
+    renpy.with_statement(trans)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\exports.py", line 1381, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2096, in do_with
+    clear=clear)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2526, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2883, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\core.py", line 1955, in draw_screen
+    renpy.config.screen_height,
+  File "renpy/display/render.pyx", line 427, in renpy.display.render.render_screen (gen\renpy.display.render.c:6806)
+    rv = render(root, width, height, 0, 0)
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 693, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\transition.py", line 360, in render
+    bottom = render(self.old_widget, width, height, st, at)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 693, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 693, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
+    rv = d.render(widtho, heighto, st, at)
+  File "renpy/display/accelerator.pyx", line 108, in renpy.display.accelerator.transform_render (gen\renpy.display.accelerator.c:2027)
+    cr = render(child, widtho, heighto, st - self.child_st_base, at)
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\image.py", line 387, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\image.py", line 208, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\im.py", line 473, in render
+    im = cache.get(self)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\im.py", line 200, in get
+    surf = image.load()
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\im.py", line 524, in load
+    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\loader.py", line 543, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'background/Walmart_Outside.jpg'.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187
