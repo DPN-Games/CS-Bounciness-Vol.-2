@@ -69,6 +69,10 @@ label start:
     
     cs "OoOoOoOoO yes!"
     hide cshappy
+    show csdefault
+    #full windows sound
+    ct "{i}please end my suffering{/i}"
+    cs "no"
     scene craptop4
 
     show csdefault at left
@@ -139,6 +143,8 @@ label start:
     scene cscarinside
     
     show csdefault
+    
+    
     
     scene craptop5
     show csdefault
