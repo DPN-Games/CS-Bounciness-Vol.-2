@@ -5,10 +5,10 @@ Images: [Pakoo]
 		[none]
 Sounds:
 	Voices:
-		All Japanese CS [Pakoo]
-		All Japanese Craptop [Nova]
-		All Japanese Young CS [Digi]
-		Japanese Nova [Nova]
+		All Japanese CS, Pakoo, Richard, Billy [Pakoo]
+		All Japanese Craptop, SFX, Young CS [Nova]
+		All Japanese Digi, Carguy, Rosen, Ed  [Digi]
+		Anime Novas [Nova]
 	Stock sounds: [Digi]
 		Windows XP sounds // DONE BY NOVA
 		Discord logon/logoff
