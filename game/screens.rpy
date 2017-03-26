@@ -250,7 +250,7 @@ screen quick_menu():
 
             textbutton _("Back") action Rollback()
             textbutton _("History") action ShowMenu('history')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
+            #textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Auto") action Preference("auto-forward", "toggle")
             textbutton _("Save") action ShowMenu('save')
             textbutton _("Q.Save") action QuickSave()
@@ -722,6 +722,8 @@ screen preferences():
             hbox:
                 box_wrap True
 
+                text "Do not hit 'CONTROL'('CTRL'). It will skip through the entire game."
+                
                 if renpy.variant("pc"):
 
                     vbox:
@@ -737,12 +739,12 @@ screen preferences():
                     textbutton _("Left") action Preference("rollback side", "left")
                     textbutton _("Right") action Preference("rollback side", "right")
 
-                vbox:
-                    style_prefix "check"
-                    label _("Skip")
-                    textbutton _("Unseen Text") action Preference("skip", "toggle")
-                    textbutton _("After Choices") action Preference("after choices", "toggle")
-                    textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
+                #vbox:
+                    #style_prefix "check"
+                    #label _("Skip")
+                    #textbutton _("Unseen Text") action Preference("skip", "toggle")
+                    #textbutton _("After Choices") action Preference("after choices", "toggle")
+                    #textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
 
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.
@@ -1416,7 +1418,7 @@ screen quick_menu():
         yalign 1.0
 
         textbutton _("Back") action Rollback()
-        textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
+        #textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
         textbutton _("Auto") action Preference("auto-forward", "toggle")
         textbutton _("Menu") action ShowMenu()
 

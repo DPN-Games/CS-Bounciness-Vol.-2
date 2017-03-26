@@ -26,6 +26,7 @@ image craptop2 = "background/Craptop_Desktop.png"
 image craptop3 = "background/Craptop_Updating.jpg"
 image craptop4 = "background/Craptop_Desktop.png"
 image craptop5 = "background/Craptop_Youtube.jpg"
+image craptopsad = "background/Craptop_sad.jpg"
 
 #Character images.
 image csdefault = "characters/Cshocola.png"
@@ -71,7 +72,7 @@ label start:
     #full windows sound
     ct "{i}please end my suffering{/i}"
     cs "no"
-   
+    scene craptop
     scene craptop4
     show csdefault at left
     cs "Hey guys!"
@@ -97,7 +98,7 @@ label start:
     n "k bye"
 
     scene csroom
-    show csdefault at truecenter
+    show csdefault at left
     cs "Okay, what to do now?"
     cs "I could go outside, look at some flowers..."
     
@@ -107,7 +108,7 @@ label start:
     cs "Yeah, let's go outside."
     
     scene outside
-    show cshappy
+    show cshappy at left
     cs "Nice day!"
     cs "Well, I guess it's car time."
     
@@ -125,7 +126,7 @@ label start:
     cs "QUICK START THE CAR! START THE CAR!"
 
     scene cscarinside
-    show csdefault
+    show csdefault at left
     cs "Whew, that was close."
     cs "Should I go get groceries?"
 
@@ -138,13 +139,21 @@ label start:
             cs "Screw you, I'm going anyway."
 
     scene walmartoutside
-    show cshappy
+    show cshappy at right
     cs "Oh yes, CSMart is open!"
 
-    scene walmartinside
-    show csdefault
+    scene walmartshelf
+    show csdefault at left
     cs "*pop* Noice! Genergy is on sale! I'll just grab them all."
     cs "2 for 1 on Capri Sus? Nah, not worth my time."
 
+    scene csroom
+    
+    "1 HOUR LATER"
+    
+    show csdefault at left
+    cs "Computer time!"
 
+    scene craptop5
+    show csdefault at left
     return
