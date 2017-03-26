@@ -1,17 +1,17 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 99, in script
-    show csdefault at ycenter
-  File "game/script.rpy", line 99, in <module>
-    show csdefault at ycenter
+  File "game/script.rpy", line 140, in script
+    
+  File "game/script.rpy", line 140, in <module>
+    
 NameError: name 'ycenter' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 99, in script
-    show csdefault at ycenter
+  File "game/script.rpy", line 140, in script
+    
   File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\ast.py", line 1075, in execute
     show_imspec(self.imspec, atl=getattr(self, "atl", None))
   File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\ast.py", line 1036, in show_imspec
@@ -20,8 +20,8 @@ Full traceback:
     return py_eval_bytecode(code, globals, locals)
   File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\python.py", line 1743, in py_eval_bytecode
     return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 99, in <module>
-    show csdefault at ycenter
+  File "game/script.rpy", line 140, in <module>
+    
 NameError: name 'ycenter' is not defined
 
 Windows-8-6.2.9200

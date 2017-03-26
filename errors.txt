@@ -2,16 +2,12 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 65: expected 'image_name_component' not found.
-    hide
-        ^
+File "game/script.rpy", line 124: multiple at clauses are prohibited.
+    show csdefault at left at left
+                             ^
 
-File "game/script.rpy", line 76: expected 'image_name_component' not found.
-    hide
-        ^
-
-File "game/script.rpy", line 79: expected 'image_name_component' not found.
-    hide
-        ^
+File "game/script.rpy", line 140: multiple at clauses are prohibited.
+    show csdefault at left at ycenter
+                             ^
 
 Ren'Py Version: Ren'Py 6.99.12.4.2187

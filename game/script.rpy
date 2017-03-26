@@ -42,41 +42,42 @@ image discord = "characters/discord.png"
 # The game starts here.
 
 label start:
-
+ 
     scene csroom
 
-    show csdefault
+    show csdefault at left
 
     cs "Welp, time to start up the ol' Craptop."
 
     scene craptop1
-    show csdefault
+    show csdefault at left
     ct "Your PC sux. lol."
     
     scene craptop2
-    show csdefault
+    show csdefault at left
     Character("Sticky Note") "Delete the CS Discord."
     cs "Eh, maybe tomorrow"
     
     scene craptop3
     
-    show csdefault
+    show csdefault at left
     ct "Downloading update 200/13."
-    show csdefault
+    show csdefault at left
     ct "Update complete"
-    hide csdefault
+    hide csdefault at left
     show cshappy
     
     cs "OoOoOoOoO yes!"
     
     scene craptop4
 
+    show csdefault
     cs "Hey guys!"
     
     show discord
     d "Hihihihihihihihihihi"
     hide discord
-    show csdefault
+    show csdefault at left
     cs "Okay bedtime! Bye guys!"
     hide csdefault
     show nova1 at right
@@ -91,7 +92,7 @@ label start:
     
     show discord
     d "CS188 is now offline."
-    
+    hide discord
     show nova1 
     
     n "k bye"
@@ -104,7 +105,7 @@ label start:
     cs "I could go outside, look at some flowers..."
     
     scene csroom_window
-    
+    show csscared
     cs "Oh, look out the window, there's a Micheal Rosen!"
     cs "Yeah, let's go outside."
     
@@ -137,7 +138,7 @@ label start:
 
     scene cscarinside
     
-    show csdefault at ycenter
+    show csdefault
     
     
     
@@ -145,7 +146,7 @@ label start:
     
     scene craptop5
 
-    show csdefault
+    show csdefault at left
     
     cs "Hmmm..."
 
