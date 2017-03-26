@@ -65,11 +65,11 @@ label start:
     show csdefault at left
     ct "Update complete"
     hide csdefault at left
-    show cshappy
+    show cshappy at left
     
     cs "OoOoOoOoO yes!"
     hide cshappy
-    show csdefault
+    show csdefault at left
     #full windows sound
     ct "{i}please end my suffering{/i}"
     cs "no"
@@ -87,7 +87,7 @@ label start:
     show nova1 at right
 
     n "But it's like 8:04AM and you just woke up."
-
+    hide nova1
     show csdefault at left
     
     cs "Bye!"
