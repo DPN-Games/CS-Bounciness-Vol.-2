@@ -59,22 +59,20 @@ label start:
     cs "Eh, maybe tomorrow"
     
     scene craptop3
-    
     show csdefault at left
     ct "Downloading update 200/13."
     show csdefault at left
     ct "Update complete"
     hide csdefault at left
     show cshappy at left
-    
     cs "OoOoOoOoO yes!"
     hide cshappy
     show csdefault at left
     #full windows sound
     ct "{i}please end my suffering{/i}"
     cs "no"
+   
     scene craptop4
-
     show csdefault at left
     cs "Hey guys!"
     scene craptop2
@@ -85,26 +83,21 @@ label start:
     cs "Okay bedtime! Bye guys!"
     hide csdefault
     show nova1 at right
-
     n "But it's like 8:04AM and you just woke up."
     hide nova1
     show csdefault at left
-    
     cs "Bye!"
     hide csdefault
+	
     scene craptop4
-    
     show discord
     d "CS188 is now offline."
     hide discord
     show nova1 
-    
     n "k bye"
 
     scene csroom
-
     show csdefault at truecenter
-    
     cs "Okay, what to do now?"
     cs "I could go outside, look at some flowers..."
     
@@ -114,44 +107,44 @@ label start:
     cs "Yeah, let's go outside."
     
     scene outside
-    
     show cshappy
-    
     cs "Nice day!"
     cs "Well, I guess it's car time."
     
     scene cscaroutside
-    
     show carguy at right
-    
     cg "*walks up* Nice car!"
-    
     show csdefault at left
-    
     cs "It's pretty nice, but it's got some scratches."
-    
     show carguy at right
-    
     cg "Nooot so nice scratch..."
     cg "You should try Crotch Doctor!"
     hide csdefault
     show csscared at left
-    
     cs "OH GOD AN ADVERTISER!"
     cs "QUICK START THE CAR! START THE CAR!"
 
     scene cscarinside
-    
     show csdefault
-    
-    
-    
-    scene craptop5
-    show csdefault
-    cs "Alright, what source now?"
-
-    show csdefault at left
-    
-    cs "Hmmm..."
+    cs "Whew, that was close."
+	cs "Should I go get groceries?"
+	
+	menu grocerymenu:
+		"Get groceries?"
+		
+		"Yes.":
+			cs "Yeah, it's a good idea to get some stuff."
+		"No.":
+			cs "Screw you, I'm going anyway."
+	
+	scene walmartoutside
+	show cshappy
+	cs: "Oh yes, CSMart is open!"
+	
+	scene walmartinside
+	showcsdefault
+	cs: "*pop* Noice! Genergy is on sale! I'll just grab them all."
+	cs: "2 for 1 on Capri Sus? Nah, not worth my time."
+	
 
     return
