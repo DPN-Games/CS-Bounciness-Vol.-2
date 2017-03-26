@@ -68,12 +68,12 @@ label start:
     show cshappy
     
     cs "OoOoOoOoO yes!"
-    
+    hide cshappy
     scene craptop4
 
-    show csdefault
+    show csdefault at left
     cs "Hey guys!"
-    
+    scene craptop2
     show discord
     d "Hihihihihihihihihihi"
     hide discord
@@ -82,12 +82,12 @@ label start:
     hide csdefault
     show nova1 at right
 
-    n "But it's like 804AM and you just woke up."
+    n "But it's like 8:04AM and you just woke up."
 
     show csdefault at left
     
     cs "Bye!"
-    
+    hide csdefault
     scene craptop4
     
     show discord
@@ -130,7 +130,7 @@ label start:
     
     cg "Nooot so nice scratch..."
     cg "You should try Crotch Doctor!"
-    
+    hide csdefault
     show csscared at left
     
     cs "OH GOD AN ADVERTISER!"
@@ -140,11 +140,9 @@ label start:
     
     show csdefault
     
-    
-    
-    cs "Alright, what source now?"
-    
     scene craptop5
+    show csdefault
+    cs "Alright, what source now?"
 
     show csdefault at left
     
