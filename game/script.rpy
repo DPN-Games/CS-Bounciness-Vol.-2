@@ -189,9 +189,8 @@ label start:
     cs "{i} Dials 1-188-HOH-SISS{/i}"
     cs "Hello, can you give me the JoJ?"
     
-    "HoH SiS operator" "Is this a prank caller on the line?"
+    Character("HoH SiS Operator") "Is this a prank caller on the line?"
     cs "No! my house really needs foundation repair and I need help!"
-    "HoH SiS operator" "Alright, that will be 200 cstars. You can pay us afterwards."
-    "HoH SiS operator" "{i}hangs up{/i}"
+    Character("HoH SiS Operator") "Alright, that will be 200 cstars. You can pay us afterwards."
+    Character("HoH SiS Operator") "{i}hangs up{/i}"
     hide csdefault
-    
