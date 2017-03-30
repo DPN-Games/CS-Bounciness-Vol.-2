@@ -9,6 +9,8 @@ define ycs = Character("Young CS")
 define mr = Character("Micheal Rosen")
 define cg = Character("Car Guy")
 define ed = Character("Ed")
+define rich = Character("Richard")
+define wes = Character("Wesley")
 
 #Backgrounds.
 image csroom = "background/Cs_bedroom1.jpg"
@@ -28,7 +30,8 @@ image craptop3 = "background/Craptop_Updating.jpg"
 image craptop4 = "background/Craptop_Desktop.png"
 image craptop5 = "background/Craptop_Youtube.jpg"
 image craptopsad = "background/Craptop_sad.jpg"
-#image door
+image doorclosed = "background/Door_closed.jpg"
+image dooropen = "background/Door_open.jpg"
 
 #Character images.
 image csdefault = "characters/Cshocola.png"
@@ -39,7 +42,7 @@ image carguy = "characters/Carguy_anime.png"
 image discord = "characters/discord.png"
 image youngcs = "characters/Csocola_young(chibi).png"
 image wesley = "characters/wesley-chan.png"
-image ed = "characters/Ed.png"
+image edimg = "characters/Ed.png"
 image richard = "characters/Richard.png"
 image digi = "characters/DuncanBig.png"
 image billy = "characters/Billy_anime.png"
@@ -176,14 +179,14 @@ label start:
     hide csdefault
     "hey flashback time"
     
-	scene csroom with irisin
+    scene csroom with irisin
     show youngcs
     ycs "Hey guys, Young CS here. Today I'm gonna be editing a new craAaAaAaAaAaAazy video!"
     "*keyboard tapping*"
     ycs "Ohhhhhh YeEeEeEeEess! This is lookin' good!"
     hide youngcs
     
-	scene csroom with irisout
+    scene csroom with irisout
     show csdefault at left
     cs "Oh. Flashback over."
     cs "Oh wow, hahahaha, this is funny already, hahaha, I have no friends."
@@ -192,8 +195,8 @@ label start:
     cs "I really need to get some foundation repair on this house."
     cs "Better call HoH SiS!"
     cs "They are really good at giving me the JoJ!"
-	
-	show csphone at left
+    hide csdefault
+    show csphone at left
     cs "{i} Dials 1-188-HOH-SISS{/i}"
     cs "Hello, can you give me the JoJ?"
     
@@ -201,11 +204,12 @@ label start:
     cs "No! My house really needs foundation repair and I need help!"
     "HoH SiS operator" "Alright, that will be 200 CStars. You can pay us afterwards."
     "HoH SiS operator" "{i}hangs up{/i}"
-    shpw text "..." at truecenter
+    show text "..." at truecenter
     cs "Well, that is one thing taken care of."
     cs "I guess I'll work on my new YTP while I wait."
     "{i}Time Passes{/i}"
     "{i}Doorbell Rings{/i}"
-	
-    #show ed
+    
+    scene dooropen
+    show edimg at right
     ed "Alright, that will be 200 cstars."
