@@ -8,6 +8,7 @@ define n = Character("Nova")
 define ycs = Character("Young CS")
 define mr = Character("Micheal Rosen")
 define cg = Character("Car Guy")
+define ed = Character("Ed")
 
 #Backgrounds.
 image csroom = "background/Cs_bedroom1.jpg"
@@ -37,9 +38,9 @@ image carguy = "characters/Carguy_anime.png"
 image discord = "characters/discord.png"
 image youngcs = "characters/Csocola_young(chibi).png"
 image wesley = "characters/wesley-chan.png"
+#image ed
 
 #Sounds.
-#Voices.
 
 
 # The game starts here.
@@ -164,8 +165,8 @@ label start:
     cs "k"
     cs "i guess that works."
     cs "Time for ClipConverter.cs"
-    cs "Now for premiere. Man, it was so easy back then, just WMM and some effects. If only that was now."
-    cs "oh look a flashback what a coincidence..."
+    cs "Now for Premiere. Man, it was so easy back then, just WMM and some effects. If only that was now."
+    cs "Oh look, a flashback. What a coincidence..."
     hide csdefault
     "hey flashback time"
     
@@ -177,16 +178,13 @@ label start:
     hide youngcs
     
 	scene csroom with irisout
-    "oh rip flashback"
     show csdefault at left
-    cs "oh flashback over"
+    cs "Oh. Flashback over."
     cs "Oh wow, hahahaha, this is funny already, hahaha, I have no friends."
-        
-    scene csroom
-    show csdefault at left
-    cs "woah. This house has felt like it was sitting with a giant rock on the side of the house."
+    show csdefault at right
+    cs "Woah. This house has felt like it was sitting with a giant rock on the side of the house."
     cs "I really need to get some foundation repair on this house."
-    cs "Better call HoH SiS"
+    cs "Better call HoH SiS!"
     cs "They are really good at giving me the JoJ!"
 	
 	show csphone at left
@@ -194,19 +192,14 @@ label start:
     cs "Hello, can you give me the JoJ?"
     
     Character("HoH SiS Operator") "Is this a prank caller on the line?"
-    cs "No! my house really needs foundation repair and I need help!"
-    "HoH SiS operator" "Alright, that will be 200 cstars. You can pay us afterwards."
+    cs "No! My house really needs foundation repair and I need help!"
+    "HoH SiS operator" "Alright, that will be 200 CStars. You can pay us afterwards."
     "HoH SiS operator" "{i}hangs up{/i}"
     "..."
-    cs "Well that is one thing taken care of."
-    cs "I guess I will work on my new YTP while I wait."
+    cs "Well, that is one thing taken care of."
+    cs "I guess I'll work on my new YTP while I wait."
     "{i}Time Passes{/i}"
     "{i}Doorbell Rings{/i}"
-     
-    #scene
-    
-    hide csdefault
-    
-    Character("HoH SiS Operator") "Alright, that will be 200 cstars. You can pay us afterwards."
-    Character("HoH SiS Operator") "{i}hangs up{/i}"
-    hide csdefault
+	
+    #show ed
+    ed "Alright, that will be 200 cstars. You can pay us afterwards."
