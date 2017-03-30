@@ -32,6 +32,7 @@ image craptop5 = "background/Craptop_Youtube.jpg"
 image craptopsad = "background/Craptop_sad.jpg"
 image doorclosed = "background/Door_closed.jpg"
 image dooropen = "background/Door_open.jpg"
+image office1 = "background/Office_1.jpg"
 
 #Character images.
 image csdefault = "characters/Cshocola.png"
@@ -48,8 +49,6 @@ image digi = "characters/DuncanBig.png"
 image billy = "characters/Billy_anime.png"
 image michael = "characters/Michael.png"
 image csphone = "characters/CshocolaPhone.png"
-
-#Sounds.
 
 
 # The game starts here.
@@ -209,7 +208,30 @@ label start:
     cs "I guess I'll work on my new YTP while I wait."
     "{i}Time Passes{/i}"
     "{i}Doorbell Rings{/i}"
-    
+    cs "Oh! They're here!"
+    cs "Lemme go get the door"
     scene dooropen
+    show csdefault at left
+    cs "Hello! I am CS188, and I-"
     show edimg at right
     ed "Alright, that will be 200 cstars."
+    cs "Alright, lemme get my wallet."
+    cs "Here you go"
+    ed "You want the JoJ!"
+    hide csdefault
+    "{i}CS leaves{/i}"
+    ed "Come on in guys. CS left."
+    hide edimg
+    show richard at right
+    rich "JoJ!"
+    show wesley at left
+    hide richard
+    wes "Do we have to do this all over again?"
+    show ed at right
+    ed "So now we are here, what should we do to him?"
+    "Ed, Wesley and Richard" "Hmmm..."
+    ed "Let's go check his room"
+    "{i} The three HoH SiS workers go upstairs {/i}"
+    
+    play sound "secret/eastereggquite.mp3"
+    
