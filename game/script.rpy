@@ -28,6 +28,7 @@ image craptop3 = "background/Craptop_Updating.jpg"
 image craptop4 = "background/Craptop_Desktop.png"
 image craptop5 = "background/Craptop_Youtube.jpg"
 image craptopsad = "background/Craptop_sad.jpg"
+#image door
 
 #Character images.
 image csdefault = "characters/Cshocola.png"
@@ -38,7 +39,12 @@ image carguy = "characters/Carguy_anime.png"
 image discord = "characters/discord.png"
 image youngcs = "characters/Csocola_young(chibi).png"
 image wesley = "characters/wesley-chan.png"
-#image ed
+image ed = "characters/Ed.png"
+image richard = "characters/Richard.png"
+image digi = "characters/DuncanBig.png"
+image billy = "characters/Billy_anime.png"
+image michael = "characters/Michael.png"
+image csphone = "characters/CshocolaPhone.png"
 
 #Sounds.
 
@@ -202,4 +208,4 @@ label start:
     "{i}Doorbell Rings{/i}"
 	
     #show ed
-    ed "Alright, that will be 200 cstars. You can pay us afterwards."
+    ed "Alright, that will be 200 cstars."
