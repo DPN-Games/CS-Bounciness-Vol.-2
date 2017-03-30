@@ -214,18 +214,18 @@ label start:
     cs "Oh! They're here!"
     cs "Lemme go get the door"
     
-	scene dooropen
+    scene dooropen
     show csdefault at left
     cs "Hello! I am CS188, and I-"
     show edimg at right
     ed "Alright, that will be 200 cstars."
     cs "Alright, lemme get my wallet."
     cs "Here you go."
-	show edimg
+    show edimg
     ed "You want the JoJ!"
     hide csdefault
     "{i}CS leaves.{/i}"
-	show edimg
+    show edimg
     ed "Come on in guys. CS left."
     show richard at right
     rich "JoJ!"
@@ -236,78 +236,78 @@ label start:
     "Ed, Wesley and Richard" "Hmmm..."
     ed "Let's go check his room"
     "{i} The three HoH SiS workers go upstairs. {/i}"
-	
+    
     scene csroom
     show wesley at right
     wes "Wow, I didn't know CS plays nekopara!"
     show edimg at left
     ed "CS surrrre loves those cute catgirls~ <3"
-	show wesley at right
+    show wesley at right
     wes "Alright, but now what should we do?"
     show richard at right
     rich "What about his laptop?"
     show edimg at left
     ed "Ehh..."
-	show wesley
+    show wesley
     wes "Wow, he even has a JoJ Ufo of his stupid HoH SiS series, the on that humiliated us."
-	show edimg
+    show edimg
     ed "Alright, how about we sabotage his computer?"
     "{i}Ed launches up the craptop.{/i}"
     ed "Hehe... He won't know what hit him."
     #play sound "sounds/secret/eastereggquite.mp3"
     ed "Alrighty, It's done!"
-	show wesley
+    show wesley
     wes "Quick, Let's get out of here before he comes back"
-	
+    
     scene dooropen
     show wesley
     wes "Hurry up!"
-	
+    
     scene doorclosed
     "..."
-	
+    
     scene outside
     show richard at right
     rich "Lemme call our JoJ UFO."
     show edimg at left
     ed "Ready?"
     "Ed, Wesley and Richard" "I'm beaming up!"
-	#show jojufo
+    #show jojufo
     show csdefault at left
     cs "What should I do?"
     cs "Things sure are boooooring around here."
     cs "Hey, I got an idea!"
     cs "Let's go to Michael Rosen's house!"
-	
+    
     scene rosenhouse
     show michael at right
     mr "Hallo!"
     show csdefault at left
     cs "What's up Michael!"
-	show michael at right
+    show michael at right
     mr "I am feeling *pop* Noice."
-	show csdefault at left
+    show csdefault at left
     cs "Same here."
     cs "How are the poems coming along."
-	show michael at right
+    show michael at right
     mr "Ummm, actually they are rather noice."
-	show csdefault at left
+    show csdefault at left
     cs "That's good."
     cs "What if you put me in on of your poems?"
-	show michael at right
+    show michael at right
     mr "Horrible."
-	show csdefault at left
+    show csdefault at left
     cs "Yeah, that would be a mad idea."
     cs "Lemme call Billy Mays to come over."
     show csphone
     cs "{i}Dials Billy's number.{/i}"
     cs "Hey billy!"
-	show billy at right
+    show billy at right
     bill "Hi, it's Billy!"
     bill "What are you doing in my car?"
-	show csphone
+    show csphone
     cs "I'm not! I'm at Michael Rosen's house!"
-	show billy at right
+    show billy at right
     bill "Be there in two minutes!"
     "{i}Call ends{/i}"
     show csdefault
@@ -318,25 +318,25 @@ label start:
     show billy at right
     bill "Hi, it's Billy!"
     bill "Who wants some big city sliders?"
-	show cshappy
+    show cshappy
     cs "Sure!"
     show michael at right
     mr "Right into the mouth... Mmmmmmmm.... Noice."
     show billy at right
     bill "Here, take my Oxi Clean!"
-	show csdefault at left
+    show csdefault at left
     cs "Ummmm... Thanks?"
     show michael at right
     mr "Oohh there it is!"
-	show csdefault at left
+    show csdefault at left
     cs "Michael! That's not chocolate cake!"
-	show michael at right
+    show michael at right
     mr "And I had loads to eat! *Omm Nomm Nomm...*"
     mr "Blarrughhh!"
     mr "Worst chocolate cake I've ever had."
-	show csdefault at left
+    show csdefault at left
     cs "Yep. I'm gonna go now."
-	
+    
     scene cscarinside
     show csdefault
     cs "Well that was a waste of time."
