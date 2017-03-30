@@ -195,7 +195,6 @@ label start:
     
     Character("HoH SiS Operator") "Is this a prank caller on the line?"
     cs "No! my house really needs foundation repair and I need help!"
-<<<<<<< HEAD
     "HoH SiS operator" "Alright, that will be 200 cstars. You can pay us afterwards."
     "HoH SiS operator" "{i}hangs up{/i}"
     "..."
@@ -208,8 +207,6 @@ label start:
     
     hide csdefault
     
-=======
     Character("HoH SiS Operator") "Alright, that will be 200 cstars. You can pay us afterwards."
     Character("HoH SiS Operator") "{i}hangs up{/i}"
     hide csdefault
->>>>>>> origin/master
