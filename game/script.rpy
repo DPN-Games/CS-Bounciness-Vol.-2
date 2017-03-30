@@ -11,6 +11,7 @@ define cg = Character("Car Guy")
 define ed = Character("Ed")
 define rich = Character("Richard")
 define wes = Character("Wesley")
+define bill = Character("Billy Mays")
 
 #Backgrounds.
 image csroom = "background/Cs_bedroom1.jpg"
@@ -33,6 +34,8 @@ image craptopsad = "background/Craptop_sad.jpg"
 image doorclosed = "background/Door_closed.jpg"
 image dooropen = "background/Door_open.jpg"
 image office1 = "background/Office_1.jpg"
+image rosenhouse = "background/rosenhouse.jpg"
+
 
 #Character images.
 image csdefault = "characters/Cshocola.png"
@@ -249,5 +252,66 @@ label start:
     ed "Alright, how about we sabotage his computer?"
     "{i}Ed launches up the craptop{/i}"
     ed "Hehe... He won't know what hit him."
-    play sound "sounds/secret/eastereggquite.mp3"
+    #play sound "sounds/secret/eastereggquite.mp3"
     ed "Alrighty, It's done!"
+    wes "Quick, Let's get out of here before he comes back"
+    scene dooropen
+    show wesley
+    wes "Hurry up!"
+    scene doorclosed
+    "..."
+    scene outside
+    show richard at right
+    rich "Lemme call our JoJ Ufo."
+    show edimg at left
+    ed "Ready?"
+    "Ed, Wesley and Richard" "I'm beaming up!"
+    scene csroom
+    show csdefault at left
+    cs "What should I do?"
+    cs "Things sure are boooooring around here."
+    cs "Hey, I got an idea!"
+    cs "Let's go to Michael Rosen's house!"
+    scene rosenhouse
+    show michael at right
+    mr "Hallo!"
+    show csdefault at left
+    cs "What's up Michael!"
+    mr "I am feeling *pop* Noice."
+    cs "Same here"
+    cs "How are the poems coming along"
+    mr "Ummm, actually they are rather noice."
+    cs "That's good"
+    cs "What if you put me in on of your poems?"
+    mr "Horrible."
+    cs "Yeah, that would be a mad idea."
+    cs "Lemme call Billy Mays to come over."
+    hide michael
+    cs "{i}Dials Billy's number{/i}"
+    show billy at right
+    cs "Hey billy!"
+    bill "Hi, it's Billy!"
+    bill "What are you doing in my car?"
+    cs "I'm not! I'm at Michael Rosen's house!"
+    bill "Be there in two minutes!"
+    "{i}Call ends{/i}"
+    hide billy
+    cs "Billy is so weird sometimes."
+    show michael at right
+    mr "Actually, that's not very noice."
+    "{i}Billy arrives{/i}"
+    hide michael
+    show billy at right
+    bill "Hi, it's Billy!"
+    bill "Who wants some big city sliders?"
+    cs "Sure!"
+    hide billy
+    show michael at right
+    mr "Right into the mouth... Mmmmmmmm.... Noice."
+    hide michael
+    show billy at right
+    bill "Here, take my Oxi Clean!"
+    cs "Ummmm... Thanks?"
+    hide billy
+    
+return
