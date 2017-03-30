@@ -54,9 +54,10 @@ image csphone = "characters/CshocolaPhone.png"
 # The game starts here.
 
 label start:
- 
     scene csroom
-
+    
+    $ renpy.movie_cutscene("introHD.ogv")
+    
     show csdefault at left
 
     cs "Welp, time to start up the ol' Craptop."
@@ -232,6 +233,18 @@ label start:
     "Ed, Wesley and Richard" "Hmmm..."
     ed "Let's go check his room"
     "{i} The three HoH SiS workers go upstairs {/i}"
+    scene csroom
+    show wesley at right
+    wes "Wow, I didn't know CS plays nekopara"
+    show edimg at left
+    ed "CS surrrre loves those cute catgirls~ <3"
+    wes "Alright, but now what should we do?"
+    hide wesley
+    
+    rich "What about his laptop?"
+    ed "Ehh..."
+    wes "Wow, he even has a JoJ Ufo of his stupid HoH SiS series, the on that humiliated us."
+    ed "Alright, how about we sabotage his computer?"
     
     play sound "secret/eastereggquite.mp3"
     
