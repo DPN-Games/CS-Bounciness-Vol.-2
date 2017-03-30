@@ -193,5 +193,11 @@ label start:
     cs "No! my house really needs foundation repair and I need help!"
     "HoH SiS operator" "Alright, that will be 200 cstars. You can pay us afterwards."
     "HoH SiS operator" "{i}hangs up{/i}"
+    "..."
+    cs "Well that is one thing taken care of."
+    cs "I guess I will work on my new YTP while I wait."
+    "{i}Time Passes{/i}"
+    "{i}Doorbell Rings{/i}"
+    
     hide csdefault
     
