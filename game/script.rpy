@@ -202,7 +202,6 @@ label start:
     show csphone at left
     cs "{i} Dials 1-188-HOH-SISS{/i}"
     cs "Hello, can you give me the JoJ?"
-    
     Character("HoH SiS Operator") "Is this a prank caller on the line?"
     cs "No! My house really needs foundation repair and I need help!"
     "HoH SiS operator" "Alright, that will be 200 CStars. You can pay us afterwards."
@@ -210,116 +209,134 @@ label start:
     show text "..." at truecenter
     cs "Well, that is one thing taken care of."
     cs "I guess I'll work on my new YTP while I wait."
-    "{i}Time Passes{/i}"
+    show text "{i}Time Passes{/i}" at truecenter
     "{i}Doorbell Rings{/i}"
     cs "Oh! They're here!"
     cs "Lemme go get the door"
-    scene dooropen
+    
+	scene dooropen
     show csdefault at left
     cs "Hello! I am CS188, and I-"
     show edimg at right
     ed "Alright, that will be 200 cstars."
     cs "Alright, lemme get my wallet."
-    cs "Here you go"
+    cs "Here you go."
+	show edimg
     ed "You want the JoJ!"
     hide csdefault
-    "{i}CS leaves{/i}"
+    "{i}CS leaves.{/i}"
+	show edimg
     ed "Come on in guys. CS left."
-    hide edimg
     show richard at right
     rich "JoJ!"
     show wesley at left
-    hide richard
     wes "Do we have to do this all over again?"
     show edimg at right
-    ed "So now we are here, what should we do to him?"
+    ed "So now that we're here, what should we do to him?"
     "Ed, Wesley and Richard" "Hmmm..."
     ed "Let's go check his room"
-    "{i} The three HoH SiS workers go upstairs {/i}"
+    "{i} The three HoH SiS workers go upstairs. {/i}"
+	
     scene csroom
     show wesley at right
-    wes "Wow, I didn't know CS plays nekopara"
+    wes "Wow, I didn't know CS plays nekopara!"
     show edimg at left
     ed "CS surrrre loves those cute catgirls~ <3"
+	show wesley at right
     wes "Alright, but now what should we do?"
-    hide edimg
     show richard at right
     rich "What about his laptop?"
-    hide richard
     show edimg at left
     ed "Ehh..."
+	show wesley
     wes "Wow, he even has a JoJ Ufo of his stupid HoH SiS series, the on that humiliated us."
+	show edimg
     ed "Alright, how about we sabotage his computer?"
-    "{i}Ed launches up the craptop{/i}"
+    "{i}Ed launches up the craptop.{/i}"
     ed "Hehe... He won't know what hit him."
     #play sound "sounds/secret/eastereggquite.mp3"
     ed "Alrighty, It's done!"
+	show wesley
     wes "Quick, Let's get out of here before he comes back"
+	
     scene dooropen
     show wesley
     wes "Hurry up!"
+	
     scene doorclosed
     "..."
+	
     scene outside
     show richard at right
-    rich "Lemme call our JoJ Ufo."
+    rich "Lemme call our JoJ UFO."
     show edimg at left
     ed "Ready?"
     "Ed, Wesley and Richard" "I'm beaming up!"
-    scene csroom
+	#show jojufo
     show csdefault at left
     cs "What should I do?"
     cs "Things sure are boooooring around here."
     cs "Hey, I got an idea!"
     cs "Let's go to Michael Rosen's house!"
+	
     scene rosenhouse
     show michael at right
     mr "Hallo!"
     show csdefault at left
     cs "What's up Michael!"
+	show michael at right
     mr "I am feeling *pop* Noice."
-    cs "Same here"
-    cs "How are the poems coming along"
+	show csdefault at left
+    cs "Same here."
+    cs "How are the poems coming along."
+	show michael at right
     mr "Ummm, actually they are rather noice."
-    cs "That's good"
+	show csdefault at left
+    cs "That's good."
     cs "What if you put me in on of your poems?"
+	show michael at right
     mr "Horrible."
+	show csdefault at left
     cs "Yeah, that would be a mad idea."
     cs "Lemme call Billy Mays to come over."
-    hide michael
-    cs "{i}Dials Billy's number{/i}"
-    show billy at right
+    show csphone
+    cs "{i}Dials Billy's number.{/i}"
     cs "Hey billy!"
+	show billy at right
     bill "Hi, it's Billy!"
     bill "What are you doing in my car?"
+	show csphone
     cs "I'm not! I'm at Michael Rosen's house!"
+	show billy at right
     bill "Be there in two minutes!"
     "{i}Call ends{/i}"
-    hide billy
+    show csdefault
     cs "Billy is so weird sometimes."
     show michael at right
     mr "Actually, that's not very noice."
     "{i}Billy arrives{/i}"
-    hide michael
     show billy at right
     bill "Hi, it's Billy!"
     bill "Who wants some big city sliders?"
+	show cshappy
     cs "Sure!"
-    hide billy
     show michael at right
     mr "Right into the mouth... Mmmmmmmm.... Noice."
-    hide michael
     show billy at right
     bill "Here, take my Oxi Clean!"
+	show csdefault at left
     cs "Ummmm... Thanks?"
-    hide billy
     show michael at right
     mr "Oohh there it is!"
+	show csdefault at left
     cs "Michael! That's not chocolate cake!"
+	show michael at right
     mr "And I had loads to eat! *Omm Nomm Nomm...*"
     mr "Blarrughhh!"
     mr "Worst chocolate cake I've ever had."
+	show csdefault at left
     cs "Yep. I'm gonna go now."
+	
     scene cscarinside
     show csdefault
     cs "Well that was a waste of time."
