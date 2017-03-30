@@ -1,57 +1,37 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "../renpy-6.99.12.4-sdk/renpy/common/00keymap.rpy", line 396, in script
-    python hide:
-  File "../renpy-6.99.12.4-sdk/renpy/common/00keymap.rpy", line 402, in <module>
-    renpy.take_screenshot((config.thumbnail_width, config.thumbnail_height))
-TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+IOError: Couldn't find file 'secret/eastereggquite.mp3'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\bootstrap.py", line 295, in bootstrap
-    renpy.main.main()
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\main.py", line 413, in main
-    if renpy.parser.report_parse_errors():
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\parser.py", line 2543, in report_parse_errors
-    renpy.display.error.report_parse_errors(full_text, error_fn)
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\error.py", line 179, in report_parse_errors
-    error_fn=error_fn,
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\game.py", line 280, in invoke_in_new_context
-    return callable(*args, **kwargs)
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\error.py", line 43, in call_exception_screen
-    return renpy.ui.interact(mouse="screen", type="screen", suppress_overlay=True, suppress_underlay=True)
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\ui.py", line 285, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2526, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2854, in interact_core
-    renpy.exports.reload_script()
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\exports.py", line 1542, in reload_script
-    renpy.game.call_in_new_context("_save_reload_game")
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\game.py", line 330, in call_in_new_context
-    return renpy.execution.run_context(False)
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\execution.py", line 761, in run_context
-    context.run()
-  File "../renpy-6.99.12.4-sdk/renpy/common/00keymap.rpy", line 396, in script
+  File "../renpy-6.99.12.4-sdk/renpy/common/_layout/screen_main_menu.rpym", line 28, in script
     python hide:
   File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\ast.py", line 814, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
   File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\python.py", line 1719, in py_exec_bytecode
     exec bytecode in globals, locals
-  File "../renpy-6.99.12.4-sdk/renpy/common/00keymap.rpy", line 402, in <module>
-    renpy.take_screenshot((config.thumbnail_width, config.thumbnail_height))
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\exports.py", line 1497, in take_screenshot
-    renpy.game.interface.take_screenshot(scale, background=background)
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\core.py", line 1995, in take_screenshot
-    surf = renpy.display.scale.smoothscale(surf, scale)
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\scale.py", line 92, in real_smoothscale
-    dest = pgrender.surface_unscaled(size, src)
-  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\pgrender.py", line 116, in surface
-    surf = Surface((width + 4, height + 4), 0, sample)
-TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+  File "../renpy-6.99.12.4-sdk/renpy/common/_layout/screen_main_menu.rpym", line 30, in <module>
+    ui.interact()
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\ui.py", line 285, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2526, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2825, in interact_core
+    renpy.audio.audio.interact()
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\audio\audio.py", line 930, in interact
+    periodic()
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\audio\audio.py", line 864, in periodic
+    c.periodic()
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\audio\audio.py", line 403, in periodic
+    topf = load(self.file_prefix + filename + self.file_suffix)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\audio\audio.py", line 67, in load
+    rv = renpy.loader.load(fn)
+  File "C:\Users\Nova\Desktop\everything\renpy-6.99.12.4-sdk\renpy\loader.py", line 543, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'secret/eastereggquite.mp3'.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187
- 
+CS Bounciness 1.88

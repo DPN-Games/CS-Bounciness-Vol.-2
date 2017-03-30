@@ -228,7 +228,7 @@ label start:
     show wesley at left
     hide richard
     wes "Do we have to do this all over again?"
-    show ed at right
+    show edimg at right
     ed "So now we are here, what should we do to him?"
     "Ed, Wesley and Richard" "Hmmm..."
     ed "Let's go check his room"
@@ -239,12 +239,15 @@ label start:
     show edimg at left
     ed "CS surrrre loves those cute catgirls~ <3"
     wes "Alright, but now what should we do?"
-    hide wesley
-    
+    hide edimg
+    show richard at right
     rich "What about his laptop?"
+    hide richard
+    show edimg at left
     ed "Ehh..."
     wes "Wow, he even has a JoJ Ufo of his stupid HoH SiS series, the on that humiliated us."
     ed "Alright, how about we sabotage his computer?"
-    
-    play sound "secret/eastereggquite.mp3"
-    
+    "{i}Ed launches up the craptop{/i}"
+    ed "Hehe... He won't know what hit him."
+    play sound "sounds/secret/eastereggquite.mp3"
+    ed "Alrighty, It's done!"
