@@ -199,6 +199,7 @@ label start:
     "{i}Time Passes{/i}"
     "{i}Doorbell Rings{/i}"
      
+    #scene
     
     hide csdefault
     
