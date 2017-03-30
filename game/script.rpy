@@ -169,12 +169,14 @@ label start:
     hide csdefault
     "hey flashback time"
     
+	scene csroom with irisin
     show youngcs
     ycs "Hey guys, Young CS here. Today I'm gonna be editing a new craAaAaAaAaAaAazy video!"
     "*keyboard tapping*"
     ycs "Ohhhhhh YeEeEeEeEess! This is lookin' good!"
     hide youngcs
     
+	scene csroom with irisout
     "oh rip flashback"
     show csdefault at left
     cs "oh flashback over"
@@ -186,6 +188,8 @@ label start:
     cs "I really need to get some foundation repair on this house."
     cs "Better call HoH SiS"
     cs "They are really good at giving me the JoJ!"
+	
+	show csphone at left
     cs "{i} Dials 1-188-HOH-SISS{/i}"
     cs "Hello, can you give me the JoJ?"
     

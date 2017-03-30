@@ -294,7 +294,7 @@ Digi: Ahh yes...
 Digi: Move this and this...
 Digi: open this and...
 Digi: Done!
-Digi: the JoJites and the HoH SiS sabotaged you craptop, that's why.
+Digi: the JoJites and the HoH SiS sabotaged you're craptop, that's why.
 cs: Oh really?
 <dials HoH SiS>
 cs: Hello?
@@ -308,27 +308,11 @@ Digi: No Problem! Cya!
 </chapter6>
 ---------------------------------------
 <chapter7>
-cs Time to get back to work.
-cs: geez, 99+ notifications? What happened?
-cs: Lemme open Discord...
-<discord>
-cs188: hey guys, cs here!
-everybody: WHERE WERE YOU CS???
-cs188: sorry, I got.... nevermind.
-everybody: WE ARE SICK OF THIS. MAKE A YTP NOOOWWWWWWUUUHHH!!!!
-cs188: Alright, I just uploaded!
-cs188: It's called: YTP- 
-</discord>
-cs: Time to check Youtube!
-cs: man, my ytp is great!
-cs: oh? what's this?
-cs: 1...... like?
-cs: and..... *gasps*
-cs: A...... Single....... Subscriber.....?
-cs: .....
-cs: ..........................
-cs: ...................................................................................................................................
-cs: YYYEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+cs: I'm so mad at HoH SiS. I was told they would do a great joj, but they tried to hack my computer!
+cs: I'm gonna go to HoH SiS HeHQuarauQ and show them who's boss!
+
+...
+
 <ending sound thingy>
 <roll credits>
 Welsey: Now do it all over again.
