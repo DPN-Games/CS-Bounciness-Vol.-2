@@ -152,7 +152,7 @@ label start:
 
     scene csroom
     
-    "1 HOUR LATER"
+    show text "1 HOUR LATER" at truecenter
     
     show csdefault at left
     cs "Computer time!"
@@ -163,8 +163,8 @@ label start:
     cs "*scrolls through youtube*"
     cs "Hmm, 'We WiLl AlL DiE EvEnTuAlLy LoL BY ohmanmycontent'..."
     cs "k"
-    cs "i guess that works."
-    cs "Time for ClipConverter.cs"
+    cs "I guess that works."
+    cs "Time for ClipConverter.cs!"
     cs "Now for Premiere. Man, it was so easy back then, just WMM and some effects. If only that was now."
     cs "Oh look, a flashback. What a coincidence..."
     hide csdefault
@@ -195,7 +195,7 @@ label start:
     cs "No! My house really needs foundation repair and I need help!"
     "HoH SiS operator" "Alright, that will be 200 CStars. You can pay us afterwards."
     "HoH SiS operator" "{i}hangs up{/i}"
-    "..."
+    shpw text "..." at truecenter
     cs "Well, that is one thing taken care of."
     cs "I guess I'll work on my new YTP while I wait."
     "{i}Time Passes{/i}"
