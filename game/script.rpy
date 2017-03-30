@@ -313,5 +313,15 @@ label start:
     bill "Here, take my Oxi Clean!"
     cs "Ummmm... Thanks?"
     hide billy
-    
+    show michael at right
+    mr "Oohh there it is!"
+    cs "Michael! That's not chocolate cake!"
+    mr "And I had loads to eat! *Omm Nomm Nomm...*"
+    mr "Blarrughhh!"
+    mr "Worst chocolate cake I've ever had."
+    cs "Yep. I'm gonna go now."
+    scene cscarinside
+    show csdefault
+    cs "Well that was a waste of time."
+    cs "Oh well, let's go work on my YTP at home."
 return
