@@ -13,7 +13,7 @@ define rich = Character("Richard")
 define wes = Character("Wesley")
 define bill = Character("Billy Mays")
 define p = Character("Pakoo")
-define d = Character("Digi")
+define di = Character("Digi")
 
 #Backgrounds.
 image csroom = "background/Cs_bedroom1.jpg"
@@ -40,6 +40,7 @@ image rosenhouse = "background/rosenhouse.jpg"
 image factory = "background/Factory.jpg"
 image elevator = "background/elevator.jpg"
 image helipad = "background/Heli_pad.jpg"
+image black = "background/black.jpg"
 
 #Character images.
 image csdefault = "characters/Cshocola.png"
@@ -447,19 +448,19 @@ label start:
     show csdefault at left
     cs "{i}Crying noises{/i}"
     show digi at right
-    d "What's wrong?"
+    di "What's wrong?"
     cs "{i}sniff{/i} My craptop doesn't work..."
     cs "I need to check my YouTube, my fans are yelling at me right now probably."
-    d "Ahh... Yes.. I can fix this."
-    d "Let's look at the craptop."
+    di "Ahh... Yes.. I can fix this."
+    di "Let's look at the craptop."
     ct "{i}Bluescreens.{/i}"
-    d "Hmm..."
-    d "{i}Types furiously.{i}"
-    d "Ahh yes..."
-    d "Move this... and this..."
-    d "Open 'nekopics' and..."
-    d "Done!"
-    d "HoH SiS sabotaged your craptop, that's why."
+    di "Hmm..."
+    di "{i}Types furiously.{i}"
+    di "Ahh yes..."
+    di "Move this... and this..."
+    di "Open 'nekopics' and..."
+    di "Done!"
+    di "HoH SiS sabotaged your craptop, that's why."
     cs "Oh really?"
     cs "{i}Calls HoH SiS.{/i}"
     hide digi
@@ -470,9 +471,9 @@ label start:
     cs "{i}Hangs up.{/i}"
     show digi at right
     cs "Now that that is over, does my Craptop work?"
-    d "Yep, it should."
+    di "Yep, it should."
     cs "Alright, thanks! I owe you."
-    d "No problem, cya!"
+    di "No problem, cya!"
     hide digi
     cs "I'm so mad at HoH SiS. I was told they would do a great JoJ, but they hacked my computer!"
     cs "I'm gonna go to HoH SiS HeHdQuarters and show them who's boss."
@@ -494,15 +495,19 @@ label start:
     show csdefault
     "..."
     scene helipad
-    show csdefault
-    show richard
+    show csdefault at left
+    show richard at right
     cs "You!"
     rich "Uh-oh."
     cs "You'll pay for what you did!"
     hide richard
-    show wesley
+    show wesley at right
     wes "Do you want a refund?"
     cs "I'll refund your face to the floor!"
     "..."
-    #$ renpy.movie_cutscene("dpn_2.ogv")
+    scene black
+    $ renpy.movie_cutscene("credits.ogv")
+    show wesley
+    wes "Now do it all over again."
+    wes "In fact, do it 15 times over again."
 return
