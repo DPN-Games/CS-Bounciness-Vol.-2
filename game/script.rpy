@@ -12,6 +12,7 @@ define ed = Character("Ed")
 define rich = Character("Richard")
 define wes = Character("Wesley")
 define bill = Character("Billy Mays")
+define p = Character("Pakoo")
 
 #Backgrounds.
 image csroom = "background/Cs_bedroom1.jpg"
@@ -35,6 +36,7 @@ image doorclosed = "background/Door_closed.jpg"
 image dooropen = "background/Door_open.jpg"
 image office1 = "background/Office_1.jpg"
 image rosenhouse = "background/rosenhouse.jpg"
+image factory = "background/Factory.jpg"
 
 
 #Character images.
@@ -52,7 +54,7 @@ image digi = "characters/DuncanBig.png"
 image billy = "characters/Billy_anime.png"
 image michael = "characters/Michael.png"
 image csphone = "characters/CshocolaPhone.png"
-
+image pakoo = "characters/Pakoo.png"
 
 # The game starts here.
 
@@ -229,6 +231,7 @@ label start:
     ed "Come on in guys. CS left."
     show richard at right
     rich "JoJ!"
+    hide richard
     show wesley at left
     wes "Do we have to do this all over again?"
     show edimg at right
@@ -242,10 +245,11 @@ label start:
     wes "Wow, I didn't know CS plays nekopara!"
     show edimg at left
     ed "CS surrrre loves those cute catgirls~ <3"
-    show wesley at right
+    show wesley at left
     wes "Alright, but now what should we do?"
     show richard at right
     rich "What about his laptop?"
+    hide richard
     show edimg at left
     ed "Ehh..."
     show wesley
@@ -273,6 +277,7 @@ label start:
     ed "Ready?"
     "Ed, Wesley and Richard" "I'm beaming up!"
     #show jojufo
+    scene csroom
     show csdefault at left
     cs "What should I do?"
     cs "Things sure are boooooring around here."
@@ -284,61 +289,125 @@ label start:
     mr "Hallo!"
     show csdefault at left
     cs "What's up Michael!"
-    show michael at right
     mr "I am feeling *pop* Noice."
-    show csdefault at left
     cs "Same here."
     cs "How are the poems coming along."
-    show michael at right
     mr "Ummm, actually they are rather noice."
-    show csdefault at left
     cs "That's good."
     cs "What if you put me in on of your poems?"
-    show michael at right
     mr "Horrible."
-    show csdefault at left
-    cs "Yeah, that would be a mad idea."
+    cs "Yeah, that would be a bad idea."
     cs "Lemme call Billy Mays to come over."
-    show csphone
+    hide michael
+    hide csdefault
+    show csphone at left
     cs "{i}Dials Billy's number.{/i}"
     cs "Hey billy!"
     show billy at right
     bill "Hi, it's Billy!"
     bill "What are you doing in my car?"
-    show csphone
     cs "I'm not! I'm at Michael Rosen's house!"
-    show billy at right
     bill "Be there in two minutes!"
     "{i}Call ends{/i}"
+    hide billy
+    hide csphone
     show csdefault
     cs "Billy is so weird sometimes."
     show michael at right
     mr "Actually, that's not very noice."
     "{i}Billy arrives{/i}"
+    hide michael
     show billy at right
     bill "Hi, it's Billy!"
     bill "Who wants some big city sliders?"
+    hide csdefault
     show cshappy
     cs "Sure!"
+    hide cshappy
+    show csdefault
+    hide billy
     show michael at right
     mr "Right into the mouth... Mmmmmmmm.... Noice."
+    hide michael
     show billy at right
     bill "Here, take my Oxi Clean!"
-    show csdefault at left
     cs "Ummmm... Thanks?"
+    hide billy
     show michael at right
     mr "Oohh there it is!"
-    show csdefault at left
     cs "Michael! That's not chocolate cake!"
-    show michael at right
     mr "And I had loads to eat! *Omm Nomm Nomm...*"
     mr "Blarrughhh!"
     mr "Worst chocolate cake I've ever had."
-    show csdefault at left
     cs "Yep. I'm gonna go now."
     
     scene cscarinside
     show csdefault
     cs "Well that was a waste of time."
     cs "Oh well, let's go work on my YTP at home."
+    
+    scene dooropen
+    show csdefault
+    cs "Wow. What a day!"
+    show edimg
+    ed "Your house is all fixed up!"
+    cs "Oh yay!"
+    cs "Thank you!"
+    ed "Remember : If you need foundation repair, just call HoH SiS."
+    hide edimg
+    ed "{i}Leaves.{/i}"
+    scene csroom
+    show csdefault at left
+    cs "Alright time to work on my YTP."
+    cs "Time to start up the ol' craptop again"
+    scene craptop1
+    show csdefault at left
+    cs "Hmm... That's odd..."
+    ct "Startup complete! Launching Totally_Not_Virus.exe...."
+    cs "Hmm... What's this?"
+    ct "{i}Random errors and noises{/i}"
+    cs "Wait... what?"
+    cs "Lemme try this again."
+    ct "{i}Same errors and noises{/i}"
+    cs "Okay, this is a problem."
+    cs "I need help..."
+    cs "{i}Looks at ground.{/i}"
+    cs "What's this?"
+    cs "'Pakoo's Novedits : Hire Novedits to help work for you! Just call 10101010010100101001'"
+    cs "Let's see what they have there."
+    scene factory
+    show csdefault at left
+    cs "Wow... this place gives me the creeps...."
+    show pakoo at right
+    p "Welcome to Pakoo's Novedit Factory! How can I help ya?"
+    cs "Ummm... What are novedits anyway?"
+    p "Whhhaaaat? Why are you even here?"
+    p "Ever seen one of these?"
+    p "{i}Pulls out a Novedit{/i}"
+    cs "Perfect! I will buy 3, please."
+    p "Ummm... Alright... {i}1,2,3, that will be.... hmm....{/i} That'll be 3000 CStars"
+    cs "Oh wow okay.... I think I got that..."
+    cs "Alright here you go!"
+    p "Alright, here are the 3 little numbskulls you ordered."
+    hide csdefault
+    show nova1 at left
+    "Nova 1" "Nova?"
+    p "Yep, this freak is your owner now."
+    "Nova 3" "Novvv... Novvaaa..."
+    p "I bet he also enjoys playing Nekopara."
+    "{i}All novas snicker{/i}"
+    hide nova1
+    show csdefault at left
+    cs "Hey! Shut up! {i}dangit{/i}"
+    p "Well have fun with those guys."
+    cs "Alrighty, nice doing business with you."
+    p "You too."
+    hide csdefault
+    p "Whew! That was close."
+    "{i}Faint neko voices from the back of the factory.{/i}"
+    p "SHUT UP VANILLA!!!"
+    
+    
+        
+    $ renpy.movie_cutscene("dpn_2.ogv")
 return
