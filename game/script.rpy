@@ -13,6 +13,7 @@ define rich = Character("Richard")
 define wes = Character("Wesley")
 define bill = Character("Billy Mays")
 define p = Character("Pakoo")
+define d = Character("Digi")
 
 #Backgrounds.
 image csroom = "background/Cs_bedroom1.jpg"
@@ -37,7 +38,8 @@ image dooropen = "background/Door_open.jpg"
 image office1 = "background/Office_1.jpg"
 image rosenhouse = "background/rosenhouse.jpg"
 image factory = "background/Factory.jpg"
-
+image elevator = "background/elevator.jpg"
+image helipad = "background/Heli_pad.jpg"
 
 #Character images.
 image csdefault = "characters/Cshocola.png"
@@ -55,6 +57,9 @@ image billy = "characters/Billy_anime.png"
 image michael = "characters/Michael.png"
 image csphone = "characters/CshocolaPhone.png"
 image pakoo = "characters/Pakoo.png"
+image corndog = "characters/CornWorker.png"
+image diabeetus = "characters/DiaBeetusWorker.png"
+image grrx = "characters/GrrxWorker.png"
 
 # The game starts here.
 
@@ -406,8 +411,98 @@ label start:
     p "Whew! That was close."
     "{i}Faint neko voices from the back of the factory.{/i}"
     p "SHUT UP VANILLA!!!"
-    
-    
-        
-    $ renpy.movie_cutscene("dpn_2.ogv")
+    scene csroom 
+    show csdefault at left
+    show nova1 at right
+    cs "Alright, I'm gonna go for a bit, see if you can fix my craptop."
+    cs "Thanks"
+    hide csdefault
+    "Nova 1" "Nova!"
+    "Nova 2" "Nova Nova Nova?"
+    "Nova 3" "Nova Nova, Nova Nova Nova."
+    "Nova 3" "{i}Opens up Craptop{/i}"
+    ct "{i}Bluescreen of death.{/i}"
+    "Nova 3" "Nooooo... va."
+    "Nova 2" "Nova Nova Nova."
+    ct "{i}Bluescreen again.{/i}"
+    "Nova 3" "Nova Nova."
+    ct "{i}Another bluescreen.{/i}"
+    "Nova 3" "F***"
+    show csdefault at left
+    cs "Hey guys, CS He-"
+    cs "Get. Out."
+    scene factory
+    show csdefault at left
+    show pakoo at right
+    cs "Here. Take these back."
+    p "I expected this."
+    p "You do know what you got into, right?"
+    cs "Noooo...."
+    p "Hehe... I thought so."
+    p "Do you want your money back?"
+    cs "Just, keep it."
+    p "Alrighhhhht..."
+    p "If that's fine with you."
+    scene csroom
+    show csdefault at left
+    cs "{i}Crying noises{/i}"
+    show digi at right
+    d "What's wrong?"
+    cs "{i}sniff{/i} My craptop doesn't work..."
+    cs "I need to check my YouTube, my fans are yelling at me right now probably."
+    d "Ahh... Yes.. I can fix this."
+    d "Let's look at the craptop."
+    ct "{i}Bluescreens.{/i}"
+    d "Hmm..."
+    d "{i}Types furiously.{i}"
+    d "Ahh yes..."
+    d "Move this... and this..."
+    d "Open 'nekopics' and..."
+    d "Done!"
+    d "HoH SiS sabotaged your craptop, that's why."
+    cs "Oh really?"
+    cs "{i}Calls HoH SiS.{/i}"
+    hide digi
+    show edimg at right
+    ed "Do you need foundat--"
+    cs "No, and screw you! I no longer need the JoJ!"
+    hide edimg
+    cs "{i}Hangs up.{/i}"
+    show digi at right
+    cs "Now that that is over, does my Craptop work?"
+    d "Yep, it should."
+    cs "Alright, thanks! I owe you."
+    d "No problem, cya!"
+    hide digi
+    cs "I'm so mad at HoH SiS. I was told they would do a great JoJ, but they hacked my computer!"
+    cs "I'm gonna go to HoH SiS HeHdQuarters and show them who's boss."
+    scene cscarinside
+    show csdefault at left
+    "..."
+    scene office1
+    show csdefault at left
+    show corndog at right
+    cs "Alright, where's the head JoJites?!"
+    "Worker 1" "I don't know!"
+    cs "BullShisH!"
+    cs "{i}Punches worker.{/i}"
+    hide corndog
+    show grrx at right
+    "Worker 2" "They-- They're on the roof!"
+    cs "Good!"
+    scene elevator
+    show csdefault
+    "..."
+    scene helipad
+    show csdefault
+    show richard
+    cs "You!"
+    rich "Uh-oh."
+    cs "You'll pay for what you did!"
+    hide richard
+    show wesley
+    wes "Do you want a refund?"
+    cs "I'll refund your face to the floor!"
+    "..."
+    #$ renpy.movie_cutscene("dpn_2.ogv")
 return
