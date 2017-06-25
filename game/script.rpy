@@ -62,6 +62,7 @@ image pakoo = "characters/Pakoo.png"
 image corndog = "characters/CornWorker.png"
 image diabeetus = "characters/DiaBeetusWorker.png"
 image grrx = "characters/GrrxWorker.png"
+image copguy = "characters/Copguy_anime.png"
 
 # The game starts here.
 
@@ -141,18 +142,18 @@ label start:
         show wesley at right
         wes "{i}The power of YTP gives Wesley a SuS gun and he starts shooting his co-workers with SuS"
         scene office1
-        show wesley at right
-        show edimg at left
+        show wesley at left
+        show edimg at right
         ed "OH GOD WESLEY DON'T SHOOT ME!"
         hide edimg
         ed "{i}is dedified{/i}"
-        show carguy at left
+        show copguy at right
         policeoff1 "WHAT THE NAME OF CROTCH DOCTOR IS HAPPENIN' HERE?!"
         wes "{i}Shoots officer{/i}"
         policeoff1 "Ha! Jokes on you, I'm wearing a SuS-proof vest!"
         wes "{i}{size=-8}aww{/size}{/i}"
-        hide edimg
-        show csdefault at right
+        hide wesley
+        show csdefault at left
         cs "Oh nice job wesley!"
         policeoff1 "EXCUSE ME!?!?!"
         cs "Oh shish."
