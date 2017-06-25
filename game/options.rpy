@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("CS Bounciness")
+define config.name = _("CS Bounciness Vol. 2")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "1.88"
+define config.version = "0.0.1"
 
 
 ## Text that is placed on the game's about screen. To insert a blank line
