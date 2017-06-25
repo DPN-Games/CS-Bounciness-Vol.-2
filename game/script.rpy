@@ -158,4 +158,10 @@ label start:
         policeoff1 "EXCUSE ME!?!?!"
         cs "Oh shish."
         policeoff1 "You two are coming with me."
+        scene cscarinside
+        show csdefault at left
+        show wesley at right
+        cs "{i}{size=-4}Psst, hey, can I get my SuS gun back?{/size}{/i}"
+        wes "{i}Hands CS his SuS gun.{/i}"
+        cs "{i}{size=-4}Thanks man.{/size}{/i}"
     return
