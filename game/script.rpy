@@ -127,12 +127,14 @@ label start:
         show csdefault at left
         cs "Whoops, looks like he fell off the edge."
         cs "Well time to go home!"
-        
+    return
+    
     label taken_to_police:
         scene helipad
         show wesley at right
         wes "OH GOD WHY WOULD YOU DO THIS!?!?!?!?"
-        
+    return
+    
     label police_station:
         scene helipad
         show csdefault at left
@@ -155,4 +157,4 @@ label start:
         policeoff1 "EXCUSE ME!?!?!"
         cs "Oh shish."
         policeoff1 "You two are coming with me."
-return
+    return
