@@ -42,6 +42,7 @@ image factory = "background/Factory.jpg"
 image elevator = "background/elevator.jpg"
 image helipad = "background/Heli_pad.jpg"
 image black = "background/black.jpg"
+image interrogate = "background/PoliceInterrogation.jpg"
 
 #Character images.
 image csdefault = "characters/Cshocola.png"
@@ -115,6 +116,7 @@ label start:
             cs "This is..."
             cs "CrAaAaAaAaAaAaZY SATURDAY!"
             cs "{i}Kicks!{/i}"
+            cs "Whoops, looks like he fell off the edge."
             jump return_home
         "Chop them!":
             cs "{i}Chops!{/i}"
@@ -124,10 +126,9 @@ label start:
             
             
     label return_home:
-        scene helipad
-        show csdefault at left
-        cs "Whoops, looks like he fell off the edge."
         cs "Well time to go home!"
+        scene csroom
+        show csdefault at left
     return
     
     label taken_to_police:
@@ -164,4 +165,28 @@ label start:
         cs "{i}{size=-4}Psst, hey, can I get my SuS gun back?{/size}{/i}"
         wes "{i}Hands CS his SuS gun.{/i}"
         cs "{i}{size=-4}Thanks man.{/size}{/i}"
+        scene interrogate
+        show csdefault at left
+        show copguy at right
+        policeoff1 "Now do you have any idea what the fuuf happened to wesley?"
+        menu:
+            "What caused wesley to go beserk?"
+            "He was deranged.":
+                cs "He was deranged, I came to get a refund because he hacked my computer when he was supposed to be fixing my completely oversized house!"
+            "I came to get a refund.":
+                cs "No officer, I came to request a refund because I didn't get the good JoJ I was promised, and he just started shooting SuS at everyone!"
+                policeoff1 "Okay sir, thanks for your time!"
+                scene cscarinside
+                show csdefault at left
+                jump return_home
+            "I made him.":
+                cs "I made him do it using the power of YTP."
+                jump insane_asylum
+            
+        
+    label insane_asylum:
+        scene interrogate
+        show csdefault at left
+        show copguy at right
+        policeoff1 "Bullshish! {i}Wait what's a YTP? Oh nevermind.{/i} I don't believe you!"
     return

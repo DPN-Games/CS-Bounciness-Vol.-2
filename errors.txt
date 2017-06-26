@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 165: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-            wes "{i}
+File "game/script.rpy", line 193: expected ':' not found.
+    label return_home
+                     ^
 
 Ren'Py Version: Ren'Py 6.99.12.4.2187
