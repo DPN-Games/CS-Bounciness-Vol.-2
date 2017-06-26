@@ -43,6 +43,7 @@ image elevator = "background/elevator.jpg"
 image helipad = "background/Heli_pad.jpg"
 image black = "background/black.jpg"
 image interrogate = "background/PoliceInterrogation.jpg"
+image smallhouse = "background/Smallhouse.jpg"
 
 #Character images.
 image csdefault = "characters/Cshocola.png"
@@ -64,6 +65,7 @@ image corndog = "characters/CornWorker.png"
 image diabeetus = "characters/DiaBeetusWorker.png"
 image grrx = "characters/GrrxWorker.png"
 image copguy = "characters/Copguy_anime.png"
+image csgod = "characters/Image7.png"
 
 # The game starts here.
 
@@ -124,9 +126,25 @@ label start:
             cs "{i}Uses the power of YTP"
             jump police_station
             
-            
+    
     label return_home:
         cs "Well time to go home!"
+        scene smallhouse
+        show csdefault at left
+        cs "This is what happens when you don't get quality foundation repair. {i}sigh.{/i}"
+        scene csroom
+        show csdefault at left
+        cs "What should I do now that my house is different."
+        menu:
+            "What to do?"
+            "Watch TV":
+                "TV" "HI BILLY MAYS HERE FOR AN AMAZING NEW OFFER, A NEW COMPUTER CALLED THE NOOOT SO CRAPTOP, IT'S FUUFING FREE! WE CAN DO THAT BECAUSE NOBODY WILL SEE THIS AD SINCE NOBODY WATCHES TV ANYMORE!"
+                "{i}Random Noise.{/i}"
+                cs "Oh whats this? The noooot so craptop?"
+            "Go to store and buy a new Craptop.":
+                scene walmartinside
+                show csdefault at left
+                cs "Oh man! A noooot so craptop! What a steal!"
         scene csroom
         show csdefault at left
     return
