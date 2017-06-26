@@ -4,3 +4,9 @@ Digi: Himself, Billy Mays, Neko.
 Andrew: AWK
 Midgalicis: Herself.
 Pakoo: Himself, CS-ocola
+
+Jobs:
+
+Images: Pakoo, AWK
+Editing: Digi, Nova
+Script: Nova, AWK, Pakoo
