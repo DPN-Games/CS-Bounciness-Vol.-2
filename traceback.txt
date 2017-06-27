@@ -1,33 +1,21 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00keymap.rpy", line 396, in script
-    python hide:
-  File "renpy/common/00keymap.rpy", line 402, in <module>
-    renpy.take_screenshot((config.thumbnail_width, config.thumbnail_height))
-TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+  File "renpy/common/00start.rpy", line 107, in script
+    return
+Exception: Could not find return label (u'C:\\Users\\Nova\\Desktop\\CS-Bounciness-Vol.-2/game/script.rpy', 1498425410, 60).
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00keymap.rpy", line 396, in script
-    python hide:
-  File "C:\Users\Nova\Desktop\RenPy\renpy\ast.py", line 814, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\Nova\Desktop\RenPy\renpy\python.py", line 1719, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "renpy/common/00keymap.rpy", line 402, in <module>
-    renpy.take_screenshot((config.thumbnail_width, config.thumbnail_height))
-  File "C:\Users\Nova\Desktop\RenPy\renpy\exports.py", line 1497, in take_screenshot
-    renpy.game.interface.take_screenshot(scale, background=background)
-  File "C:\Users\Nova\Desktop\RenPy\renpy\display\core.py", line 1995, in take_screenshot
-    surf = renpy.display.scale.smoothscale(surf, scale)
-  File "C:\Users\Nova\Desktop\RenPy\renpy\display\scale.py", line 92, in real_smoothscale
-    dest = pgrender.surface_unscaled(size, src)
-  File "C:\Users\Nova\Desktop\RenPy\renpy\display\pgrender.py", line 116, in surface
-    surf = Surface((width + 4, height + 4), 0, sample)
-TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+  File "renpy/common/00start.rpy", line 107, in script
+    return
+  File "C:\Users\Nova\Desktop\RenPy\renpy\ast.py", line 1376, in execute
+    next_node(renpy.game.context().lookup_return(pop=True))
+  File "C:\Users\Nova\Desktop\RenPy\renpy\execution.py", line 552, in lookup_return
+    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
+Exception: Could not find return label (u'C:\\Users\\Nova\\Desktop\\CS-Bounciness-Vol.-2/game/script.rpy', 1498425410, 60).
 
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187
- 
+CS Bounciness Vol. 2 0.0.1

@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 193: expected ':' not found.
-    label return_home
-                     ^
+File "game/options.rpy", line 18: expected 'word' not found.
+    style.default.font = ""
+         ^
 
 Ren'Py Version: Ren'Py 6.99.12.4.2187

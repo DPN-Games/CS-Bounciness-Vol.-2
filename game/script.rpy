@@ -44,6 +44,7 @@ image helipad = "background/Heli_pad.jpg"
 image black = "background/black.jpg"
 image interrogate = "background/PoliceInterrogation.jpg"
 image smallhouse = "background/Smallhouse.jpg"
+image tvbilly = "background/TV_Billy.png"
 
 #Character images.
 image csdefault = "characters/Cshocola.png"
@@ -138,9 +139,12 @@ label start:
         menu:
             "What to do?"
             "Watch TV":
+                scene tvbilly
                 "TV" "HI BILLY MAYS HERE FOR AN AMAZING NEW OFFER, A NEW COMPUTER CALLED THE NOOOT SO CRAPTOP, IT'S FUUFING FREE! WE CAN DO THAT BECAUSE NOBODY WILL SEE THIS AD SINCE NOBODY WATCHES TV ANYMORE!"
+                scene csroom
+                show csdefault at left
                 "{i}Random Noise.{/i}"
-                cs "Oh whats this? The noooot so craptop?"
+                cs "Oh whats this? The noooot so craptop?" 
             "Go to store and buy a new Craptop.":
                 scene walmartinside
                 show csdefault at left
@@ -173,9 +177,10 @@ label start:
         wes "{i}{size=-8}aww{/size}{/i}"
         hide wesley
         show csdefault at left
-        cs "Oh nice job wesley!"
-        policeoff1 "EXCUSE ME!?!?!"
-        cs "Oh shish."
+        cs "Oh god wesley!"
+        policeoff1 "DO YOU HAVE ANYTHING TO DO WITH THIS!?"
+        cs "No!"
+        policeoff1 "I don't believe you!"
         policeoff1 "You two are coming with me."
         scene cscarinside
         show csdefault at left
