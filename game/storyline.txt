@@ -1,0 +1,36 @@
+<startgame>
+<roll_intro>
+</roll_intro>
+
+<chapter1>
+CS: You'll pay for what you did!
+Wesley: Do you want a refund?
+CS: I'll refund your to the floor!
+
+<punch>
+CS: Take that! And this!
+Wesley: Owww! $#!%!
+
+<goprison>
+
+<chop>
+CS: I sawed this foundation repair worker in half!
+
+<goprison>
+
+<kick>
+CS: This is...
+CS: CrAaAaAaAaAaAaZY SATURDAY!
+<kicks>
+CS: Whoops, looks like he fell off the edge.
+
+<gohome>
+
+<ytp>
+Wesley: OH GOD WHY WOULD YOU DO THIS!?!?!?!?
+<susgun>
+Ed: OH GOD WESLEY DON'T SHOOT ME!
+
+
+
+
