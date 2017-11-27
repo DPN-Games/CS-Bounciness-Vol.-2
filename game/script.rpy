@@ -29,7 +29,21 @@ define Rich = Character("Richard")
 #Backgrounds.
 #image name = "dir/file.filetype"
 
-
+image Asylum = "background/Asylum"
+image Asylum2 = "background/Asylum2"
+image Black = "background/black"
+image CarDriveway = "background/Car_Driveway"
+image CarInside = "background/Car_Inside"
+image Elevator = "background/elevator"
+image Helipad = "background/Heli_pad"
+image JailCell = "background/JailCell"
+image WeddingStatue = "background/MichaelRosenBillyMaysWedding"
+image Office = "background/Office"
+image OfficeOutside = "background/Officeoutside"
+image Interrogation = "background/PoliceInterrogation"
+image SmallHouse = "background/Smallhouse"
+image TVBilly = "background/TV_Billy"
+image TVBars = "background/TV_SMPTE"
 
 #Character images.
 #image name = "dir/file.filetype"
