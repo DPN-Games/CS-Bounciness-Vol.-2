@@ -25,7 +25,7 @@ define Michael = Character("Michael")
 define Pakoo = Character("Pakoo")
 define Phil = Character("Phil Swift")
 define Rich = Character("Richard")
-define Wes = Character("Wesley")
+define Wesley = Character("Wesley")
 
 #Backgrounds.
 #image name = "dir/file.filetype"
@@ -71,7 +71,176 @@ image Michael = "characters/Michael.png"
 image Pakoo = "characters/Pakoo.png"
 image Phil = "characters/Phil.jpg"
 image Rich = "characters/Richard.png"
-image Wes = "characters/wesley-chan.png"
+image Wesley = "characters/wesley-chan.png"
 
 # The game starts here.
+label start:
 
+show Helipad
+with fade
+
+show CS at left
+show Wesley at right
+
+CS "You'll pay for what you did!"
+
+Wesley "Do you want a refund?"
+
+CS "I'll refund your face to the floor!"
+
+######################################################################
+
+menu:
+
+        "What attack would you like to use?"
+
+        "Use Punch":
+
+            jump punch
+
+        "Use Chop.":
+
+            jump chop
+
+        "Use Kick":
+            jump kick
+        
+        "Use Special":
+            jump special    
+
+
+label punch:
+
+show CS at left
+
+show Wesley at right
+
+CS "Take this!"
+
+"{i}CS punches Wesley and knocks him out{/i}"
+
+hide Wesley
+
+CS "That'll teach you not to miss with a nerd's computer!"
+
+show Ed at right
+
+Ed "Hello, 911? My boss just got knocked out by a disgruntled customer and appears to be dying! Send help!"
+
+CS "Dammit! Ed's calling the police! I gotta go after him!"
+
+Ed "911! Come quickly! He's chasing after me!"
+
+"{i}The police arrive and CS runs away.{/i}"
+
+hide Ed
+show Copguy at left
+
+Copguy "Hey! Get back here!"
+
+CS "You can't catch me, I'm the speedy Michael Rosen!"
+
+"{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
+
+jump jail
+
+######################################################################
+
+label chop:
+
+show CS at left
+
+show Wesley at right
+
+CS "Take this!"
+
+"{i}CS chops Wesley and a fight ensues.{/i}"
+
+Wesley "You'll pay for that!"
+
+CS "Like hell I will!"
+
+hide CS
+
+hide Wesley
+
+show Ed at center
+
+Ed "911? Help! My boss just got attacked by a customer and now they're fighting right here in the office!"
+
+hide Ed
+
+show CS at left
+
+CS "Dammit! Ed's calling the police! I need to finish this fast!"
+
+"{i}The fight continues and the police arrive{/i}"
+
+"{i}CS runs away{/i}"
+
+show Copguy at right
+
+Copguy "Get back here!"
+
+CS "You can't catch me, I'm the speedy Michael Rosen"
+
+"{i}As CS is not actually the speedy Michael Rosen, he gets caught by the police{/i}"
+
+jump jail
+
+######################################################################
+
+label kick:
+
+show CS at left
+
+show Wesley at right
+
+CS "This is CraAaAazy Saturday!"
+
+"{i}CS kicks Wesley off of the building.{/i}"
+
+hide Wesley
+
+Wesley "AHHHHHH!"
+
+CS "Well, that was satisfying. Time to go home!"
+
+jump home
+
+######################################################################
+
+label special:
+
+show CS at left
+
+show Wesley at right
+
+CS "Take this!"
+
+hide CS
+
+hide Wesley
+
+show Office
+with fade
+
+"{i}CS uses the magic of YTP to make Wesley shoot his employees.{/i}"
+
+show CS at left
+
+"{i}CS calls the police.{/i}"
+
+CS "Hello, 911! Come quickly, this guy is shooting up his office!"
+
+"{i}CS hides under a desk until the police come and arrest Wesley{/i}"
+
+show Copguy at right
+
+Copguy "Sir, would you come with us? We'll need you to ask you a few questions"
+
+CS "Of course, Officer."
+
+jump questioning
+
+######################################################################

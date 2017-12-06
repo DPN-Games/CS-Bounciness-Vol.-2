@@ -1,21 +1,21 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00start.rpy", line 107, in script
-    return
-Exception: Could not find return label (u'C:\\Users\\Nova\\Desktop\\CS-Bounciness-Vol.-2/game/script.rpy', 1498425410, 60).
+  File "game/script.rpy", line 189, in script
+    jump jail
+ScriptError: could not find label 'jail'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00start.rpy", line 107, in script
-    return
-  File "C:\Users\Nova\Desktop\RenPy\renpy\ast.py", line 1376, in execute
-    next_node(renpy.game.context().lookup_return(pop=True))
-  File "C:\Users\Nova\Desktop\RenPy\renpy\execution.py", line 552, in lookup_return
-    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
-Exception: Could not find return label (u'C:\\Users\\Nova\\Desktop\\CS-Bounciness-Vol.-2/game/script.rpy', 1498425410, 60).
+  File "game/script.rpy", line 189, in script
+    jump jail
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\ast.py", line 1552, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\script.py", line 861, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'jail'.
 
 Windows-8-6.2.9200
-Ren'Py 6.99.12.4.2187
+Ren'Py 6.99.13.2919
 CS Bounciness Vol. 2 0.0.1

@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/options.rpy", line 18: expected 'word' not found.
-    style.default.font = ""
-         ^
+File "game/script.rpy", line 108: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
+    "Use Special"
+                 ^
 
-Ren'Py Version: Ren'Py 6.99.12.4.2187
+Ren'Py Version: Ren'Py 6.99.13.2919
