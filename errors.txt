@@ -2,8 +2,12 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 108: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "Use Special"
-                 ^
+File "game/script.rpy", line 270: choice menuitem expects a non-empty block.
+    "I used YTP Magic":
+                       ^
+
+File "game/script.rpy", line 296: expected statement.
+    CS: "I really did!"
+      ^
 
 Ren'Py Version: Ren'Py 6.99.13.2919

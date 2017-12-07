@@ -14,7 +14,7 @@ define CSThink = Character("CS188")
 define CSYoung = Character("CS188")
 define Carguy = Character("Carguy")
 define Copguy = Character("Copguy")
-define CSGod = Character("CSGod")
+define CSGuard = Character("CSGod")
 define CorndogGuy = Character("Corndog Worker")
 define Digi = Character("DigiDuncan")
 define Discord = Character("Discord")
@@ -61,7 +61,7 @@ image CSSurprised = "characters/Cs-ocolasuprised.png"
 image CSHappy = "characters/csocola_happy.png"
 image CSThink = "characters/Csocola_think.png"
 image CSYoung = "characters/CsocolaYoung.png"
-image CSGod = "characters/CSgod-ocola.png"
+image CSGuard = "characters/CSgod-ocola.png"
 image Discord = "characters/discord.png"
 image Digi = "characters/DuncanBig.png"
 image Ed = "characters/Ed.png"
@@ -108,6 +108,7 @@ menu:
         "Use Special":
             jump special    
 
+######################################################################
 
 label punch:
 
@@ -244,3 +245,127 @@ CS "Of course, Officer."
 jump questioning
 
 ######################################################################
+
+label jail:
+
+######################################################################
+
+label home:
+
+######################################################################
+
+label questioning:
+
+show Interrogation
+
+show CS at left
+
+show Copguy at right
+
+Copguy "So what did you see?"
+
+menu:
+     "What did you see?"
+
+     "I used YTP Magic":
+
+         jump admit
+
+     "He was crazy":
+
+         jump deny
+
+######################################################################
+
+label admit:
+
+show Interrogation
+
+show CS at left
+
+show Copguy at right
+
+CS "I made him do it using the power of YTP."
+
+Copguy "No joking around, this is a serious situation."
+
+CS "No, I really did!"
+
+Copguy "Yeah, you're obviously deranged, I'm calling the insane asylum!"
+
+CS "I really did!"
+
+Copguy "Sure ya did....."
+
+jump asylum
+
+######################################################################
+
+label asylum:
+
+show Asylum
+
+show CSInsane at left
+
+CSInsane "Let me out! I'm not crazy!"
+
+show CSGuard at right
+
+CSGuard "Quiet down! I can't let you out!"
+
+hide CSInsane
+
+hide CSGuard
+
+"{i}A few days pass and the guard comes back{/i}"
+
+show CSInsane at left
+
+CSInsane "Have you come to let me out?"
+
+CSGuard "I already told you, I can’t let you out. I came because we have an overflow of patients right now" 
+
+CSGuard "Due to lack of space, we need to pair you with one of our less dangerous patients."
+
+CSGuard "He's a schizo and he sees money everywhere, but other than that he's fine"
+
+hide CSGuard
+
+show Arceus at right
+
+Arceus "Money Money Money Money Money Money Money Money Money Money"
+
+CSInsane "Great, now I have to deal with this shit"
+
+hide Arceus
+
+hide CSInsane
+
+"After a few days of listening to Arceus, CS was starting to think he may need to be in this insane asylum soon, but then, a new face came."
+
+show CSInsane at left
+
+show Digi at right
+
+CSInsane "You don't look like just a guard... Are you the owner?"
+
+Digi "Indeed I am, I've come to get your cellmate here. One of the patients killed a guard, and the other guards had to take him down. So now we have an open cell and a staff shortage, hence why I'm getting him myself."
+
+CSInsane "Since you're the owner, you’ll be able to let me out! Please let me out I’m not insane!"
+
+Digi "Alright, give me something I want and I’ll let you go."
+
+menu:
+         "What should you bribe Digi with?"
+
+         "Powerade.":
+
+             jump powerade
+
+         "Insulin.":
+
+             jump insulin
+
+         "Promise to be on time for streams.":
+             
+             jump ontime

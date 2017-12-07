@@ -1,4 +1,4 @@
-Wed Dec 06 18:33:00 2017
+Wed Dec 06 22:49:04 2017
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
  
@@ -7,31 +7,18 @@ Bootstrap to the start of init.init took 0.05s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.01s
-Loading script took 0.10s
+Loading script took 0.09s
 Loading persistent took 0.01s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Andrew\\AppData\\Roaming/RenPy/backups\\CS-Bounciness-Vol.-2':
-Dump and make backups. took 0.03s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
+
+File "game/script.rpy", line 270: choice menuitem expects a non-empty block.
+    "I used YTP Magic":
+                       ^
+
+File "game/script.rpy", line 296: expected statement.
+    CS: "I really did!"
+      ^
 DPI scale factor: 1.000000
-Creating interface object took 0.03s
-Cleaning stores took 0.00s
-Init translation took 0.02s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.04s
-Prepare screens took 0.03s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.00s
+Interface start took 0.05s
 
 primary display bounds: (0, 0, 1920, 1080)
 Windowed mode.
@@ -400,7 +387,23 @@ Extensions:
     GL_NV_transform_feedback2
     GL_NV_uniform_buffer_unified_memory
     GL_NV_vertex_array_range
-    GL_NV_verteN_swap_hint
+    GL_NV_vertex_array_range2
+    GL_NV_vertex_attrib_integer_64bit
+    GL_NV_vertex_buffer_unified_memory
+    GL_NV_vertex_program
+    GL_NV_vertex_program1_1
+    GL_NV_vertex_program2
+    GL_NV_vertex_program2_option
+    GL_NV_vertex_program3
+    GL_NV_viewport_array2
+    GL_NV_viewport_swizzle
+    GL_S3_s3tc
+    GL_SGIS_generate_mipmap
+    GL_SGIS_texture_lod
+    GL_SGIX_depth_texture
+    GL_SGIX_shadow
+    GL_SUN_slice_accum
+    GL_WIN_swap_hint
     WGL_EXT_swap_control
 Number of texture units: 4
 Using shader environment.
@@ -414,65 +417,21 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 0.582000017166s
-The window was minimized.
-The window was restored.
-
-primary display bounds: (0, 0, 1920, 1080)
-Windowed mode.
-Screen sizes: virtual=(1280, 720) physical=(1705, 959) drawable=(1705, 959)
-
-Texture testing:
-- Hardware max texture size: 32768
-- 64px textures work.
-- 128px textures work.
-- 256px textures work.
-- 512px textures work.
-- 1024px textures work.
-- 2048px textures work.
-Total time until interface ready: 1.84299993515s
-- Target is 5 frames in 0.333333333333 seconds.
-- Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.026000 seconds.
-- Frame drawn at 0.027000 seconds.
-- Frame drawn at 0.031000 seconds.
-- Frame drawn at 0.047000 seconds.
-- 0.047000 seconds to render 5 frames.
-
-Full traceback:
-  File "game/script.rpy", line 189, in script
-    jump jail
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\ast.py", line 1552, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\script.py", line 861, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'jail'.
-
-While running game code:
-  File "game/script.rpy", line 189, in script
-    jump jail
-ScriptError: could not find label 'jail'.
-Traceback (most recent call last):
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\execution.py", line 468, in run
-    node.execute()
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\ast.py", line 1552, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\script.py", line 861, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'jail'.
+Total time until interface ready: 0.611999988556s
 Resetting cache.
-Bootstrap to the start of init.init took 24.00s
+Bootstrap to the start of init.init took 31.41s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.01s
-Loading script took 0.05s
+Loading script took 0.08s
 Loading persistent took 0.01s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.03s
+Running init code took 0.07s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Dump and make backups. took 0.03s
+Backing up script files to 'C:\\Users\\Andrew\\AppData\\Roaming/RenPy/backups\\CS-Bounciness-Vol.-2':
+Dump and make backups. took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 DPI scale factor: 1.000000
@@ -480,12 +439,12 @@ Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.02s
 Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.04s
 Prepare screens took 0.03s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.03s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.00s
@@ -887,33 +846,11 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 24.3329999447s
+Total time until interface ready: 31.8929998875s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.032000 seconds.
-- Frame drawn at 0.032000 seconds.
-- Frame drawn at 0.045000 seconds.
-- Frame drawn at 0.061000 seconds.
-- 0.061000 seconds to render 5 frames.
-
-Full traceback:
-  File "game/script.rpy", line 189, in script
-    jump jail
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\ast.py", line 1552, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\script.py", line 861, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'jail'.
-
-While running game code:
-  File "game/script.rpy", line 189, in script
-    jump jail
-ScriptError: could not find label 'jail'.
-Traceback (most recent call last):
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\execution.py", line 468, in run
-    node.execute()
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\ast.py", line 1552, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\script.py", line 861, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'jail'.
+- Frame drawn at 0.029000 seconds.
+- Frame drawn at 0.029000 seconds.
+- Frame drawn at 0.042000 seconds.
+- Frame drawn at 0.059000 seconds.
+- 0.059000 seconds to render 5 frames.
