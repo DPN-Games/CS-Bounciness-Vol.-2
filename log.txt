@@ -1,4 +1,4 @@
-Wed Dec 06 22:49:04 2017
+Thu Dec 07 20:50:16 2017
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
  
@@ -6,19 +6,15 @@ Ren'Py 6.99.13.2919
 Bootstrap to the start of init.init took 0.05s
 Early init took 0.00s
 Loader init took 0.01s
-Loading error handling took 0.01s
-Loading script took 0.09s
+Loading error handling took 0.03s
+Loading script took 0.15s
 Loading persistent took 0.01s
 
-File "game/script.rpy", line 270: choice menuitem expects a non-empty block.
-    "I used YTP Magic":
-                       ^
-
-File "game/script.rpy", line 296: expected statement.
-    CS: "I really did!"
-      ^
+File "game/script.rpy", line 403: expected ':' not found.
+    label ontime
+                ^
 DPI scale factor: 1.000000
-Interface start took 0.05s
+Interface start took 0.06s
 
 primary display bounds: (0, 0, 1920, 1080)
 Windowed mode.
@@ -417,16 +413,16 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 0.611999988556s
+Total time until interface ready: 0.641999959946s
 Resetting cache.
-Bootstrap to the start of init.init took 31.41s
+Bootstrap to the start of init.init took 12.11s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.01s
-Loading script took 0.08s
+Loading script took 0.09s
 Loading persistent took 0.01s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.07s
+Running init code took 0.08s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
@@ -846,11 +842,11 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 31.8929998875s
+Total time until interface ready: 12.5909998417s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.029000 seconds.
-- Frame drawn at 0.029000 seconds.
-- Frame drawn at 0.042000 seconds.
-- Frame drawn at 0.059000 seconds.
-- 0.059000 seconds to render 5 frames.
+- Frame drawn at 0.031000 seconds.
+- Frame drawn at 0.032000 seconds.
+- Frame drawn at 0.035000 seconds.
+- Frame drawn at 0.052000 seconds.
+- 0.052000 seconds to render 5 frames.

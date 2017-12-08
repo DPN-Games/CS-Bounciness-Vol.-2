@@ -369,3 +369,51 @@ menu:
          "Promise to be on time for streams.":
              
              jump ontime
+
+######################################################################
+
+label insulin: 
+
+show CSInsane at left
+
+show Digi at right
+
+CSInsane "I'll give you some insulin."
+
+Digi "I'll take it!"
+
+jump home
+
+######################################################################
+
+label powerade:
+
+show CSInsane at left
+
+show Digi at right
+
+CSInsane "I'll give you a 36 pack of powerade."
+
+Digi "I'll take it."
+
+jump home
+
+######################################################################
+
+label ontime:
+
+show CSInsane at left
+
+show Digi at right
+
+CSInsane "I'll actually be on time for streams."
+
+Digi "Bullshit, you'll never do that! C'mon Arceus, let's get you into your new cell."
+
+hide CSInsane
+
+hide Digi
+
+show bg BadEnd
+
+"{b}Digi leaves and CS is stuck in the insane asylum. Bad End{/b}"
