@@ -24,6 +24,10 @@ Lead Writer
 
 Junior Writer
 	Pakoo
+	Arceus
+	
+Image Director
+	Pakoo
 	
 Script Coding
 	AWK
@@ -45,6 +49,7 @@ Music:
 	(credit all the songs we use here)
 	
 Special Thanks to:
+	Arceus
 	cs188
 	Monika
 	
