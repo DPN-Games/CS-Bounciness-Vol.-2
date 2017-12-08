@@ -253,6 +253,30 @@ label jail:
 
 label home:
 
+show CarInside
+
+show CS at left
+
+CS "Ahh almost home"
+
+"{i}CS comes home to find his house drastically smaller.{/i}"
+
+CS "This is what happens when you don't get quality foundation repair"
+
+CS "Whatever, at least I'm finally home...."
+
+CS "Man, I need to relax after that shit, what should I do?"
+
+menu:
+    
+    "Watch TV":
+    
+    jump motorolatv
+    
+    "Go to the store and buy a new craptop":
+    
+    jump notsocraptop
+
 ######################################################################
 
 label questioning:
@@ -418,3 +442,13 @@ hide Digi
 show BadEnd
 
 "{b}Digi leaves and CS is stuck in the insane asylum. Bad End{/b}"
+
+######################################################################
+
+label motorolatv:
+
+######################################################################
+
+label notsocraptop:
+
+######################################################################
