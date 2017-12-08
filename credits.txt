@@ -1,0 +1,55 @@
+
+
+  sSSs. d ss.  d sss   d ss    d sss sssss   sss. 
+ S      S    b S       S   ~o  S     S     d      
+S       S    P S       S     b S     S     Y      
+S       S sS'  S sSSs  S     S S     S       ss.  
+S       S   S  S       S     P S     S          b 
+ S      S    S S       S    S  S     S          P 
+  "sss' P    P P sSSss P ss"   P     P     ` ss'  
+                                                  
+
+
+												  
+A DPN Games Game
+in partnership with DigiDuncan Media Group
+
+CS BOUNCINESS VOL 2.
+
+Story Director
+	AWK
+
+Lead Writer
+	AWK
+
+Junior Writer
+	Pakoo
+	
+Script Coding
+	AWK
+	DigiDuncan
+	
+Music Director
+	DigiDuncan
+	
+Intro Animation
+	DigiDuncan
+
+Credits Animation
+	DigiDuncan
+	
+True Ending OVA	
+	Pakoo
+
+Music:
+	(credit all the songs we use here)
+	
+Special Thanks to:
+	cs188
+	Monika
+	
+Engineered in Ren.py
+
+(logos for all our stuff here)
+
+(play the memorium video)
