@@ -45,6 +45,7 @@ image Interrogation = "background/PoliceInterrogation.jpg"
 image SmallHouse = "background/Smallhouse.jpg"
 image TVBilly = "background/TV_Billy.png"
 image TVBars = "background/TV_SMPTE.png"
+image BadEnd = "background/badend.png"
 
 #Character images.
 #image name = "dir/file.filetype"
@@ -414,6 +415,6 @@ hide CSInsane
 
 hide Digi
 
-show bg BadEnd
+show BadEnd
 
 "{b}Digi leaves and CS is stuck in the insane asylum. Bad End{/b}"
