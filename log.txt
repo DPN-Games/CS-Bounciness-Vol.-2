@@ -1,4 +1,4 @@
-Sat Dec 09 13:36:58 2017
+Sat Dec 09 13:39:32 2017
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
  
@@ -8,7 +8,7 @@ Early init took 0.00s
 Loader init took 0.02s
 Loading error handling took 0.02s
 Loading script took 0.07s
-Loading persistent took 0.02s
+Loading persistent took 0.01s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Running init code took 0.08s
 Loading analysis data took 0.04s
@@ -30,7 +30,7 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.00s
+Interface start took 0.01s
 
 primary display bounds: (0, 0, 1920, 1080)
 Windowed mode.
@@ -272,14 +272,14 @@ Texture testing:
 - 1024px textures work.
 - 2048px textures work.
 controller: '78696e70757401000000000000000000' 'XInput Controller' 1L
-Total time until interface ready: 0.868999958038s
+Total time until interface ready: 0.864000082016s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.026000 seconds.
-- Frame drawn at 0.057000 seconds.
-- Frame drawn at 0.093000 seconds.
-- Frame drawn at 0.123000 seconds.
-- 0.123000 seconds to render 5 frames.
+- Frame drawn at 0.018000 seconds.
+- Frame drawn at 0.039000 seconds.
+- Frame drawn at 0.054000 seconds.
+- Frame drawn at 0.071000 seconds.
+- 0.071000 seconds to render 5 frames.
 
 Full traceback:
   File "game/script.rpy", line 275, in script

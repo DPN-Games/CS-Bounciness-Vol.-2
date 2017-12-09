@@ -46,7 +46,7 @@ image SmallHouse = "background/Smallhouse.jpg"
 image TVBilly = "background/TV_Billy.png"
 image TVBars = "background/TV_SMPTE.png"
 image BadEnd = "background/badend.png"
-image InsideHouse = "background/Inside_house.jpg"
+image InsideHouse = "background/Inside_house.png"
 
 #Character images.
 #image name = "dir/file.filetype"
