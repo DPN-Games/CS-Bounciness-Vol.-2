@@ -46,6 +46,7 @@ image SmallHouse = "background/Smallhouse.jpg"
 image TVBilly = "background/TV_Billy.png"
 image TVBars = "background/TV_SMPTE.png"
 image BadEnd = "background/badend.png"
+image InsideHouse = "background/Inside_house.jpg"
 
 #Character images.
 #image name = "dir/file.filetype"
@@ -259,23 +260,31 @@ show CS at left
 
 CS "Ahh almost home"
 
+show SmallHouse
+
 "{i}CS comes home to find his house drastically smaller.{/i}"
 
 CS "This is what happens when you don't get quality foundation repair"
 
 CS "Whatever, at least I'm finally home...."
 
+"CS goes inside"
+
+show InsideHouse
+
 CS "Man, I need to relax after that shit, what should I do?"
 
 menu:
     
+    "What do you want to do?"
+
     "Watch TV":
     
-    jump motorolatv
+        jump motorolatv
     
     "Go to the store and buy a new craptop":
     
-    jump notsocraptop
+        jump notsocraptop
 
 ######################################################################
 
@@ -433,7 +442,7 @@ show Digi at right
 
 CSInsane "I'll actually be on time for streams."
 
-Digi "Bullshit, you'll never do that! C'mon Arceus, let's get you into your new cell."
+Digi "Wow, you really think you can do that? You must need to be in an Insane Asylum! C'mon Arceus, let's get you into your new cell."
 
 hide CSInsane
 
@@ -446,6 +455,8 @@ show BadEnd
 ######################################################################
 
 label motorolatv:
+
+
 
 ######################################################################
 
