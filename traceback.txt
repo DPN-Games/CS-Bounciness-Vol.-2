@@ -1,18 +1,18 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 277, in script
+  File "game/script.rpy", line 310, in script
     jump deny
 ScriptError: could not find label 'deny'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 277, in script
+  File "game/script.rpy", line 310, in script
     jump deny
-  File "C:\Users\Victi\Downloads\renpy-6.99.13-sdk\renpy\ast.py", line 1552, in execute
+  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 1552, in execute
     rv = renpy.game.script.lookup(target)
-  File "C:\Users\Victi\Downloads\renpy-6.99.13-sdk\renpy\script.py", line 861, in lookup
+  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\script.py", line 861, in lookup
     raise ScriptError("could not find label '%s'." % str(original))
 ScriptError: could not find label 'deny'.
 
