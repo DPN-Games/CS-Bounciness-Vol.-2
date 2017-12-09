@@ -1,60 +1,20 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00start.rpy", line 198, in script call
-    call _gl_test
-  File "renpy/common/00gltest.rpy", line 376, in script
-    $ __gl_test()
-  File "renpy/common/00gltest.rpy", line 376, in <module>
-    $ __gl_test()
-  File "renpy/common/00gltest.rpy", line 302, in _m1_00gltest__gl_test
-    _gl_performance_test()
-  File "renpy/common/00gltest.rpy", line 319, in _gl_performance_test
-    ui.interact(suppress_underlay=True, suppress_overlay=True)
-IOError: Couldn't find file 'gui/window_icon.png'.
+  File "game/script.rpy", line 310, in script
+    jump deny
+ScriptError: could not find label 'deny'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\bootstrap.py", line 305, in bootstrap
-    renpy.main.main()
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\main.py", line 499, in main
-    run(restart)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\main.py", line 147, in run
-    renpy.execution.run_context(True)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\execution.py", line 795, in run_context
-    context.run()
-  File "renpy/common/00start.rpy", line 198, in script call
-    call _gl_test
-  File "renpy/common/00gltest.rpy", line 376, in script
-    $ __gl_test()
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 827, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\python.py", line 1764, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "renpy/common/00gltest.rpy", line 376, in <module>
-    $ __gl_test()
-  File "renpy/common/00gltest.rpy", line 302, in _m1_00gltest__gl_test
-    _gl_performance_test()
-  File "renpy/common/00gltest.rpy", line 319, in _gl_performance_test
-    ui.interact(suppress_underlay=True, suppress_overlay=True)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ui.py", line 287, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\display\core.py", line 2521, in interact
-    self.start()
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\display\core.py", line 1711, in start
-    self.set_mode()
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\display\core.py", line 1941, in set_mode
-    if draw.set_mode(virtual_size, physical_size, fullscreen):
-  File "renpy/gl/gldraw.pyx", line 200, in renpy.gl.gldraw.GLDraw.set_mode (gen\renpy.gl.gldraw.c:2801)
-    renpy.display.interface.post_init()
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\display\core.py", line 1742, in post_init
-    self.set_icon()
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\display\core.py", line 1773, in set_icon
-    renpy.loader.load(icon),
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\loader.py", line 548, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'gui/window_icon.png'.
+  File "game/script.rpy", line 310, in script
+    jump deny
+  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 1552, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\script.py", line 861, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'deny'.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
