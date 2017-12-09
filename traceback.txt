@@ -1,76 +1,20 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'background/Inside_house.jpg'>:
-  File "game/script.rpy", line 275, in script
-    CS "Man, I need to relax after that shit, what should I do?"
-IOError: Couldn't find file 'background/Inside_house.jpg'.
+While running game code:
+  File "game/script.rpy", line 310, in script
+    jump deny
+ScriptError: could not find label 'deny'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 275, in script
-    CS "Man, I need to relax after that shit, what should I do?"
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 624, in execute
-    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\exports.py", line 1173, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\character.py", line 911, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, **display_args)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\character.py", line 747, in do_display
-    **display_args)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\character.py", line 523, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ui.py", line 287, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\display\core.py", line 2553, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\display\core.py", line 2916, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\display\core.py", line 1980, in draw_screen
-    renpy.config.screen_height,
-  File "renpy/display/render.pyx", line 430, in renpy.display.render.render_screen (gen\renpy.display.render.c:6938)
-    rv = render(root, width, height, 0, 0)
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\display\layout.py", line 702, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\display\layout.py", line 702, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\display\layout.py", line 702, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
-    rv = d.render(widtho, heighto, st, at)
-  File "renpy/display/accelerator.pyx", line 108, in renpy.display.accelerator.transform_render (gen\renpy.display.accelerator.c:2047)
-    cr = render(child, widtho, heighto, st - self.child_st_base, at)
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\display\image.py", line 392, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\display\image.py", line 213, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\display\im.py", line 503, in render
-    texture = cache.get(self, texture=True)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\display\im.py", line 212, in get
-    surf = image.load()
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\display\im.py", line 553, in load
-    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\loader.py", line 548, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'background/Inside_house.jpg'.
+  File "game/script.rpy", line 310, in script
+    jump deny
+  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 1552, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\script.py", line 861, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'deny'.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
