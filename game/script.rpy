@@ -1,4 +1,4 @@
-#Variable declaration.
+﻿#Variable declaration.
 
 #Characters.
 #define varname = Character("name")
@@ -137,7 +137,7 @@ Ed "911! Come quickly! He's chasing after me!"
 "{i}The police arrive and CS runs away.{/i}"
 
 hide Ed
-show Copguy at left
+show Copguy at right
 
 Copguy "Hey! Get back here!"
 
