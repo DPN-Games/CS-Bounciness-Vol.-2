@@ -1,26 +1,20 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 310, in script
-    jump deny
-ScriptError: could not find label 'deny'.
+  File "game/script.rpy", line 524, in script
+    jump stream
+ScriptError: could not find label 'stream'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 310, in script
-    jump deny
-<<<<<<< HEAD
+  File "game/script.rpy", line 524, in script
+    jump stream
   File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 1552, in execute
     rv = renpy.game.script.lookup(target)
   File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\script.py", line 861, in lookup
-=======
-  File "C:\Users\Victi\Downloads\renpy-6.99.13-sdk\renpy\ast.py", line 1552, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\Victi\Downloads\renpy-6.99.13-sdk\renpy\script.py", line 861, in lookup
->>>>>>> a2ed98cb97e8445d577bbf2f5968ace13e653a69
     raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'deny'.
+ScriptError: could not find label 'stream'.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
