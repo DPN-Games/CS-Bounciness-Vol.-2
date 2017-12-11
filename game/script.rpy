@@ -523,7 +523,7 @@ menu:
     "Stream":
         jump stream
 
-    "{i}Research{/i} Nekopara"
+    "{i}Research{/i} Nekopara":
         jump cshappyfappytime
 
 ######################################################################    
