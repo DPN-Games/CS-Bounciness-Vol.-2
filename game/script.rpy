@@ -4,6 +4,7 @@
 #define varname = Character("name")
 
 define Arceus = Character("Arceus3251")
+define ArceusJew = Character("Arceus3251")
 define Billy = Character("Billy Mays")
 define CS = Character("CS188")
 define CSPhone = Character("CS188")
@@ -51,7 +52,8 @@ image InsideHouse = "background/Inside_house.png"
 #Character images.
 #image name = "dir/file.filetype"
 
-image Arceus = "characters/Arceus3251JewishForm.png"
+image Arceus = "characters/Arceus3251.png"
+image ArceusJew = "characters/Arceus3251JewishForm.png"
 image Billy = "characters/Billy_anime.png"
 image Carguy = "characters/Carguy_anime.png"
 image Copguy = "characters/Copguy_anime.png"
@@ -365,13 +367,13 @@ CSGuard "He's a schizo and he sees money everywhere, but other than that he's fi
 
 hide CSGuard
 
-show Arceus at right
+show ArceusJew at right
 
 Arceus "Money Money Money Money Money Money Money Money Money Money"
 
 CSInsane "Great, now I have to deal with this shit"
 
-hide Arceus
+hide ArceusJew
 
 hide CSInsane
 
@@ -500,11 +502,11 @@ show bg MicroCenter
 
 CS "Ooh this one looks good, the LenOwO dQw4w9WgXcQ. It's got a Sexy T.I.T.S graphics card or I can get one with an Nvidia Jesusforce 188! And it only costs 1 Dimick donation! I gotta get this!"
 
-show Arceus at right
+show ArceusJew at right
 
-Arceus "Oh boy! Good deals, I gotta get one too!"
+ArceusJew "Oh boy! Good deals, I gotta get one too!"
 
-hide Arceus
+hide ArceusJew
 
 "CS returns home with his brand new computer"
 
