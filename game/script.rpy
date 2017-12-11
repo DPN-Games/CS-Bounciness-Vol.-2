@@ -39,6 +39,7 @@ image CarInside = "background/Car_Inside.jpg"
 image Elevator = "background/elevator.jpg"
 image Helipad = "background/Heli_pad.jpg"
 image JailCell = "background/JailCell.jpg"
+image Store = "background/microcenter.png"
 image WeddingStatue = "background/MichaelRosenBillyMaysWedding.png"
 image Office = "background/Office.jpg"
 image OfficeOutside = "background/Officeoutside.png"
@@ -47,7 +48,7 @@ image SmallHouse = "background/Smallhouse.jpg"
 image TVBilly = "background/TV_Billy.png"
 image TVBars = "background/TV_SMPTE.png"
 image BadEnd = "background/badend.png"
-image InsideHouse = "background/Inside_house.png"
+
 
 #Character images.
 #image name = "dir/file.filetype"

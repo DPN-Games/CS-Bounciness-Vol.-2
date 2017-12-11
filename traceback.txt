@@ -1,20 +1,20 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 524, in script
-    jump stream
-ScriptError: could not find label 'stream'.
+  File "game/script.rpy", line 529, in script
+    jump cshappyfappytime
+ScriptError: could not find label 'cshappyfappytime'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 524, in script
-    jump stream
+  File "game/script.rpy", line 529, in script
+    jump cshappyfappytime
   File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 1552, in execute
     rv = renpy.game.script.lookup(target)
   File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\script.py", line 861, in lookup
     raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'stream'.
+ScriptError: could not find label 'cshappyfappytime'.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
