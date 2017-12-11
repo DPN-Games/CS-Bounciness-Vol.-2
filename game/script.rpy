@@ -250,9 +250,13 @@ CS "Of course, Officer."
 jump questioning
 
 ######################################################################
-
-label jail:
-
+_   _                      
+| | | |                     
+| |_| | ___  _ __ ___   ___ 
+|  _  |/ _ \| '_ ` _ \ / _ \
+| | | | (_) | | | | | |  __/
+\_| |_/\___/|_| |_| |_|\___|
+                                                     
 ######################################################################
 
 label home:
@@ -289,6 +293,97 @@ menu:
     
         jump notsocraptop
 
+label motorolatv:
+
+show CS at left
+
+CS "I may as well watch TV and get my mind off of things..."
+
+"CS Fiddle diddles with the knobs on his Motorola TV"
+
+show TVBilly
+
+"Hi! Billy Mays here for the Noooot So Craptop, the easy way to get a better computer for FREE, that's right FREE! We can do that because this is being broudcast on analog signal from beyond the grave!"
+
+"To get this offer, you'd need an old analog tv with the capability to pick up signal from super heaven, where only Billy Mays resides! This is a pointless ad, as nobody can ever see it!"
+
+CS "Well, this is a good deal, not sure about all that stuff about interdimensional TV is about, but whatever, free computer."
+
+"CS calls the number on the screen and BIlly Mays picks up."
+
+"How did you get this number, it was only broadcast on Super Heaven TV"
+
+CS "Idfk, I just fiddle diddled with the knobs on my Motorola TV and you showed up"
+
+"Whatever, just take the computer....."
+
+CS "Sweet"
+
+jump newcomputer
+
+######################################################################
+
+label notsocraptop:
+
+show CS at left
+
+CS "I should probably go buy a new computer since HoH SiS destroyed my last one......"
+
+show CarInside
+
+"CS drives to MicroCenter to buy a new computer"
+
+show bg MicroCenter
+
+CS "Ooh this one looks good, the LenOwO dQw4w9WgXcQ. It's got a Sexy T.I.T.S graphics card or I can get one with an Nvidia Jesusforce 188! And it only costs 1 Dimick donation! I gotta get this!"
+
+show ArceusJew at right
+
+ArceusJew "Oh boy! Good deals, I gotta get one too!"
+
+hide ArceusJew
+
+"CS returns home with his brand new computer"
+
+jump newcomputer
+
+######################################################################
+
+label newcomputer:
+
+"Now that I have my new computer What should I do?"
+
+menu:
+
+    "What should I do with my new computer?"
+
+    "Stream":
+        jump stream
+
+    "{i}Research{/i} Nekopara":
+        jump cshappyfappytime
+
+######################################################################  
+#label stream:
+######################################################################
+#label cshappyfappytime:
+######################################################################  
+_   _                      
+| | | |                     
+| |_| | ___  _ __ ___   ___ 
+|  _  |/ _ \| '_ ` _ \ / _ \
+| | | | (_) | | | | | |  __/
+\_| |_/\___/|_| |_| |_|\___|
+
+######################################################################
+  ___            _                 
+ / _ \          | |                
+/ /_\ \___ _   _| |_   _ _ __ ___  
+|  _  / __| | | | | | | | '_ ` _ \ 
+| | | \__ \ |_| | | |_| | | | | | |
+\_| |_/___/\__, |_|\__,_|_| |_| |_|
+            __/ |                  
+           |___/                            
 ######################################################################
 
 label questioning:
@@ -454,79 +549,33 @@ hide Digi
 show BadEnd
 
 "{b}Digi leaves and CS is stuck in the insane asylum. Bad End{/b}"
+######################################################################
+  ___            _                 
+ / _ \          | |                
+/ /_\ \___ _   _| |_   _ _ __ ___  
+|  _  / __| | | | | | | | '_ ` _ \ 
+| | | \__ \ |_| | | |_| | | | | | |
+\_| |_/___/\__, |_|\__,_|_| |_| |_|
+            __/ |                  
+           |___/                            
+######################################################################
+   ___       _ _ 
+  |_  |     (_) |
+    | | __ _ _| |
+    | |/ _` | | |
+/\__/ / (_| | | |
+\____/ \__,_|_|_|
+
+######################################################################                 
+                 
+label jail:
 
 ######################################################################
+   ___       _ _ 
+  |_  |     (_) |
+    | | __ _ _| |
+    | |/ _` | | |
+/\__/ / (_| | | |
+\____/ \__,_|_|_|
 
-label motorolatv:
-
-show CS at left
-
-CS "I may as well watch TV and get my mind off of things..."
-
-"CS Fiddle diddles with the knobs on his Motorola TV"
-
-show TVBilly
-
-"Hi! Billy Mays here for the Noooot So Craptop, the easy way to get a better computer for FREE, that's right FREE! We can do that because this is being broudcast on analog signal from beyond the grave!"
-
-"To get this offer, you'd need an old analog tv with the capability to pick up signal from super heaven, where only Billy Mays resides! This is a pointless ad, as nobody can ever see it!"
-
-CS "Well, this is a good deal, not sure about all that stuff about interdimensional TV is about, but whatever, free computer."
-
-"CS calls the number on the screen and BIlly Mays picks up."
-
-"How did you get this number, it was only broadcast on Super Heaven TV"
-
-CS "Idfk, I just fiddle diddled with the knobs on my Motorola TV and you showed up"
-
-"Whatever, just take the computer....."
-
-CS "Sweet"
-
-
-
-jump newcomputer
-
-######################################################################
-
-label notsocraptop:
-
-show CS at left
-
-CS "I should probably go buy a new computer since HoH SiS destroyed my last one......"
-
-show CarInside
-
-"CS drives to MicroCenter to buy a new computer"
-
-show bg MicroCenter
-
-CS "Ooh this one looks good, the LenOwO dQw4w9WgXcQ. It's got a Sexy T.I.T.S graphics card or I can get one with an Nvidia Jesusforce 188! And it only costs 1 Dimick donation! I gotta get this!"
-
-show ArceusJew at right
-
-ArceusJew "Oh boy! Good deals, I gotta get one too!"
-
-hide ArceusJew
-
-"CS returns home with his brand new computer"
-
-jump newcomputer
-
-######################################################################
-
-label newcomputer:
-
-"Now that I have my new computer What should I do?"
-
-menu:
-
-    "What should I do with my new computer?"
-
-    "Stream":
-        jump stream
-
-    "{i}Research{/i} Nekopara":
-        jump cshappyfappytime
-
-######################################################################    
+######################################################################   
