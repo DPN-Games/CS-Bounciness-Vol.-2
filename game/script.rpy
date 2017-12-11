@@ -456,10 +456,74 @@ show BadEnd
 
 label motorolatv:
 
+show CS at left
 
+CS "I may as well watch TV and get my mind off of things..."
+
+"CS Fiddle diddles with the knobs on his Motorola TV"
+
+show TVBilly
+
+TVBilly "Hi! Billy Mays here for the Noooot So Craptop, the easy way to get a better computer for FREE, that's right FREE! We can do that because this is being broudcast on analog signal from beyond the grave!"
+
+TVBilly "To get this offer, you'd need an old analog tv with the capability to pick up signal from super heaven, where only Billy Mays resides! This is a pointless ad, as nobody can ever see it!"
+
+CS "Well, this is a good deal, not sure about all that stuff about interdimensional TV is about, but whatever, free computer."
+
+"CS calls the number on the screen and BIlly Mays picks up."
+
+TVBilly "How did you get this number, it was only broadcast on Super Heaven TV"
+
+CS "Idfk, I just fiddle diddled with the knobs on my Motorola TV and you showed up"
+
+TVBilly "Whatever, just take the computer....."
+
+CS "Sweet"
+
+hide TVBilly
+
+jump newcomputer
 
 ######################################################################
 
 label notsocraptop:
 
+show CS at left
+
+CS "I should probably go buy a new computer since HoH SiS destroyed my last one......"
+
+show CarInside
+
+"CS drives to MicroCenter to buy a new computer"
+
+show bg MicroCenter
+
+CS "Ooh this one looks good, the LenOwO dQw4w9WgXcQ. It's got a Sexy T.I.T.S graphics card or I can get one with an Nvidia Jesusforce 188! And it only costs 1 Dimick donation! I gotta get this!"
+
+show Arceus at right
+
+Arceus "Oh boy! Good deals, I gotta get one too!"
+
+hide Arceus
+
+"CS returns home with his brand new computer"
+
+jump newcomputer
+
 ######################################################################
+
+label newcomputer:
+
+"Now that I have my new computer What should I do?"
+
+menu:
+
+    "What should I do with my new computer?"
+
+    "Stream":
+        jump stream
+
+    "{i}Research{/i} Nekopara"
+        jump cshappyfappytime
+
+######################################################################    
