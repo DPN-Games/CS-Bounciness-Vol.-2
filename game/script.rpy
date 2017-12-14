@@ -27,6 +27,7 @@ define Pakoo = Character("Pakoo")
 define Phil = Character("Phil Swift")
 define Rich = Character("Richard")
 define Wesley = Character("Wesley")
+define James = Placeholder("boy")
 
 #Backgrounds.
 #image name = "dir/file.filetype"
@@ -364,17 +365,64 @@ menu:
         jump cshappyfappytime
 
 ######################################################################  
-#label stream:
+
+label stream:
+
+show CS at left
+
+CS "I should probably stream since it's been over a week since I've streamed"
+
+CS "Hey guys! CS here! Sorry I've been gone so long. Some crazy shit happened to me, I'm not even gonna TRY to explain it all."
+
+"Chat: Yeah, right. you just spent the week sleeping."
+
+CS "I didn't just sleep away the week! Seriously, I can't even go through the shit that happened!"
+
+"Chat: Sure....."
+
+CS "Okay, look. Why I was gone doesn't matter, Is there anything I can do as an apology CStream?"
+
+"Chat: Play Roblox! Play Roblox! Play Roblox! Play Roblox! Play Roblox!"
+
+CS "Well, I agreed to a apology CStream......"
+
+CS "Okay, but only once!"
+
+"{i}James and Matt show up to the CStream{/i}"
+
+CS "Holy shit! Both founders in my stream at once?! Has this ever happened to any Mixer streamer before?"
+
+James "Well, when I saw your Roblox stream I had to watch and it was so funny that I had to get Matt."
+
+CS "Wow! I'm honored you think my stream is that funny!"
+
+James "That's not all, Matt and I have decided to make you the Mixer Super Partner"
+
+CS "What's a super partner? I've never heard of that before"
+
+James "You've never heard of it because it's exclusive to you. You get to choose between half of all of Mixer's profits or renaming Mixer back to Beam."
+
+menu:
+    
+    "Which option do you want?"
+
+    "Half of Mixer's Profits":
+        jump profits 
+
+    "Rename Mixer to Beam":
+        jump rename
 ######################################################################
 #label cshappyfappytime:
 ######################################################################  
-#_   _                      
+# _   _                      
 #| | | |                     
 #| |_| | ___  _ __ ___   ___ 
 #|  _  |/ _ \| '_ ` _ \ / _ \
 #| | | | (_) | | | | | |  __/
 #\_| |_/\___/|_| |_| |_|\___|
 #
+######################################################################
+
 ######################################################################
 #  ___            _                 
 # / _ \          | |                
@@ -397,15 +445,15 @@ show Copguy at right
 Copguy "So what did you see?"
 
 menu:
-     "What did you see?"
+ "What did you see?"
 
-     "I used YTP Magic":
+ "I used YTP Magic":
 
-         jump admit
+     jump admit
 
-     "He was crazy":
+ "He was crazy":
 
-         jump deny
+     jump deny
 
 ######################################################################
 
@@ -488,19 +536,19 @@ CSInsane "Since you're the owner, you’ll be able to let me out! Please let me 
 Digi "Alright, give me something I want and I’ll let you go."
 
 menu:
-         "What should you bribe Digi with?"
+     "What should you bribe Digi with?"
 
-         "Powerade.":
+     "Powerade.":
 
-             jump powerade
+         jump powerade
 
-         "Insulin.":
+     "Insulin.":
 
-             jump insulin
+         jump insulin
 
-         "Promise to be on time for streams.":
-             
-             jump ontime
+     "Promise to be on time for streams.":
+         
+         jump ontime
 
 ######################################################################
 
@@ -558,6 +606,8 @@ show BadEnd
 #\_| |_/___/\__, |_|\__,_|_| |_| |_|
 #            __/ |                  
 #           |___/                            
+######################################################################
+
 ######################################################################
 #   ___       _ _ 
 #  |_  |     (_) |
