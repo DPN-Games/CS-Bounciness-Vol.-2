@@ -40,6 +40,9 @@ image CarInside = "background/Car_Inside.jpg"
 image Elevator = "background/elevator.jpg"
 image Helipad = "background/Heli_pad.jpg"
 image JailCell = "background/JailCell.jpg"
+image Nekopara = "background/Laptop_nekopara.png"
+image Roblox = "background/Laptop_roblox.png"
+image Stream = "background/Laptop_stream.png"
 image Store = "background/microcenter.png"
 image WeddingStatue = "background/MichaelRosenBillyMaysWedding.png"
 image Office = "background/Office.jpg"
@@ -388,6 +391,8 @@ CS "Well, I agreed to a apology CStream......"
 
 CS "Okay, but only once!"
 
+show Roblox
+
 "{i}James and Matt show up to the CStream{/i}"
 
 CS "Holy shit! Both founders in my stream at once?! Has this ever happened to any Mixer streamer before?"
@@ -412,7 +417,62 @@ menu:
     "Rename Mixer to Beam":
         jump rename
 ######################################################################
-#label cshappyfappytime:
+
+label cshappyfappytime:
+
+show Nekopara
+
+show CS at left
+
+CS "Well, I mean I was kinda getting hard for Chocola, and Pakoo always does it everyday…"
+
+CS "As long as he doesn’t find out about it, then I don’t have to worry."
+
+"{i}opens an extra tab up and types in Porno.com{/i}"
+
+CS "This is a site your dad will love!"
+
+CS "Now let’s see, “Chocola in heat”? Oh yes, this is gonna be good!"
+
+CS "Ooooooh…… "
+
+CS "Oh yes yes yes yes yes yes yes yes! Yes yes yes yes yes yes! (CS rave)"
+
+"{i}CS shoots his “True Jizz Water” all over his screen{/i}"
+
+"{i}then notices that he left OBS open and was still streaming{/i}"
+
+CS "OH S#*#@*#@*!!!!!!"
+
+"{i} CS tries to stop the stream and close the tab still playing the hentai, but his computer freezes.{/i}"
+
+CS "DAMNIT!!! Now I will get my partnership taken away, and everyone will know that I fapped to this!"
+
+"{i}Just as CS is going to delete his Mixer account, he sees the founder, James.{/i}"
+
+"{i}James and Matt show up to the CStream{/i}"
+
+CS "Holy shit! Both founders in my stream at once?! Has this ever happened to any Mixer streamer before?"
+
+James "Well, when I saw your neko hentai stream I had to watch and it was so sexy that I had to get Matt."
+
+CS "Wow! I'm honored you think my stream is that sexy!"
+
+James "That's not all, Matt and I have decided to make you the Mixer Super Partner"
+
+CS "What's a super partner? I've never heard of that before"
+
+James "You've never heard of it because it's exclusive to you. You get to choose between half of all of Mixer's profits or renaming Mixer back to Beam."
+
+menu:
+    
+    "Which option do you want?"
+
+    "Half of Mixer's Profits":
+        jump profits 
+
+    "Rename Mixer to Beam":
+        jump rename
 ######################################################################  
 # _   _                      
 #| | | |                     

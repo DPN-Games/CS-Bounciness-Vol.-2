@@ -1,20 +1,18 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 529, in script
-    jump cshappyfappytime
-ScriptError: could not find label 'cshappyfappytime'.
+  File "game/script.rpy", line 395, in script
+    James "Well, when I saw your Roblox stream I had to watch and it was so funny that I had to get Matt."
+Exception: Sayer James is not a function or string.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 529, in script
-    jump cshappyfappytime
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 1552, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\script.py", line 861, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'cshappyfappytime'.
+  File "game/script.rpy", line 395, in script
+    James "Well, when I saw your Roblox stream I had to watch and it was so funny that I had to get Matt."
+  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 603, in execute
+    raise Exception("Sayer %s is not a function or string." % self.who.encode("utf-8"))
+Exception: Sayer James is not a function or string.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919

@@ -1,4 +1,4 @@
-Sun Dec 10 22:05:36 2017
+Wed Dec 13 23:34:41 2017
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
  
@@ -6,29 +6,29 @@ Ren'Py 6.99.13.2919
 Bootstrap to the start of init.init took 0.07s
 Early init took 0.00s
 Loader init took 0.03s
-Loading error handling took 0.02s
-Loading script took 0.16s
+Loading error handling took 0.03s
+Loading script took 0.20s
 Loading persistent took 0.02s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.08s
-Loading analysis data took 0.04s
+Running init code took 0.09s
+Loading analysis data took 0.05s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Xander\\AppData\\Roaming/RenPy/backups\\CS-Bounciness-Vol.-2':
-Dump and make backups. took 0.05s
+Dump and make backups. took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 DPI scale factor: 1.000000
-Creating interface object took 0.06s
+Creating interface object took 0.07s
 Cleaning stores took 0.00s
-Init translation took 0.03s
+Init translation took 0.04s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.06s
-Prepare screens took 0.04s
+Prepare screens took 0.05s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
+Save bytecode. took 0.04s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.01s
@@ -273,33 +273,64 @@ Texture testing:
 - 1024px textures work.
 - 2048px textures work.
 controller: '78696e70757401000000000000000000' 'XInput Controller' 1L
-Total time until interface ready: 1.10299992561s
+Total time until interface ready: 1.39400005341s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.021000 seconds.
-- Frame drawn at 0.035000 seconds.
-- Frame drawn at 0.053000 seconds.
-- Frame drawn at 0.067000 seconds.
-- 0.067000 seconds to render 5 frames.
+- Frame drawn at 0.020000 seconds.
+- Frame drawn at 0.034000 seconds.
+- Frame drawn at 0.048000 seconds.
+- Frame drawn at 0.062000 seconds.
+- 0.062000 seconds to render 5 frames.
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.01s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.14s
+Build styles took 0.01s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.15s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.15s
+Build styles took 0.02s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.20s
+Build styles took 0.02s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
 
 Full traceback:
-  File "game/script.rpy", line 529, in script
-    jump cshappyfappytime
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 1552, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\script.py", line 861, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'cshappyfappytime'.
+  File "game/script.rpy", line 395, in script
+    James "Well, when I saw your Roblox stream I had to watch and it was so funny that I had to get Matt."
+  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 603, in execute
+    raise Exception("Sayer %s is not a function or string." % self.who.encode("utf-8"))
+Exception: Sayer James is not a function or string.
 
 While running game code:
-  File "game/script.rpy", line 529, in script
-    jump cshappyfappytime
-ScriptError: could not find label 'cshappyfappytime'.
+  File "game/script.rpy", line 395, in script
+    James "Well, when I saw your Roblox stream I had to watch and it was so funny that I had to get Matt."
+Exception: Sayer James is not a function or string.
 Traceback (most recent call last):
   File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\execution.py", line 468, in run
     node.execute()
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 1552, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\script.py", line 861, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'cshappyfappytime'.
+  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 603, in execute
+    raise Exception("Sayer %s is not a function or string." % self.who.encode("utf-8"))
+Exception: Sayer James is not a function or string.
