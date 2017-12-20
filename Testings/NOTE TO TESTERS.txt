@@ -1,0 +1,9 @@
+Hello, thank you for testing CSBounciness Vol. 2
+
+Please create a folder named as the date of the test in the format MM-DD-YYYY
+followed by your username and "Test" (Ex. 12-20-2017 Arceus Test)
+
+This way we can document errors and keep track of it chronologically, most likely will be
+deleted before the game is released.
+
+Other than that, enjoy your test.

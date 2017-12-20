@@ -1,0 +1,61 @@
+---Opening Remarks---
+First of all before I begin this test, I gotta say. I WILL make careless mistakes and comments, It's 5:30 AM
+Kill me
+
+Anyways.
+
+... And I gotta install Ren'Py on my desktop XD Oh mAaaaan
+
+Alrighty, first up, we need a background graphic for the title screen, but aethstetics ( How the fuck do you spell this? ) Come last, of course: *reviews updates*
+
+
+--- Finding Jail Route---
+If I can remember how I get to it xD
+I kicked Wesley off the building, I assume we're implementing that mp4 I made eventually? XD
+
+o-o" Uh..
+
+Screenshotting that.. Take a look at it when y'all get the chance
+
+(Couldn't find it) Basically, inside house is now a character XD in the play through, so. Take what you will
+
+"Whatever just take the computer" Doesn't have a name defined, if anything, put "Sales Person" or something
+
+"Now I need to definetly delete my account" Then the game crashes.. 
+
+---Finding Jail Route 2---
+So that wasn't the jail route XD
+
+Okay, I think chopping was it..
+Maybe put in the slap chop? x3
+
+Mmm
+My character isn't on screen in the cell for the Jail (Arceus3251)
+I believe there's an extra space between the ? in "cop" and the "I" in "I'm"
+
+"Wanna break out? 3"
+
+I may have mispelt "pleanty" in the script.. Hold on.. Lemme consult a dictionary.. *off mic* HEY CORTANA..
+Nope
+
+"Annorexorcist-something" I think it should be "Anno-something"
+
+"Blush Thank you".. Cs Said Blush Thank you XD
+
+Im pretty sure the background was supposed to change a while ago, Im at the border and Im still looking at a jail cell..
+
+Im just assuming that only the story has been written out to the most part. No assets have been implemented, so. Yeah.
+
+FatherDigBick isn't in Red, or at the top of the box for the first thing he says.
+
+---Other Playthroughs---
+Microcenter hasn't been implemented
+
+Background still hasn't changed when I went to stream, still on the broken Microcenter..
+
+Chat should be also Red and at the top of the text box (3x)
+
+"Has this ever happened to anyone on stream before?" And the game crashes.
+
+---Closing Remarks---
+That's all the testing I've got time for, just a few errors I saw, pretty minor. Anyways, have fun with that.
