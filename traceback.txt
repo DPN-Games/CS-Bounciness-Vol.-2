@@ -1,18 +1,20 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 400, in script
-    James "Well, when I saw your Roblox stream I had to watch and it was so funny that I had to get Matt."
-Exception: Sayer James is not a function or string.
+  File "game/script.rpy", line 706, in script
+    Policeman "So?"
+Exception: Sayer 'Policeman' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 400, in script
-    James "Well, when I saw your Roblox stream I had to watch and it was so funny that I had to get Matt."
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 603, in execute
-    raise Exception("Sayer %s is not a function or string." % self.who.encode("utf-8"))
-Exception: Sayer James is not a function or string.
+  File "game/script.rpy", line 706, in script
+    Policeman "So?"
+  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 596, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 509, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'Policeman' is not defined.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
