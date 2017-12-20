@@ -7,7 +7,7 @@ define Annorexorcist = Character("Annorexorcist")
 define Arceus = Character("Arceus3251")
 define ArceusJew = Character("Arceus3251")
 define Billy = Character("Billy Mays")
-define BorderGuard = Character("Border Guard")
+define BorderGuard = Character("BorderGuard")
 define CS = Character("CS188")
 define CSPhone = Character("CS188")
 define CSInsane = Character("CS188")
@@ -824,9 +824,9 @@ jump bordercrossing
 label bordercrossing:
 "{i}CS, Annorexorcist and Arceus get to the border crossing{/i}"
 "{i}A border guard appears{/i}"
-Border Guard "I’m going to need proof of citizenship, eh."
+BorderGuard "I’m going to need proof of citizenship, eh."
 Arceus "Color is spelled with a u, eh."
-Border Guard "Works for me, eh."
+BorderGuard "Works for me, eh."
 CS "Now that we’re over the border and can breathe easy, I wanted to ask you something Annorexorcist."
 Annorexorcist "Yeah?"
 CS "You made a couple passes at me on the trip here, was there anything behind that or were you joking around?"
