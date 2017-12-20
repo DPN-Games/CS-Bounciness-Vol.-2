@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 526: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "{i}Research{/i} Nekopara"
-                              ^
+File "game/script.rpy", line 749: expected statement.
+    Anno begins to stare longingly at CS….
+                                   ^
 
 Ren'Py Version: Ren'Py 6.99.13.2919
