@@ -3,6 +3,7 @@
 #Characters.
 #define varname = Character("name")
 
+define Annorexorcist = Character("Annorexorcist")
 define Arceus = Character("Arceus3251")
 define ArceusJew = Character("Arceus3251")
 define Billy = Character("Billy Mays")
@@ -57,6 +58,7 @@ image BadEnd = "background/badend.png"
 #Character images.
 #image name = "dir/file.filetype"
 
+image Annorexorcist = "characters/Anno.png"
 image Arceus = "characters/Arceus3251.png"
 image ArceusJew = "characters/Arceus3251JewishForm.png"
 image Billy = "characters/Billy_anime.png"
