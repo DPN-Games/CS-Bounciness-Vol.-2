@@ -80,7 +80,7 @@ image CSGuard = "characters/CSgod-ocola.png"
 image Discord = "characters/discord.png"
 image Digi = "characters/DuncanBig.png"
 image Ed = "characters/Ed.png"
-image FatherDigBick = "characters/Digbick.png"
+image FatherDigBick = "characters/DFigbick.png"
 image Grrx = "characters/GrrxWorker.png"
 image JoJUFO = "characters/jojufo.png"
 image Linus = "characters/Linus.png"
@@ -501,7 +501,7 @@ CS "Well of course I'm gonna go with the money, I can finally quit my shitty par
 
 James "Okay, I'll transfer the first of the money to your account now"
 
-
+return
 ######################################################################  
 # _   _                      
 #| | | |                     
@@ -703,7 +703,7 @@ show BadEnd
 
 "{b}Digi leaves and CS is stuck in the insane asylum. Bad End{/b}"
 
-##Game goes to jail text here, put code to return to menu
+return
 
 ######################################################################
 #  ___            _                 
@@ -869,6 +869,7 @@ FatherDigBick "And do you, NAME REDACTED, take Annorexorcist, to be your lawfull
 CS "I do."
 "{b}{i}True End CS marries Annorexorcist and lives in Canada working for LMG{/i}{/b}"
 
+return
 ######################################################################
 #   ___       _ _ 
 #  |_  |     (_) |
