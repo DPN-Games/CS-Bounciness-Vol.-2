@@ -561,6 +561,22 @@ Copguy "Sure ya did....."
 jump asylum
 
 ######################################################################
+label deny:
+
+show Interrogation
+
+show CS at left
+
+show Copguy at right
+
+Copguy "So what did you see?"
+
+CS "I don't know what happened! I just came to get a refund and he started shooting"
+
+Copguy "Okay, I'm sorry you had to go through that sir."
+
+jump home
+######################################################################
 
 label asylum:
 
@@ -678,6 +694,9 @@ hide Digi
 show BadEnd
 
 "{b}Digi leaves and CS is stuck in the insane asylum. Bad End{/b}"
+
+##Game goes to jail text here, put code to return to menu
+
 ######################################################################
 #  ___            _                 
 # / _ \          | |                
@@ -701,11 +720,13 @@ show BadEnd
                  
 label jail:
 
+show JailCell
+
 Copguy "Alright, welcome to the slammer. How tough are ya?"
 CS "How tough am I?! How, tough, am, I?! I beat Cuphead!"
-Policeman "So?"
+Copguy "So?"
 CS "In under 90 minutes!"
-Policeman "Okay! You’re tough enough to get your choice of cellmate, which one do you want?"
+Copguy "Okay! You’re tough enough to get your choice of cellmate, which one do you want?"
 
 menu:
 
@@ -719,7 +740,7 @@ menu:
 
 label arceuscellmate:
 CS "I choose Arceus."
-Police Officer "Alright, but be warned. This person was arrested for cutting a tax collector with his nose."
+Copguy "Alright, but be warned. This person was arrested for cutting a tax collector with his nose."
 CS "Alrighty then…."
 CS "Hello, Arceus."
 Arceus "Aye, Boss. .w."
@@ -727,36 +748,36 @@ CS "So what are you in for?"
 Arceus "Didn’t you hear the cop? \ I’m in for cutting a tax collector with my nose."
 CS "Well, I can see how. Your nose IS big enough."
 Arceus "And from my recent playthrough of CSBounciness 1, I assume you’re in for killing workers at HoHSiS"
-CS "I was 100% Unsatisfied."
+CS "I was 100% unsatisfied."
 Arceus "As was I.. As was I.."
 "{i}A brief moment of silence..{/i}"
 Arceus "Welp, I’m bored of this place… Wanna break out? 3"
 CS "Eh.. Sure, why not, I’ve played plenty of the Escapists, I should be able to figure it out."
 CS "We should break out at least one other person though."
 Arceus "Alright, who do ya wanna break out..?"
-CS "Let’s just break out that guy next to us, I think his name was Anno-something…."
+CS "Let’s just break out that guy next to us, I think his name was Annorexorcist-something…."
 Arceus "Annorexorcist? Eh… He’s a bit of a stick in the mud, but sure. He may be of use to us."
 CS "Alright then, let’s get going!"
 jump breakout
 
 label annorexorcellmate:
 CS "I choose Annorexorcist"
-Policeman "Okay" 
+Copguy "Okay" 
 CS "Hey Annorexorcist."
-Anno "Hey"
+Annorexorcist "Hey"
 CS "So what’re you in for?"
-Anno "..."
-"{i}Anno begins to stare longingly at CS…{/i}"
+Annorexorcist "..."
+"{i}Annorexorcist begins to stare longingly at CS…{/i}"
 CS "Well, you don’t talk much do you?"
-Anno "Huh, sorry, I got lost in thought"
+Annorexorcist "Huh, sorry, I got lost in thought"
 CS "About what?"
-Anno "Breaking out of here."
+Annorexorcist "Breaking out of here."
 CS "Wow, Am I that bad of a cellmate that you want to breakout as soon as I get here?"
-Anno "No, I’ve been working with the prisoner in the next cell, Arceus, to breakout for 5 years now."
+Annorexorcist "No, I’ve been working with the prisoner in the next cell, Arceus, to breakout for 5 years now."
 CS "Wow, can I come with?"
-Anno "Only if you can figure out a way to escape, we’ve had no success, as you can tell given that we’re still here."
+Annorexorcist "Only if you can figure out a way to escape, we’ve had no success, as you can tell given that we’re still here."
 CS "I think I have some ideas, I’ve played a LOT of the escapists."
-Anno "Works for me, let’s do this"
+Annorexorcist "Works for me, let’s do this"
 jump breakout
 
 
@@ -802,20 +823,20 @@ label bordercrossing:
 Border Guard "I’m going to need proof of citizenship, eh."
 Arceus "Color is spelled with a u, eh."
 Border Guard "Works for me, eh."
-CS "Now that we’re over the border and can breathe easy, I wanted to ask you something Anno."
-Anno "Yeah?"
+CS "Now that we’re over the border and can breathe easy, I wanted to ask you something Annorexorcist."
+Annorexorcist "Yeah?"
 CS "You made a couple passes at me on the trip here, was there anything behind that or were you joking around?"
-Anno "Which one would you prefer?"
+Annorexorcist "Which one would you prefer?"
 CS "The former, I mean, I’ve been single for a while I’ll take what I can get."
-Anno "Well, I suppose I have good news for you then…."
+Annorexorcist "Well, I suppose I have good news for you then…."
 Arceus "Are you lovebirds hungry? I’m gonna stop for food at Tim Horton’s."
-"{i}At the Tim Horton’s, Anno and CS share a donut and make out{/i}"
+"{i}At the Tim Horton’s, Annorexorcist and CS share a donut and make out{/i}"
 CS "Wow, that was great!"
-"{i}Anno blushes{/i}"
-Anno "Thanks…."
+"{i}Annorexorcist blushes{/i}"
+Annorexorcist "Thanks…."
 CS "Oh, I was talking about the donut but the kiss was good too."
 CS "About 88 percent as good as the donut."
-Anno "I’ll take it."
+Annorexorcist "I’ll take it."
 Arceus "Sorry to interrupt you two, but we may have a problem, that donut cost me the last of my money, so we need to find a way to make some cash."
 "{i}CS looks across the street to see Linus Media Group{/i}"
 CS "I have a lot of video editing experience, maybe I can get a job there."
@@ -824,21 +845,21 @@ Linus "Sure, you can have a job, just show us proof of citizenship and you’re 
 CS "Color is spelled with a u, eh."
 Linus "I need actual papers, the last time I hired someone who used that as proof of citizenship I got fined and had to sell one of my 1000s of GTX Titans."
 CS "Ummmm, I’ll be right back."
-"{i}CS leaves and talks to Anno{/i}"
+"{i}CS leaves and talks to Annorexorcist{/i}"
 CS "I need to get proof of citizenship, or at least fake proof of citizenship before I can get a joj here."
-"{i}Anno gets an idea and begins to blush{/i}"
-Anno "Trudeau is trying to make Canada more diverse by letting gay married couples get citizenship, we just have to get married and then you can work here."
+"{i}Annorexorcist gets an idea and begins to blush{/i}"
+Annorexorcist "Trudeau is trying to make Canada more diverse by letting gay married couples get citizenship, we just have to get married and then you can work here."
 CS "We don’t have money to get married!"
-Anno "We can have a cheap wedding at one of your Canadian fan’s houses."
+Annorexorcist "We can have a cheap wedding at one of your Canadian fan’s houses."
 CS "Well, I know Nova lives around here, so we can have the wedding at his house."
 jump wedding
 
 label wedding:
 "FatherDigBick “Do you, Annorexorcist, take [NAME REDACTED] to be your lawfully wedded husband?"
-Anno "I do."
+Annorexorcist "I do."
 FatherDigBick "And do you, [NAME REDACTED], take Annorexorcist, to be your lawfully wedded husband?"
 CS "I do."
-"{b}{i}True End CS marries Anno and lives in Canada working for LMG{/i}{/b}"
+"{b}{i}True End CS marries Annorexorcist and lives in Canada working for LMG{/i}{/b}"
 
 ######################################################################
 #   ___       _ _ 
