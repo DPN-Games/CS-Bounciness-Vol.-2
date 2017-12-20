@@ -440,25 +440,33 @@ CS "Oh yes yes yes yes yes yes yes yes! Yes yes yes yes yes yes! (CS rave)"
 
 "{i}CS shoots his “True Jizz Water” all over his screen{/i}"
 
-"{i}then notices that he left OBS open and was still streaming{/i}"
+"{i}then notices that he left OBS open and was streaming{/i}"
 
-CS "OH S#*#@*#@*!!!!!!"
+CS "OH SHIT!!!!!!"
 
 "{i} CS tries to stop the stream and close the tab still playing the hentai, but his computer freezes.{/i}"
 
 CS "DAMNIT!!! Now I will get my partnership taken away, and everyone will know that I fapped to this!"
 
-"{i}Just as CS is going to delete his Mixer account, he sees the founder, James.{/i}"
+"{i}Just as CS is going to delete his Mixer account, he sees the founders, James and Matt.{/i}"
 
 "{i}James and Matt show up to the CStream{/i}"
 
-CS "Holy shit! Both founders in my stream at once?! Has this ever happened to any Mixer streamer before?"
+CS "Holy shit! Both founders saw me accidentally fapping on stream! Now I definitely need to delete my account?"
 
-James "Well, when I saw your neko hentai stream I had to watch and it was so sexy that I had to get Matt."
+James "Don't be so quick to act, CS"
 
-CS "Wow! I'm honored you think my stream is that sexy!"
+CS "What do you mean, I'm in violation of like every rule in the TOS right now"
 
-James "That's not all, Matt and I have decided to make you the Mixer Super Partner"
+James "That's true, but you've introduced me to a whole new world."
+
+CS "You mean you never heard of Nekopara before?"
+
+James "Nope! I just found out about it and my eyes have been opened, so I decided to reward you."
+
+CS "Reward me? What do you mean?"
+
+James "I've decided to make you a super partner!"
 
 CS "What's a super partner? I've never heard of that before"
 
@@ -473,6 +481,17 @@ menu:
 
     "Rename Mixer to Beam":
         jump rename
+
+######################################################################
+label profits:
+
+show CS at left
+
+show Stream
+
+
+
+
 ######################################################################  
 # _   _                      
 #| | | |                     
