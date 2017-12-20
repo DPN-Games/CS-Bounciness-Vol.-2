@@ -678,6 +678,9 @@ hide Digi
 show BadEnd
 
 "{b}Digi leaves and CS is stuck in the insane asylum. Bad End{/b}"
+
+##Game goes to jail text here, put code to return to menu
+
 ######################################################################
 #  ___            _                 
 # / _ \          | |                
@@ -701,11 +704,13 @@ show BadEnd
                  
 label jail:
 
+show JailCell
+
 Copguy "Alright, welcome to the slammer. How tough are ya?"
 CS "How tough am I?! How, tough, am, I?! I beat Cuphead!"
-Policeman "So?"
+Copguy "So?"
 CS "In under 90 minutes!"
-Policeman "Okay! You’re tough enough to get your choice of cellmate, which one do you want?"
+Copguy "Okay! You’re tough enough to get your choice of cellmate, which one do you want?"
 
 menu:
 
@@ -719,7 +724,7 @@ menu:
 
 label arceuscellmate:
 CS "I choose Arceus."
-Police Officer "Alright, but be warned. This person was arrested for cutting a tax collector with his nose."
+Copguy "Alright, but be warned. This person was arrested for cutting a tax collector with his nose."
 CS "Alrighty then…."
 CS "Hello, Arceus."
 Arceus "Aye, Boss. .w."
@@ -741,7 +746,7 @@ jump breakout
 
 label annorexorcellmate:
 CS "I choose Annorexorcist"
-Policeman "Okay" 
+Copguy "Okay" 
 CS "Hey Annorexorcist."
 Anno "Hey"
 CS "So what’re you in for?"
