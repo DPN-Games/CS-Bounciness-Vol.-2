@@ -1,20 +1,20 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 706, in script
-    Policeman "So?"
-Exception: Sayer 'Policeman' is not defined.
+  File "game/script.rpy", line 825, in script
+    Border Guard "I’m going to need proof of citizenship, eh."
+Exception: Sayer 'Border' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 706, in script
-    Policeman "So?"
+  File "game/script.rpy", line 825, in script
+    Border Guard "I’m going to need proof of citizenship, eh."
   File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 596, in execute
     who = eval_who(self.who, self.who_fast)
   File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 509, in eval_who
     raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
-Exception: Sayer 'Policeman' is not defined.
+Exception: Sayer 'Border' is not defined.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
