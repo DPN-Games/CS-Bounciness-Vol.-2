@@ -1063,14 +1063,14 @@ jump wedding
 
 label wedding:
 show WeddingScene
-show Cshocola left
-show Annorexorcist right
-show FatherDigBick center
+show CS at left
+show Annorexorcist at right
+show FatherDigBick at center
 FatherDigBick "Do you, Annorexorcist, take NAME REDACTED to be your lawfully wedded husband?"
 Annorexorcist "I do."
 FatherDigBick "And do you, NAME REDACTED, take Annorexorcist, to be your lawfully wedded husband?"
 CS "I do."
-hide Cshocola
+hide CS
 hide Annorexorcist
 hide FatherDigBick
 "{b}{i}True End CS marries Annorexorcist and lives in Canada working for LMG{/i}{/b}"
