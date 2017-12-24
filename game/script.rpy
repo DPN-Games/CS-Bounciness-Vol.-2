@@ -28,7 +28,7 @@ define JoJUFO = Character("JoJ UFO")
 define Linus = Character("Linus")
 define Michael = Character("Michael")
 define Pakoo = Character("Pakoo")
-define Phil = Character("Phil Swift")
+define Phil = Character("Philsuki")
 define Rich = Character("Richard")
 define Wesley = Character("Wesley")
 define James = Character("James")
@@ -700,12 +700,16 @@ DigBick "Okay, that's a weird order, how big do you want it?"
 CS "As big as you can go!"
 
 DigBick "I'll get right on it!"
+
 hide Digbick
 
 return
 
 ######################################################################  
 label world:
+hide Stream
+hide CS
+show InsideHouse
 show CS at left
 CS "Well, I've always thought that rich people should spend their money on improving the world, so now that I'm rich I should do that!"
 CS "But how should I improve the world?....."
@@ -721,8 +725,10 @@ CS "Oh? I could've sworn."
 Pakoo "Nope! Not at all!"
 CS "In any case.. Do you think you could assist me in researching the creation of the Neko race?"
 "{i}The line goes quiet{/i}"
+
+
 show Pakoo at right
-"Pakoo appears from nowhere"
+"{i}Pakoo appears from nowhere{/i}"
 Pakoo "Sunny D! Alright! Let's do this!"
 CS "How the hell did you find my house?!"
 Pakoo "Traced your call. Anyways, you have the cash?"
@@ -735,9 +741,17 @@ CS "You were on the Stream when I got super partnership."
 Pakoo "You kidding me? I had you in the background, I was busy creating a fan-made game called CS Bounciness Volume 2."
 CS "That's… oddly specific."
 Pakoo "Yeah.. Anyways, let me take you to my lab."
+hide insidehouse
+hide CS
+hide Pakoo
+show Genetics
+show CS at left
+show Pakoo at right
 "{i}Pakoo takes CS to his Neko Genetics Research Lab after a bit of.. shopping{/i}"
 CS "Nice lab you got here."
 Pakoo "It's about to get even better. Stand back." 
+hide CS
+hide Pakoo
 "{i}CS stands back and Pakoo begins installing the various gadgets and gizmos that were purchased on their shopping trip{/i}"
 CS "Are you sure this will work?"
 Pakoo "Nope! But It's not my money!"
@@ -746,25 +760,33 @@ CS "Well, dammit"
 CS "Umm…"
 Pakoo "Almost there.."
 "{i} The machine begins to slow down to a halt, followed by a pleasant ding from a bell {/i}"
+show CS at left
 CS "Well.. now I know what the bell we bought was for.."
+show Pakoo at right
 Pakoo "What? Aesthetics Matter. I was gonna go for RGB RAM, but…. that was a bit expensive."
 CS "So.. Did it work?"
+hide CS
+hide Pakoo
 show Phil at right
-Philsuki "IT EVEN WORKS UNDERWATER!"
+Phil "IT EVEN WORKS UNDERWATER!"
 "{i}CS jumps{/i}"
 CS "Holy shit! What the hell are you?!"
-show Pakoo at right
+show Pakoo at left
 Pakoo "dammit.. that Neko isn't complete.. It's got a penis."
+hide Phil
+show CS at right
 CS "So?"
 Pakoo "Well, it's meant to be a CatGIRL, not Catguy."
+hide Pakoo
+hide CS
 show Phil at right
 Philsuki "FLEX TAPE IS STUPID!"
-show Pakoo at right
+show Pakoo at left
 Pakoo "Yeah, so are you, back in the machine."
 hide Phil
 hide Pakoo
 "{i}Pakoo shoves Philsuki back into the machine{/i}"
-Philsuki "I SAWED THIS BOAT IN HA-"
+Phil "I SAWED THIS BOAT IN HA-"
 "{i}His screams are drowned out by the machine{/i}"
 show Pakoo at right
 Pakoo "Lemme fix some stuff…."
@@ -772,17 +794,23 @@ hide Pakoo
 "{i}Pakoo fiddles around in the back of the machine{/i}"
 Pakoo "You know what, I think I know what the problem is!"
 "{i}Pakoo ignores CS’ questions and goes out shopping again{/i}"
+show Pakoo at left
 Pakoo "I got the RGB!"
+show CS at right
 CS "I thought you said it was too expensive?"
 Pakoo "It is a scientific fact, that you cannot achieve performance without…"
 Pakoo "Mucho RGB!"
 CS "So will it work now?"
 Pakoo "Probably."
+hide CS
+hide Pakoo
 "{i}Pakoo turns on the machine again{/i}"
+show Vanilla at right
 Vanilla "Master!"
+show CS at left
 "{i}Vanilla runs up to CS{/i}"
 CS "Well, I wanted Chocola, but Vanilla is good too."
-
+return
 ######################################################################  
 # _   _                      
 #| | | |                     
