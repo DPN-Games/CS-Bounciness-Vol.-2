@@ -37,6 +37,7 @@ define Kicking = Movie("Kick")
 define TVBilly = Character("TVBilly")
 define Chat = Character("Chat")
 define DigBick = Character("DigBick")
+define Cashier = Character("Kashier")
 
 #Backgrounds.
 #image name = "dir/file.filetype"
@@ -110,6 +111,7 @@ image Vanilla = "characters/vanilla_shush.png"
 image James = "characters/James.png"
 image Chat = "characters/Chat.png"
 image DigBick = "characters/Digbick.png"
+image Cashier = "characters/Kashier.png"
 
 # The game starts here.
 label start:
@@ -427,6 +429,12 @@ show ArceusJew at right
 ArceusJew "Oh boy! Good deals, I gotta get one too!"
 
 hide ArceusJew
+
+Show Cashier at right
+
+Cashier "That will be $19.95."
+
+hide Cashier
 
 hide CS
 
