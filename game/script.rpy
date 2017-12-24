@@ -322,13 +322,13 @@ CS "I may as well watch TV and get my mind off of things..."
 
 show TVBilly
 
-"Hi! Billy Mays here for the Noooot So Craptop, the easy way to get a better computer for FREE, that's right FREE! We can do that because this is being broudcast on analog signal from beyond the grave!"
+"Hi! Billy Mays here for the Noooot So Craptop, the easy way to get a better computer for FREE, that's right FREE! We can do that because this is being broadcast on analog signal from beyond the grave!"
 
-"To get this offer, you'd need an old analog tv with the capability to pick up signal from super heaven, where only Billy Mays resides! This is a pointless ad, as nobody can ever see it!"
+"To get this offer, you'd need an old analog TV with the capability to pick up signal from super heaven, where only Billy Mays resides! This is a pointless ad, as nobody can ever see it!"
 
 CS "Well, this is a good deal, not sure about all that stuff about interdimensional TV is about, but whatever, free computer."
 
-"CS calls the number on the screen and BIlly Mays picks up."
+"CS calls the number on the screen and Billy Mays picks up."
 
 "How did you get this number, it was only broadcast on Super Heaven TV"
 
@@ -441,13 +441,13 @@ show CS at left
 
 CS "Well, I mean I was kinda getting hard for Chocola, and Pakoo always does it everyday…"
 
-CS "As long as he doesn’t find out about it, then I don’t have to worry."
+CS "As long as he doesn't find out about it, then I don't have to worry."
 
 "{i}opens an extra tab up and types in Porno.com{/i}"
 
 CS "This is a site your dad will love!"
 
-CS "Now let’s see, Chocola in heat? Oh yes, this is gonna be good!"
+CS "Now let's see, Chocola in heat? Oh yes, this is gonna be good!"
 
 CS "Ooooooh…… "
 
@@ -461,7 +461,7 @@ CS "OH SHIT!!!!!!"
 
 "{i} CS tries to stop the stream and close the tab still playing the hentai, but his computer freezes.{/i}"
 
-CS "DAMNIT!!! Now I will get my partnership taken away, and everyone will know that I fapped to this!"
+CS "FUCK!!! Now I will get my partnership taken away, and everyone will know that I fapped to this!"
 
 "{i}Just as CS is going to delete his Mixer account, he sees the founders, James and Matt.{/i}"
 
@@ -507,7 +507,7 @@ show Stream
 
 CS "I'll rename Mixer back to Beam!"
 
-James "Are you sure you don’t have anything better you can do?"
+James "Are you sure you don't have anything better you can do?"
 
 CS "Yep, I wanna rename Mixer back to Beam!"
 
@@ -519,7 +519,7 @@ James "Not long at all actually, I have a program on my desktop to change Mixer 
 
 CS "Why do you have that?!"
 
-James "Don’t question me!"
+James "Don't question me!"
 
 CS "Okay."
 
@@ -552,13 +552,13 @@ label statue:
 
 show CS at left
 
-CS "I made this community on top of YTP’s, so maybe I should honor the source of my newfound riches."
+CS "I made this community on top of YTP's, so maybe I should honor the source of my newfound riches."
 
 "{i}CS sets out to build statues of Billy Mays and Michael Rosen{/i}"
 
-CS "This company looks good, Dig Bick’s Building Co."
+CS "This company looks good, Dig Bick's Building Co."
 
-"{i}CS goes to Dig Bick Building Co’s HQ{/i}"
+"{i}CS goes to Dig Bick Building Co's HQ{/i}"
 
 show OfficeOutside
 show Digbick at center
@@ -567,11 +567,11 @@ DigBick "Welcome! What would you like today?"
 
 CS "I want to to build a custom statue of Billy Mays and Michael Rosen getting married."
 
-DigBick "Okay, that’s a weird order, how big do you want it?"
+DigBick "Okay, that's a weird order, how big do you want it?"
 
 CS "As big as you can go!"
 
-DigBick "I’ll get right on it!"
+DigBick "I'll get right on it!"
 hide Digbick
 
 return
@@ -579,23 +579,23 @@ return
 ######################################################################  
 label world:
 show CS at left
-CS "Well, I’ve always thought that rich people should spend their money on improving the world, so now that I’m rich I should do that!"
+CS "Well, I've always thought that rich people should spend their money on improving the world, so now that I'm rich I should do that!"
 CS "But how should I improve the world?....."
 CS "I could help people with medical expenses, but I already did that with the charity stream…."
-CS "I know, I’ll make the ultimate contribution to the human race! Create real life Neko girls!"
+CS "I know, I'll make the ultimate contribution to the human race! Create real life Neko girls!"
 "{i}CS researches labs he can hire to make real life neko girls{/i}"
-CS "Ooh! This one looks good, Pakoo the Pervert’s Genetics Lab." 
-"{i}CS picks up the phone and calls Pakoo’s the Pervert’s Genetics Lab{/i}"
-Pakoo "Pakoo the Pervert’s Genetics Lab, Dr. Pakoo speaking!"
+CS "Ooh! This one looks good, Pakoo the Pervert's Genetics Lab." 
+"{i}CS picks up the phone and calls Pakoo's the Pervert's Genetics Lab{/i}"
+Pakoo "Pakoo the Pervert's Genetics Lab, Dr. Pakoo speaking!"
 CS "Wait.. You sound awfully like Pakoo from my stream…"
-Pakoo "Huh? I don’t believe we’ve met before?"
-CS "Oh? I could’ve sworn."
+Pakoo "Huh? I don't believe we've met before?"
+CS "Oh? I could've sworn."
 Pakoo "Nope! Not at all!"
 CS "In any case.. Do you think you could assist me in researching the creation of the Neko race?"
 "{i}The line goes quiet{/i}"
 show Pakoo at right
 "Pakoo appears from nowhere"
-Pakoo "Sunny D! Alright! Let’s do this!"
+Pakoo "Sunny D! Alright! Let's do this!"
 CS "How the hell did you find my house?!"
 Pakoo "Traced your call. Anyways, you have the cash?"
 CS "That depends, do you have the talent." 
@@ -605,19 +605,19 @@ CS "I think this will be more than enough to support this cause."
 Pakoo "Holy shit, how did you come up with all this money?!"
 CS "You were on the Stream when I got super partnership."
 Pakoo "You kidding me? I had you in the background, I was busy creating a fan-made game called CS Bounciness Volume 2."
-CS "That’s… oddly specific."
+CS "That's… oddly specific."
 Pakoo "Yeah.. Anyways, let me take you to my lab."
 "{i}Pakoo takes CS to his Neko Genetics Research Lab after a bit of.. shopping{/i}"
 CS "Nice lab you got here."
-Pakoo "It’s about to get even better. Stand back." 
+Pakoo "It's about to get even better. Stand back." 
 "{i}CS stands back and Pakoo begins installing the various gadgets and gizmos that were purchased on their shopping trip{/i}"
 CS "Are you sure this will work?"
-Pakoo "Nope! But It’s not my money!"
-CS "Well, damnit"
+Pakoo "Nope! But It's not my money!"
+CS "Well, dammit"
 "{i}Pakoo flips a switch, various machines begin to start up and whir{/i}"
-CS "Uhm…"
+CS "Umm…"
 Pakoo "Almost there.."
-"{i} The machine begins to slow down to a halt, followed by a pleasent ding from a bell {/i}"
+"{i} The machine begins to slow down to a halt, followed by a pleasant ding from a bell {/i}"
 CS "Well.. now I know what the bell we bought was for.."
 Pakoo "What? Aesthetics Matter. I was gonna go for RGB RAM, but…. that was a bit expensive."
 CS "So.. Did it work?"
@@ -626,9 +626,9 @@ Philsuki "IT EVEN WORKS UNDERWATER!"
 "{i}CS jumps{/i}"
 CS "Holy shit! What the hell are you?!"
 show Pakoo at right
-Pakoo "Damnit.. that Neko isn’t complete.. It’s got a penis."
+Pakoo "dammit.. that Neko isn't complete.. It's got a penis."
 CS "So?"
-Pakoo "Well, it’s meant to be a CatGIRL, not Catguy."
+Pakoo "Well, it's meant to be a CatGIRL, not Catguy."
 show Phil at right
 Philsuki "FLEX TAPE IS STUPID!"
 show Pakoo at right
@@ -761,7 +761,7 @@ show CSInsane at left
 
 CSInsane "Have you come to let me out?"
 
-CSGuard "I already told you, I can’t let you out. I came because we have an overflow of patients right now" 
+CSGuard "I already told you, I can't let you out. I came because we have an overflow of patients right now" 
 
 CSGuard "Due to lack of space, we need to pair you with one of our less dangerous patients."
 
@@ -789,9 +789,9 @@ CSInsane "You don't look like just a guard... Are you the owner?"
 
 Digi "Indeed I am, I've come to get your cellmate here. One of the patients killed a guard, and the other guards had to take him down. So now we have an open cell and a staff shortage, hence why I'm getting him myself."
 
-CSInsane "Since you're the owner, you’ll be able to let me out! Please let me out I’m not insane!"
+CSInsane "Since you're the owner, you'll be able to let me out! Please let me out I'm not insane!"
 
-Digi "Alright, give me something I want and I’ll let you go."
+Digi "Alright, give me something I want and I'll let you go."
 
 menu:
      "What should you bribe Digi with?"
@@ -887,7 +887,7 @@ Copguy "Alright, welcome to the slammer. How tough are ya?"
 CS "How tough am I?! How, tough, am, I?! I beat Cuphead!"
 Copguy "So?"
 CS "In under 90 minutes!"
-Copguy "Okay! You’re tough enough to get your choice of cellmate, which one do you want?"
+Copguy "Okay! You're tough enough to get your choice of cellmate, which one do you want?"
 menu:
 
      "Who do you want for your cellmate?"
@@ -907,19 +907,19 @@ CS "Hello, Arceus."
 show Arceus at right
 Arceus "Aye, Boss. .w."
 CS "So what are you in for?"
-Arceus "Didn’t you hear the cop? \ I’m in for cutting a tax collector with my nose."
+Arceus "Didn't you hear the cop? \ I'm in for cutting a tax collector with my nose."
 CS "Well, I can see how. Your nose IS big enough."
-Arceus "And from my recent playthrough of CSBounciness 1, I assume you’re in for killing workers at HoHSiS"
+Arceus "And from my recent playthrough of CSBounciness 1, I assume you're in for killing workers at HoHSiS"
 CS "I was 100 percent unsatisfied."
 Arceus "As was I.. As was I.."
 "{i}A brief moment of silence..{/i}"
-Arceus "Welp, I’m bored of this place… Wanna break out? :3"
-CS "Eh.. Sure, why not, I’ve played plenty of the Escapists, I should be able to figure it out."
+Arceus "Welp, I'm bored of this place… Wanna break out? :3"
+CS "Eh.. Sure, why not, I've played plenty of the Escapists, I should be able to figure it out."
 CS "We should break out at least one other person though."
 Arceus "Alright, who do ya wanna break out..?"
-CS "Let’s just break out that guy next to us, I think his name was Annorexorcist-something…."
-Arceus "Annorexorcist? Eh… He’s a bit of a stick in the mud, but sure. He may be of use to us."
-CS "Alright then, let’s get going!"
+CS "Let's just break out that guy next to us, I think his name was Annorexorcist-something…."
+Arceus "Annorexorcist? Eh… He's a bit of a stick in the mud, but sure. He may be of use to us."
+CS "Alright then, let's get going!"
 hide Arceus
 jump breakout
 
@@ -929,34 +929,34 @@ Copguy "Okay"
 CS "Hey Annorexorcist."
 show Annorexorcist at right
 Annorexorcist "Hey"
-CS "So what’re you in for?"
+CS "So what're you in for?"
 Annorexorcist "..."
 "{i}Annorexorcist begins to stare longingly at CS…{/i}"
-CS "Well, you don’t talk much do you?"
+CS "Well, you don't talk much do you?"
 Annorexorcist "Huh, sorry, I got lost in thought"
 CS "About what?"
 Annorexorcist "Breaking out of here."
 CS "Wow, Am I that bad of a cellmate that you want to breakout as soon as I get here?"
-Annorexorcist "No, I’ve been working with the prisoner in the next cell, Arceus, to breakout for 5 years now."
+Annorexorcist "No, I've been working with the prisoner in the next cell, Arceus, to breakout for 5 years now."
 CS "Wow, can I come with?"
-Annorexorcist "Only if you can figure out a way to escape, we’ve had no success, as you can tell given that we’re still here."
-CS "I think I have some ideas, I’ve played a LOT of the escapists."
-Annorexorcist "Works for me, let’s do this"
+Annorexorcist "Only if you can figure out a way to escape, we've had no success, as you can tell given that we're still here."
+CS "I think I have some ideas, I've played a LOT of the escapists."
+Annorexorcist "Works for me, let's do this"
 hide Annorexorcist
 jump breakout
 
 
 label breakout:
 show Arceus at right
-Arceus "So, what’s the plan? I’ve been tryna break outta here for 5 Years"
+Arceus "So, what's the plan? I've been tryna break outta here for 5 Years"
 CS "Well, for a start. I need to get a feel of the routine here"
-Arceus "Well, I’ll quickly describe that for you, cause I can’t stand another minute here." 
+Arceus "Well, I'll quickly describe that for you, cause I can't stand another minute here." 
 "{i}Arceus quickly describes the prison routine to CS{/i}"
 CS "I think I got all that."
-Arceus "So, what’s our plan, Boss?"
+Arceus "So, what's our plan, Boss?"
 CS "I gotta grab a few plastic spoons from the mess hall, Cup of molten chocolate, a guard outfit, and a change of shorts."
 Arceus "Why a change of shorts?"
-CS "You kidding me? I’m gonna shit myself cause this is scary as hell."
+CS "You kidding me? I'm gonna shit myself cause this is scary as hell."
 Arceus "Fair enough."
 hide Arceus
 "{i}The day ends, the next day progresses, CS and Arceus gather the required essentials for their escape. Along the way, they inform Annorexorcist, who more than happily complies with the plan.{/i}" 
@@ -968,11 +968,11 @@ show Annorexorcist at left
 Annorexorcist "Spoons, Check."
 CS "Extra Shorts."
 CS "Check."
-CS "Alright men, let’s get the heck out of here!"
+CS "Alright men, let's get the heck out of here!"
 hide Arceus
 hide Annorexorcist
 "{i}The plan goes off without a hitch, the three ditch their Prison Outfits, and put on their guard uniforms.{/i}" 
-"{i}In the midst of them changing, Annorexorcist notices CS’s butt and compliments it.{/i}"
+"{i}In the midst of them changing, Annorexorcist notices CS's butt and compliments it.{/i}"
 show Annorexorcist at right
 Annorexorcist "CS.. Nice Ass.."
 CS "Thank you."
@@ -981,15 +981,15 @@ Arceus "Save it for later, love birds."
 hide Arceus
 hide Annorexorcist
 "{i}The Three dig their way out of the cell and make a break into the dark of the evening.{/i}"
-CS "Jeez.. I didn’t think that would actually work."
+CS "Jeez.. I didn't think that would actually work."
 show Arceus at right
 Arceus "You what?" 
 show Annorexorcist at left
 Annorexorcist "Hey, CS.. You looked sexy runnin’ outta that prison.."
 CS "{i}Blush{/i}  Thank you.."
-Arceus "Guys, save this for when we’re all safe, we need to get a car and get over the border."
+Arceus "Guys, save this for when we're all safe, we need to get a car and get over the border."
 Annorexorcist "How are we supposed to cross the border with the new wall?"
-Arceus "Not the Mexican border, the Canadian border, we’re in New York, it’s way closer and they’re too polite to send us back."
+Arceus "Not the Mexican border, the Canadian border, we're in New York, it's way closer and they're too polite to send us back."
 CS "Works for me, free healthcare."
 Arceus "Well, you have to live there for a few years before you get access to that, but you should last a few years without getting sick living on that healthy diet of Ritz and EZ cheese."
 hide Arceus
@@ -1002,27 +1002,27 @@ show Border
 "{i}CS, Annorexorcist and Arceus get to the border crossing{/i}"
 "{i}A border guard appears{/i}"
 show BorderGuard at center
-BorderGuard "I’m going to need proof of citizenship, eh."
+BorderGuard "I'm going to need proof of citizenship, eh."
 show Arceus at right
 Arceus "Color is spelled with a u, eh."
 BorderGuard "Works for me, eh."
 hide BorderGuard
 hide Arceus
-CS "Now that we’re over the border and can breathe easy, I wanted to ask you something Annorexorcist."
+CS "Now that we're over the border and can breathe easy, I wanted to ask you something Annorexorcist."
 show Annorexorcist at center
 Annorexorcist "Yeah?"
 CS "You made a couple passes at me on the trip here, was there anything behind that or were you joking around?"
 Annorexorcist "Which one would you prefer?"
-CS "The former, I mean, I’ve been single for a while I’ll take what I can get."
+CS "The former, I mean, I've been single for a while I'll take what I can get."
 Annorexorcist "Well, I suppose I have good news for you then…."
 hide Annorexorcist
 show Annorexorcist at left
 show Arceus at right
-Arceus "Are you lovebirds hungry? I’m gonna stop for food at Tim Horton’s."
+Arceus "Are you lovebirds hungry? I'm gonna stop for food at Tim Horton's."
 hide Arceus
 hide Annorexorcist
 show OutsideHortons
-"{i}At the Tim Horton’s, Annorexorcist and CS share a donut and make out{/i}"
+"{i}At the Tim Horton's, Annorexorcist and CS share a donut and make out{/i}"
 show InsideHortons
 CS "Wow, that was great!"
 "{i}Annorexorcist blushes{/i}"
@@ -1030,7 +1030,7 @@ show Annorexorcist at center
 Annorexorcist "Thanks…."
 CS "Oh, I was talking about the donut but the kiss was good too."
 CS "About 88 percent as good as the donut."
-Annorexorcist "I’ll take it."
+Annorexorcist "I'll take it."
 hide Annorexorcist
 show Annorexorcist at left
 show Arceus at right
@@ -1042,10 +1042,10 @@ CS "I have a lot of video editing experience, maybe I can get a job there."
 "{i}CS walks into the studio and asks for a job{/i}"
 show LinusOffice
 show Linus at center
-Linus "Sure, you can have a job, just show us proof of citizenship and you’re ready to go!"
+Linus "Sure, you can have a job, just show us proof of citizenship and you're ready to go!"
 CS "Color is spelled with a u, eh."
 Linus "I need actual papers, the last time I hired someone who used that as proof of citizenship I got fined and had to sell one of my 1000s of GTX Titans."
-CS "Ummmm, I’ll be right back."
+CS "Ummmm, I'll be right back."
 hide Linus
 hide LinusOffice
 "{i}CS leaves and talks to Annorexorcist{/i}"
@@ -1054,8 +1054,8 @@ show Annorexorcist at center
 CS "I need to get proof of citizenship, or at least fake proof of citizenship before I can get a joj here."
 "{i}Annorexorcist gets an idea and begins to blush{/i}"
 Annorexorcist "Trudeau is trying to make Canada more diverse by letting gay married couples get citizenship, we just have to get married and then you can work here."
-CS "We don’t have money to get married!"
-Annorexorcist "We can have a cheap wedding at one of your Canadian fan’s houses."
+CS "We don't have money to get married!"
+Annorexorcist "We can have a cheap wedding at one of your Canadian fan's houses."
 CS "Well, I know Nova lives around here, so we can have the wedding at his house."
 hide Annorexorcist
 hide InsideHortons
