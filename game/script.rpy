@@ -62,6 +62,7 @@ image LinusOffice = "background/the-linus-group-office.jpg"
 image InsideHortons = "background/inside-tim-hortons.jpg"
 image Genetics = "background/Genetics.jpg"
 image Border = "background/CanadianBorder.jpg"
+image WeddingScene = "background/Wedding.jpg"
 
 #Character images.
 #image name = "dir/file.filetype"
@@ -996,6 +997,7 @@ hide Annorexorcist
 jump bordercrossing
 
 label bordercrossing:
+show Border
 "{i}CS, Annorexorcist and Arceus get to the border crossing{/i}"
 "{i}A border guard appears{/i}"
 show BorderGuard at center
@@ -1018,7 +1020,9 @@ show Arceus at right
 Arceus "Are you lovebirds hungry? I’m gonna stop for food at Tim Horton’s."
 hide Arceus
 hide Annorexorcist
+show OutsideHortons
 "{i}At the Tim Horton’s, Annorexorcist and CS share a donut and make out{/i}"
+show InsideHortons
 CS "Wow, that was great!"
 "{i}Annorexorcist blushes{/i}"
 show Annorexorcist at center
@@ -1035,6 +1039,7 @@ hide Arceus
 hide Annorexorcist
 CS "I have a lot of video editing experience, maybe I can get a job there."
 "{i}CS walks into the studio and asks for a job{/i}"
+show LinusOffice
 show Linus at center
 Linus "Sure, you can have a job, just show us proof of citizenship and you’re ready to go!"
 CS "Color is spelled with a u, eh."
@@ -1042,6 +1047,7 @@ Linus "I need actual papers, the last time I hired someone who used that as proo
 CS "Ummmm, I’ll be right back."
 hide Linus
 "{i}CS leaves and talks to Annorexorcist{/i}"
+show InsideHortons
 show Annorexorcist at center
 CS "I need to get proof of citizenship, or at least fake proof of citizenship before I can get a joj here."
 "{i}Annorexorcist gets an idea and begins to blush{/i}"
@@ -1053,6 +1059,7 @@ hide Annorexorcist
 jump wedding
 
 label wedding:
+show WeddingScene
 show Cshocola left
 show Annorexorcist right
 show FatherDigBick center
@@ -1060,6 +1067,9 @@ FatherDigBick "Do you, Annorexorcist, take NAME REDACTED to be your lawfully wed
 Annorexorcist "I do."
 FatherDigBick "And do you, NAME REDACTED, take Annorexorcist, to be your lawfully wedded husband?"
 CS "I do."
+hide Cshocola
+hide Annorexorcist
+hide FatherDigBick
 "{b}{i}True End CS marries Annorexorcist and lives in Canada working for LMG{/i}{/b}"
 
 return
