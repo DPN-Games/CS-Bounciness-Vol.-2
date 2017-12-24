@@ -142,7 +142,7 @@ menu:
 
             jump chop
 
-        "Use Kick (BROKEN)":
+        "Use Kick":
             jump kick
         
         "Use Special":
@@ -246,8 +246,15 @@ jump jail
 label kick:
     play movie "movies/kick.ogv" loop
     hide movie with dissolve
-    stop movie
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+stop movie
 
+hide Wesley
 
 show Helipad
 
