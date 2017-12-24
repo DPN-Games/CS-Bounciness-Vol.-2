@@ -140,7 +140,7 @@ menu:
 
             jump chop
 
-        "Use Kick":
+        "Use Kick (BROKEN)":
             jump kick
         
         "Use Special":
