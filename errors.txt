@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 39: expected '=' not found.
-    define DigBick
-                  ^
+File "game/script.rpy", line 245: could not parse statement.
+    play movie "movies/kick.ogv" loop=1
+                                     ^
 
 Ren'Py Version: Ren'Py 6.99.13.2919
