@@ -34,6 +34,8 @@ define Wesley = Character("Wesley")
 define James = Character("James")
 define Vanilla = Character("Vanilla")
 define Kicking = Movie("Kick")
+define TVBilly = Character("TVBilly")
+define Chat = Character("Chat")
 
 #Backgrounds.
 #image name = "dir/file.filetype"
@@ -105,6 +107,8 @@ image Rich = "characters/Richard.png"
 image Wesley = "characters/wesley-chan.png"
 image Vanilla = "characters/vanilla_shush.png"
 image James = "characters/James.png"
+image Chat = "characters/Chat.png"
+image TVBilly = "characters/TVBilly.png"
 
 # The game starts here.
 label start:
@@ -176,6 +180,8 @@ CS "You can't catch me, I'm the speedy Michael Rosen!"
 
 "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
 
+hide CS
+
 hide Copguy
 
 hide Helipad
@@ -224,6 +230,12 @@ CS "You can't catch me, I'm the speedy Michael Rosen"
 
 "{i}As CS is not actually the speedy Michael Rosen, he gets caught by the police{/i}"
 
+hide Helipad
+
+hide CS
+
+hide Copguy
+
 jump jail
 
 ######################################################################
@@ -243,6 +255,10 @@ show Helipad
 show CS at left
 
 CS "Well, that was satisfying. Time to go home!"
+
+hide CS
+
+hide Helipad
 
 jump home
 
@@ -279,6 +295,12 @@ Copguy "Sir, would you come with us? We'll need you to ask you a few questions"
 
 CS "Of course, Officer."
 
+hide Office
+
+hide CS
+
+hide Copguy
+
 jump questioning
 
 ######################################################################
@@ -299,6 +321,8 @@ show CS at left
 
 CS "Ahh almost home"
 
+hide CarInside
+
 show SmallHouse
 
 "{i}CS comes home to find his house drastically smaller.{/i}"
@@ -309,9 +333,13 @@ CS "Whatever, at least I'm finally home...."
 
 "CS goes inside"
 
+hide SmallHouse
+
 show InsideHouse
 
 CS "Man, I need to relax after that shit, what should I do?"
+
+hide CS
 
 menu:
     
@@ -333,23 +361,27 @@ CS "I may as well watch TV and get my mind off of things..."
 
 "CS Fiddle diddles with the knobs on his Motorola TV"
 
+hide CS
+
 show TVBilly
 
-"Hi! Billy Mays here for the Noooot So Craptop, the easy way to get a better computer for FREE, that's right FREE! We can do that because this is being broadcast on analog signal from beyond the grave!"
+TVBilly "Hi! Billy Mays here for the Noooot So Craptop, the easy way to get a better computer for FREE, that's right FREE! We can do that because this is being broadcast on analog signal from beyond the grave!"
 
-"To get this offer, you'd need an old analog TV with the capability to pick up signal from super heaven, where only Billy Mays resides! This is a pointless ad, as nobody can ever see it!"
+TVBilly "To get this offer, you'd need an old analog TV with the capability to pick up signal from super heaven, where only Billy Mays resides! This is a pointless ad, as nobody can ever see it!"
 
 CS "Well, this is a good deal, not sure about all that stuff about interdimensional TV is about, but whatever, free computer."
 
-"CS calls the number on the screen and Billy Mays picks up."
+"{i}CS calls the number on the screen and Billy Mays picks up.{/i}"
 
-"How did you get this number, it was only broadcast on Super Heaven TV"
+TVBilly "How did you get this number, it was only broadcast on Super Heaven TV"
 
 CS "Idfk, I just fiddle diddled with the knobs on my Motorola TV and you showed up"
 
-"Whatever, just take the computer....."
+TVBilly "Whatever, just take the computer....."
 
 CS "Sweet"
+
+hide TVBilly
 
 jump newcomputer
 
@@ -361,9 +393,13 @@ show CS at left
 
 CS "I should probably go buy a new computer since HoH SiS destroyed my last one......"
 
+hide InsideHouse
+
 show CarInside
 
 "CS drives to MicroCenter to buy a new computer"
+
+hide CarInside
 
 show MicroCenter
 
@@ -375,13 +411,19 @@ ArceusJew "Oh boy! Good deals, I gotta get one too!"
 
 hide ArceusJew
 
-"CS returns home with his brand new computer"
+hide CS
+
+"{i}CS returns home with his brand new computer{/i}"
+
+hide MicroCenter
 
 jump newcomputer
 
 ######################################################################
 
 label newcomputer:
+
+show InsideHouse
 
 "Now that I have my new computer What should I do?"
 
@@ -401,6 +443,8 @@ label stream:
 
 show CS at left
 
+show Stream
+
 CS "I should probably stream since it's been over a week since I've streamed"
 
 CS "Hey guys! CS here! Sorry I've been gone so long. Some crazy shit happened to me, I'm not even gonna TRY to explain it all."
@@ -419,11 +463,15 @@ CS "Well, I agreed to a apology CStream......"
 
 CS "Okay, but only once!"
 
+hide Stream
+
 show Roblox
 
 "{i}James and Matt show up to the CStream{/i}"
 
 CS "Holy shit! Both founders in my stream at once?! Has this ever happened to any Mixer streamer before?"
+
+show James at center
 
 James "Well, when I saw your Roblox stream I had to watch and it was so funny that I had to get Matt."
 
@@ -1037,6 +1085,7 @@ hide Arceus
 hide Annorexorcist
 show OutsideHortons
 "{i}At the Tim Horton's, Annorexorcist and CS share a donut and make out{/i}"
+hide OutsideHortons
 show InsideHortons
 CS "Wow, that was great!"
 "{i}Annorexorcist blushes{/i}"
