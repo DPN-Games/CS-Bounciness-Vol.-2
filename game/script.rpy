@@ -140,7 +140,7 @@ menu:
 
             jump chop
 
-        "Use Kick":
+        "Use Kick (BROKEN)":
             jump kick
         
         "Use Special":
@@ -781,7 +781,7 @@ Pakoo "Well, it's meant to be a CatGIRL, not Catguy."
 hide Pakoo
 hide CS
 show Phil at right
-Philsuki "FLEX TAPE IS STUPID!"
+Phil "FLEX TAPE IS STUPID!"
 show Pakoo at left
 Pakoo "Yeah, so are you, back in the machine."
 hide Phil
