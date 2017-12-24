@@ -775,7 +775,7 @@ CS "Holy shit! What the hell are you?!"
 show Pakoo at left
 Pakoo "dammit.. that Neko isn't complete.. It's got a penis."
 hide Phil
-show CS at right
+show CS at left
 CS "So?"
 Pakoo "Well, it's meant to be a CatGIRL, not Catguy."
 hide Pakoo
@@ -797,7 +797,7 @@ Pakoo "You know what, I think I know what the problem is!"
 "{i}Pakoo ignores CS’ questions and goes out shopping again{/i}"
 show Pakoo at left
 Pakoo "I got the RGB!"
-show CS at right
+show CS at left
 CS "I thought you said it was too expensive?"
 Pakoo "It is a scientific fact, that you cannot achieve performance without…"
 Pakoo "Mucho RGB!"
