@@ -552,6 +552,8 @@ hide InsideHouse
 
 show Nekopara
 
+show CS at left
+
 CS "Ooooooh…… "
 
 CS "Oh yes yes yes yes yes yes yes yes! Yes yes yes yes yes yes! (CS rave)"
@@ -637,6 +639,8 @@ CS "Why do you have that?!"
 James "Don't question me!"
 
 CS "Okay."
+
+"{b}Good End: CS is hailed as a hero for getting Mixer renamed to Beam. He becomes the most popular streamer on Beam and is able to live off of the donations{/b}"
 
 return
 
