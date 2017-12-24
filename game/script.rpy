@@ -56,7 +56,11 @@ image SmallHouse = "background/Smallhouse.jpg"
 image TVBilly = "background/TV_Billy.png"
 image TVBars = "background/TV_SMPTE.png"
 image BadEnd = "background/badend.png"
-
+image OutsideHortons = "background/OutsideHortons.jpg"
+image LinusOffice = "background/the-linus-group-office.jpg" 
+image InsideHortons = "background/inside-tim-hortons.jpg"
+image Genetics = "background/Genetics.jpg"
+image Border = "background/CanadianBorder.jpg"
 
 #Character images.
 #image name = "dir/file.filetype"
@@ -80,7 +84,7 @@ image CSGuard = "characters/CSgod-ocola.png"
 image Discord = "characters/discord.png"
 image Digi = "characters/DuncanBig.png"
 image Ed = "characters/Ed.png"
-image FatherDigBick = "characters/DFigbick.png"
+image FatherDigBick = "characters/Digbick.png"
 image Grrx = "characters/GrrxWorker.png"
 image JoJUFO = "characters/jojufo.png"
 image Linus = "characters/Linus.png"
@@ -988,7 +992,7 @@ jump bordercrossing
 label bordercrossing:
 "{i}CS, Annorexorcist and Arceus get to the border crossing{/i}"
 "{i}A border guard appears{/i}"
-show border guard at center
+show BorderGuard at center
 BorderGuard "I’m going to need proof of citizenship, eh."
 show Arceus at right
 Arceus "Color is spelled with a u, eh."

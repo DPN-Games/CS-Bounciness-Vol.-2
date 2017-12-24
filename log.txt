@@ -1,40 +1,41 @@
-Sat Dec 23 18:46:44 2017
+Sat Dec 23 19:00:36 2017
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
  
 
-Bootstrap to the start of init.init took 0.18s
+Bootstrap to the start of init.init took 0.14s
 Early init took 0.01s
-Loader init took 0.04s
+Loader init took 0.05s
 Loading error handling took 0.03s
-Loading script took 0.14s
+Loading script took 0.52s
 Loading persistent took 0.03s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.16s
-Loading analysis data took 0.09s
+Running init code took 0.15s
+Loading analysis data took 0.05s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Arceus3251\\AppData\\Roaming/RenPy/backups\\CS-Bounciness-Vol.-2':
 Dump and make backups. took 0.11s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 DPI scale factor: 1.000000
-Creating interface object took 1.47s
+Creating interface object took 1.55s
 Cleaning stores took 0.00s
 Init translation took 0.06s
 Build styles took 0.01s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.08s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.11s
+Prepare screens took 0.09s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.06s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.01s
 
 primary display bounds: (0, 0, 1920, 1080)
 Windowed mode.
-Screen sizes: virtual=(1280, 720) physical=(1705, 959) drawable=(1705, 959)
+Screen sizes: virtual=(1280, 720) physical=(1488, 837) drawable=(1488, 837)
 Vendor: 'ATI Technologies Inc.'
 Renderer: 'Radeon (TM) RX 480 Graphics'
 Version: '4.5.13492 Compatibility Profile Context 22.19.677.257'
@@ -344,15 +345,145 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 3.31999993324s
+Total time until interface ready: 3.90300011635s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
 - Frame drawn at 0.012000 seconds.
-- Frame drawn at 0.025000 seconds.
+- Frame drawn at 0.026000 seconds.
 - Frame drawn at 0.041000 seconds.
-- Frame drawn at 0.058000 seconds.
-- 0.058000 seconds to render 5 frames.
+- Frame drawn at 0.069000 seconds.
+- 0.069000 seconds to render 5 frames.
 
-primary display bounds: (0, 0, 1920, 1080)
-Windowed mode.
-Screen sizes: virtual=(1280, 720) physical=(1600, 837) drawable=(1600, 837)
+Full traceback:
+  File "game/script.rpy", line 1049, in script
+    FatherDigBick "Do you, Annorexorcist, take NAME REDACTED to be your lawfully wedded husband?"
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\ast.py", line 624, in execute
+    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\exports.py", line 1173, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\character.py", line 911, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\character.py", line 747, in do_display
+    **display_args)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\character.py", line 523, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\ui.py", line 287, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\core.py", line 2553, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\core.py", line 2916, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\core.py", line 1980, in draw_screen
+    renpy.config.screen_height,
+  File "renpy/display/render.pyx", line 430, in renpy.display.render.render_screen (gen\renpy.display.render.c:6938)
+    rv = render(root, width, height, 0, 0)
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\layout.py", line 702, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\layout.py", line 702, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\layout.py", line 702, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
+    rv = d.render(widtho, heighto, st, at)
+  File "renpy/display/accelerator.pyx", line 108, in renpy.display.accelerator.transform_render (gen\renpy.display.accelerator.c:2047)
+    cr = render(child, widtho, heighto, st - self.child_st_base, at)
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\image.py", line 392, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\image.py", line 213, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\im.py", line 503, in render
+    texture = cache.get(self, texture=True)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\im.py", line 212, in get
+    surf = image.load()
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\im.py", line 553, in load
+    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\loader.py", line 548, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'characters/DFigbick.png'.
+
+While loading <'Image' u'characters/DFigbick.png'>:
+  File "game/script.rpy", line 1049, in script
+    FatherDigBick "Do you, Annorexorcist, take NAME REDACTED to be your lawfully wedded husband?"
+IOError: Couldn't find file 'characters/DFigbick.png'.
+Traceback (most recent call last):
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\execution.py", line 468, in run
+    node.execute()
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\ast.py", line 624, in execute
+    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\exports.py", line 1173, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\character.py", line 911, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\character.py", line 747, in do_display
+    **display_args)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\character.py", line 523, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\ui.py", line 287, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\core.py", line 2553, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\core.py", line 2916, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\core.py", line 1980, in draw_screen
+    renpy.config.screen_height,
+  File "renpy/display/render.pyx", line 430, in renpy.display.render.render_screen (gen\renpy.display.render.c:6938)
+    rv = render(root, width, height, 0, 0)
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\layout.py", line 702, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\layout.py", line 702, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\layout.py", line 702, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
+    rv = d.render(widtho, heighto, st, at)
+  File "renpy/display/accelerator.pyx", line 108, in renpy.display.accelerator.transform_render (gen\renpy.display.accelerator.c:2047)
+    cr = render(child, widtho, heighto, st - self.child_st_base, at)
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\image.py", line 392, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\image.py", line 213, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\im.py", line 503, in render
+    texture = cache.get(self, texture=True)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\im.py", line 212, in get
+    surf = image.load()
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\im.py", line 553, in load
+    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\loader.py", line 548, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'characters/DFigbick.png'.

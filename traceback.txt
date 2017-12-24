@@ -1,20 +1,76 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script.rpy", line 825, in script
-    Border Guard "I’m going to need proof of citizenship, eh."
-Exception: Sayer 'Border' is not defined.
+While loading <'Image' u'characters/DFigbick.png'>:
+  File "game/script.rpy", line 1049, in script
+    FatherDigBick "Do you, Annorexorcist, take NAME REDACTED to be your lawfully wedded husband?"
+IOError: Couldn't find file 'characters/DFigbick.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 825, in script
-    Border Guard "I’m going to need proof of citizenship, eh."
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 596, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 509, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
-Exception: Sayer 'Border' is not defined.
+  File "game/script.rpy", line 1049, in script
+    FatherDigBick "Do you, Annorexorcist, take NAME REDACTED to be your lawfully wedded husband?"
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\ast.py", line 624, in execute
+    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\exports.py", line 1173, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\character.py", line 911, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\character.py", line 747, in do_display
+    **display_args)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\character.py", line 523, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\ui.py", line 287, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\core.py", line 2553, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\core.py", line 2916, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\core.py", line 1980, in draw_screen
+    renpy.config.screen_height,
+  File "renpy/display/render.pyx", line 430, in renpy.display.render.render_screen (gen\renpy.display.render.c:6938)
+    rv = render(root, width, height, 0, 0)
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\layout.py", line 702, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\layout.py", line 702, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\layout.py", line 702, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
+    rv = d.render(widtho, heighto, st, at)
+  File "renpy/display/accelerator.pyx", line 108, in renpy.display.accelerator.transform_render (gen\renpy.display.accelerator.c:2047)
+    cr = render(child, widtho, heighto, st - self.child_st_base, at)
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\image.py", line 392, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\image.py", line 213, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
+    rv = d.render(widtho, heighto, st, at)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\im.py", line 503, in render
+    texture = cache.get(self, texture=True)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\im.py", line 212, in get
+    surf = image.load()
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\im.py", line 553, in load
+    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\loader.py", line 548, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'characters/DFigbick.png'.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
