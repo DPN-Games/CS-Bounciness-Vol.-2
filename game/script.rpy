@@ -453,6 +453,8 @@ show CS at left
 
 "Now that I have my new computer What should I do?"
 
+hide CS
+
 menu:
 
     "What should I do with my new computer?"
@@ -467,8 +469,6 @@ menu:
 
 label stream:
 
-show CS at left
-
 show Stream
 
 CS "I should probably stream since it's been over a week since I've streamed"
@@ -479,11 +479,11 @@ CS "Hey guys! CS here! Sorry I've been gone so long. Some crazy shit happened to
 
 CS "I didn't just sleep away the week! Seriously, I can't even go through the shit that happened!"
 
-"Chat Sure....."
+Chat "Sure....."
 
 CS "Okay, look. Why I was gone doesn't matter, Is there anything I can do as an apology CStream?"
 
-"Chat Play Roblox! Play Roblox! Play Roblox! Play Roblox! Play Roblox!"
+Chat "Play Roblox! Play Roblox! Play Roblox! Play Roblox! Play Roblox!"
 
 CS "Well, I agreed to a apology CStream......"
 
@@ -497,7 +497,7 @@ show Roblox
 
 CS "Holy shit! Both founders in my stream at once?! Has this ever happened to any Mixer streamer before?"
 
-show James at right
+show James at center
 
 James "Well, when I saw your Roblox stream I had to watch and it was so funny that I had to get Matt."
 
@@ -508,6 +508,8 @@ James "That's not all, Matt and I have decided to make you the Mixer Super Partn
 CS "What's a super partner? I've never heard of that before"
 
 James "You've never heard of it because it's exclusive to you. You get to choose between half of all of Mixer's profits or renaming Mixer back to Beam."
+
+hide James
 
 menu:
     
@@ -578,6 +580,8 @@ CS "What's a super partner? I've never heard of that before"
 
 James "You've never heard of it because it's exclusive to you. You get to choose between half of all of Mixer's profits or renaming Mixer back to Beam."
 
+hide James
+
 menu:
     
     "Which option do you want?"
@@ -601,6 +605,8 @@ hide Roblox
 show CS at left
 
 show Stream
+
+show James at right
 
 CS "I'll rename Mixer back to Beam!"
 
@@ -632,13 +638,15 @@ hide Nekopara
 
 hide Roblox
 
-show CS at left
-
 show Stream
+
+show James at right
 
 CS "Well of course I'm gonna go with the money, I can finally quit my shitty part time joj."
 
 James "Okay, I'll transfer the first of the money to your account now"
+
+hide James
 
 menu:
     
@@ -653,6 +661,10 @@ menu:
 ######################################################################
 label statue:
 
+hide Stream
+
+show InsideHouse
+
 show CS at left
 
 CS "I made this community on top of YTP's, so maybe I should honor the source of my newfound riches."
@@ -661,10 +673,23 @@ CS "I made this community on top of YTP's, so maybe I should honor the source of
 
 CS "This company looks good, Dig Bick's Building Co."
 
+hide CS
+
+show CS at left
+
+show CarInside
+
 "{i}CS goes to Dig Bick Building Co's HQ{/i}"
 
+hide CarInside
+
+hide CS
+
 show OfficeOutside
-show Digbick at center
+
+show Digbick at right
+
+show CS at left
 
 DigBick "Welcome! What would you like today?"
 

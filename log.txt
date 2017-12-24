@@ -338,4 +338,18 @@ Using shader environment.
 Using copy RTT.
 Using gl renderer.
 Texture testing:
-- Hardware max texture 
+- Hardware max texture size: 16384
+- 64px textures work.
+- 128px textures work.
+- 256px textures work.
+- 512px textures work.
+- 1024px textures work.
+- 2048px textures work.
+Total time until interface ready: 4.00099992752s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.036000 seconds.
+- Frame drawn at 0.047000 seconds.
+- Frame drawn at 0.065000 seconds.
+- Frame drawn at 0.081000 seconds.
+- 0.081000 seconds to render 5 frames.
