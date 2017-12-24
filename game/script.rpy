@@ -584,13 +584,13 @@ CS "Oh? I could’ve sworn."
 Pakoo "Nope! Not at all!"
 CS "In any case.. Do you think you could assist me in researching the creation of the Neko race?"
 "{i}The line goes quiet{/i}"
-shpw Pakoo at right
+show Pakoo at right
 Pakoo (Appearing from nowhere) "Sunny D! Alright! Let’s do this!"
 CS "How the hell did you find my house?!"
 Pakoo "Traced your call. Anyways, you have the cash?"
 CS "That depends, do you have the talent." 
 Pakoo "Yep, but no cash."
-CS hands over the cash
+CS "{i}hands over the cash{/i}" 
 CS "I think this will be more than enough to support this cause."
 Pakoo "Holy shit, how did you come up with all this money?!"
 CS "You were on the Stream when I got super partnership."
@@ -607,7 +607,7 @@ CS "Well, damnit"
 "{i}Pakoo flips a switch, various machines begin to start up and whir{/i}"
 CS "Uhm…"
 Pakoo "Almost there.."
-"{i} "The machine begins to slow down to a halt, followed by a pleasent ding from a bell {/i}"
+"{i} The machine begins to slow down to a halt, followed by a pleasent ding from a bell {/i}"
 CS "Well.. now I know what the bell we bought was for.."
 Pakoo "What? Aesthetics Matter. I was gonna go for RGB RAM, but…. that was a bit expensive."
 CS "So.. Did it work?"
@@ -625,7 +625,7 @@ show Pakoo at right
 Pakoo "Yeah, so are you, back in the machine."
 "{i}Pakoo shoves Philsuki back into the machine{/i}"
 show Phil at right
-Philsuki "I SAWED THIS BOAT IN HA-
+Philsuki "I SAWED THIS BOAT IN HA-"
 "{i}His screams are drowned out by the machine{/i}"
 show Pakoo at right
 Pakoo "Lemme fix some stuff…."

@@ -1,301 +1,37 @@
-Sat Dec 23 18:25:03 2017
+Sat Dec 23 18:34:41 2017
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
  
 
 Bootstrap to the start of init.init took 0.13s
-Early init took 0.00s
-Loader init took 0.04s
+Early init took 0.01s
+Loader init took 0.05s
 Loading error handling took 0.06s
-Loading script took 1.47s
-Loading persistent took 0.04s
-
-File "game/script.rpy", line 577: expected statement.
-    {i}CS researches labs he can hire to make real life neko girls{/i}
-                                                                  ^
-
-File "game/script.rpy", line 579: expected statement.
-    {i}CS picks up the phone and calls Pakooâs the Pervertâs Genetics Lab{/i}
-                                                                         ^
-
-File "game/script.rpy", line 586: expected statement.
-    {i}The line goes quiet{/i}
-                          ^
-
-File "game/script.rpy", line 587: expected statement.
-    shpw Pakoo at right
-               ^
-
-File "game/script.rpy", line 593: expected statement.
-    CS hands over the cash
-                          ^
-
-File "game/script.rpy", line 600: expected statement.
-    {i}Pakoo takes CS to his Neko Genetics Research Lab after a bit of.. shopping{/i}
-                                                                      ^
-
-File "game/script.rpy", line 603: expected statement.
-    {i}CS stands back and Pakoo begins installing the various gadgets and gizmos that were purchased on their shopping trip{/i}
-                                                                                                                           ^
-
-File "game/script.rpy", line 607: expected statement.
-    {i}Pakoo flips a switch, various machines begin to start up and whir{/i}
-                           ^
-
-File "game/script.rpy", line 610: expected statement.
-    {i}The machines begin to slow down to a halt, followed by a pleasant ding from a bell{/i}
-                                                ^
-
-File "game/script.rpy", line 616: expected statement.
-    {i}CS jumps{/i}
-               ^
-
-File "game/script.rpy", line 626: expected statement.
-    {i}Pakoo shoves Philsuki back into the machine{/i}
-                                                  ^
-
-File "game/script.rpy", line 628: end of line expected.
-(Perhaps you left out a " at the end of the first line.)
-    Philsuki "I SAWED THIS BOAT IN HA-
-    {i}His screams are drowned out by the machine{/i}
-    show Pakoo at right
-    Pakoo "Lemme fix some stuffâ¦."
-              ^
-    {i}Pakoo fiddles around in the back of the machine{/i}
-    Pakoo "You know what, I think I know what the problem is!"
-    {i}Pakoo ignores CSâ questions and goes out shopping again{/i}
-    Pakoo "I got the RGB!"
-    CS "I thought you said it was too expensive?"
-    Pakoo "It is a scientific fact, that you cannot achieve performance withoutâ¦"
-    Pakoo "Mucho RGB!"
-    CS "So will it work now?"
-    Pakoo "Probably."
-    {i}Pakoo turns on the machine again{/i}
-    Vanilla "Master!"
-    {i}Vanilla runs up to CS{/i}
-    CS "Well, I wanted Chocola, but Vanilla is good too."
-    
-    ######################################################################  
-    # _   _                      
-    #| | | |                     
-    #| |_| | ___  _ __ ___   ___ 
-    #|  _  |/ _ \| '_ ` _ \ / _ \
-    #| | | | (_) | | | | | |  __/
-    #\_| |_/\___/|_| |_| |_|\___|
-    #
-    ######################################################################
-    
-    ######################################################################
-    #  ___            _                 
-    # / _ \          | |                
-    #/ /_\ \___ _   _| |_   _ _ __ ___  
-    #|  _  / __| | | | | | | | '_ ` _ \ 
-    #| | | \__ \ |_| | | |_| | | | | | |
-    #\_| |_/___/\__, |_|\__,_|_| |_| |_|
-    #            __/ |                  
-    #           |___/                            
-    ######################################################################
-    
-    label questioning:
-    
-    show Interrogation
-    
-    show CS at left
-    
-    show Copguy at right
-    
-    Copguy "So what did you see?"
-    
-    menu:
-     "What did you see?"
-    
-     "I used YTP Magic":
-    
-         jump admit
-    
-     "He was crazy":
-    
-         jump deny
-    
-    ######################################################################
-    
-    label admit:
-    
-    show Interrogation
-    
-    show CS at left
-    
-    show Copguy at right
-    
-    CS "I made him do it using the power of YTP."
-    
-    Copguy "No joking around, this is a serious situation."
-    
-    CS "No, I really did!"
-    
-    Copguy "Yeah, you're obviously deranged, I'm calling the insane asylum!"
-    
-    CS "I really did!"
-    
-    Copguy "Sure ya did....."
-    
-    jump asylum
-    
-    ######################################################################
-    label deny:
-    
-    show Interrogation
-    
-    show CS at left
-    
-    show Copguy at right
-    
-    Copguy "So what did you see?"
-    
-    CS "I don't know what happened! I just came to get a refund and he started shooting"
-    
-    Copguy "Okay, I'm sorry you had to go through that sir."
-    
-    jump home
-    ######################################################################
-    
-    label asylum:
-    
-    show Asylum
-    
-    show CSInsane at left
-    
-    CSInsane "Let me out! I'm not crazy!"
-    
-    show CSGuard at right
-    
-    CSGuard "Quiet down! I can't let you out!"
-    
-    hide CSInsane
-    
-    hide CSGuard
-    
-    "{i}A few days pass and the guard comes back{/i}"
-    
-    show CSInsane at left
-    
-    CSInsane "Have you come to let me out?"
-    
-    CSGuard "I already told you, I canât let you out. I came because we have an overflow of patients right now" 
-    
-    CSGuard "Due to lack of space, we need to pair you with one of our less dangerous patients."
-    
-    CSGuard "He's a schizo and he sees money everywhere, but other than that he's fine"
-    
-    hide CSGuard
-    
-    show ArceusJew at right
-    
-    Arceus "Money Money Money Money Money Money Money Money Money Money"
-    
-    CSInsane "Great, now I have to deal with this shit"
-    
-    hide ArceusJew
-    
-    hide CSInsane
-    
-    "After a few days of listening to Arceus, CS was starting to think he may need to be in this insane asylum soon, but then, a new face came."
-    
-    show CSInsane at left
-    
-    show Digi at right
-    
-    CSInsane "You don't look like just a guard... Are you the owner?"
-    
-    Digi "Indeed I am, I've come to get your cellmate here. One of the patients killed a guard, and the other guards had to take him down. So now we have an open cell and a staff shortage, hence why I'm getting him myself."
-    
-    CSInsane "Since you're the owner, youâll be able to let me out! Please let me out Iâm not insane!"
-    
-    Digi "Alright, give me something I want and Iâll let you go."
-    
-    menu:
-         "What should you bribe Digi with?"
-    
-         "Powerade.":
-    
-             jump powerade
-    
-         "Insulin.":
-    
-             jump insulin
-    
-         "Promise to be on time for streams.":
-             
-             jump ontime
-    
-    ######################################################################
-    
-    label insulin:
-    
-    show CSInsane at left
-    
-    show Digi at right
-    
-    CSInsane "I'll give you some insulin."
-    
-    Digi "I'll take it!"
-    
-    jump home
-    
-    ######################################################################
-    
-    label powerade:
-    
-    show CSInsane at left
-    
-    show Digi at right
-    
-    CSInsane "I'll give you a 36 pack of powerade."
-    
-    Digi "I'll take it."
-    
-    jump home
-    
-    ######################################################################
-    
-    label ontime:
-    
-    show CSInsane at left
-    
-    show Digi at right
-    
-    CSInsane "I'll actually be on time for streams."
-    
-    Digi "Wow, you really think you can do that? You must need to be in an Insane Asylum! C'mon Arceus, let's get you into your new cell."
-    
-    hide CSInsane
-    
-    hide Digi
-    
-    show BadEnd
-    
-    "{b}Digi leaves and CS is stuck in the insane asylum. Bad End{/b}"
-    
-    return
-    
-    ######################################################################
-    #  ___            _                 
-    # / _ \          | |                
-    #/ /_\ \___ _   _| |_   _ _ __ ___  
-    #|  _  / __| | | | | | | | '_ ` _ \ 
-    #| | | \__ \ |_| | | |_| | | | | | |
-    #\_| |_/___/\__, |_|\__,_|_| |_| |_|
-    #            __/ |                  
-    #           |___/                            
-    ######################################################################
-    
-    ######################################################################
-    #   ___       _ _ 
-    #  |_  |     (_) |
-    #    | | __ _ _| |
-    #    | |/ _` | | |
+Loading script took 1.63s
+Loading persistent took 0.05s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.28s
+Loading analysis data took 0.09s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Arceus3251\\AppData\\Roaming/RenPy/backups\\CS-Bounciness-Vol.-2':
+Dump and make backups. took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
 DPI scale factor: 1.000000
-Interface start took 1.60s
+Creating interface object took 1.50s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.11s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.01s
 
 primary display bounds: (0, 0, 1920, 1080)
 Windowed mode.
@@ -320,20 +56,18 @@ Extensions:
     GL_AMD_interleaved_elements
     GL_AMD_multi_draw_indirect
     GL_AMD_name_gen_delete
-    GL_e testing:
-- Hardware max texture size: 16384
-- 64px textures work.
-- 128px textures work.
-- 256px textures work.
-- 512px textures work.
-- 1024px textures work.
-- 2048px textures work.
-Total time until interface ready: 4.03800010681s
-
-primary display bounds: (0, 0, 1920, 1080)
-Windowed mode.
-Screen sizes: virtual=(1280, 720) physical=(1600, 837) drawable=(1600, 837)
-e
+    GL_AMD_occlusion_query_event
+    GL_AMD_performance_monitor
+    GL_AMD_pinned_memory
+    GL_AMD_query_buffer_object
+    GL_AMD_sample_positions
+    GL_AMD_seamless_cubemap_per_texture
+    GL_AMD_shader_atomic_counter_ops
+    GL_AMD_shader_stencil_export
+    GL_AMD_shader_stencil_value_export
+    GL_AMD_shader_trace
+    GL_AMD_shader_trinary_minmax
+    GL_AMD_sparse_texture
     GL_AMD_sparse_texture_pool
     GL_AMD_stencil_operation_extended
     GL_AMD_texture_cube_map_array
@@ -610,4 +344,12 @@ Texture testing:
 - 256px textures work.
 - 512px textures work.
 - 1024px textures work.
-- 2048p
+- 2048px textures work.
+Total time until interface ready: 5.15799999237s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.015000 seconds.
+- Frame drawn at 0.028000 seconds.
+- Frame drawn at 0.045000 seconds.
+- Frame drawn at 0.061000 seconds.
+- 0.061000 seconds to render 5 frames.
