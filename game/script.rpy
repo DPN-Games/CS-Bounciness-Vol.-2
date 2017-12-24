@@ -426,7 +426,7 @@ ArceusJew "Oh boy! Good deals, I gotta get one too!"
 
 hide ArceusJew
 
-Show Cashier at right
+show Cashier at right
 
 Cashier "That will be $19.95."
 
