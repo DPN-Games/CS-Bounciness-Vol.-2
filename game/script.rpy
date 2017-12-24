@@ -136,7 +136,7 @@ menu:
 
             jump punch
 
-        "Use Chop.":
+        "Use Chop":
 
             jump chop
 
