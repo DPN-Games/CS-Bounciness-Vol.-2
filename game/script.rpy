@@ -882,13 +882,12 @@ return
 label jail:
 
 show JailCell
-
+show Copguy
 Copguy "Alright, welcome to the slammer. How tough are ya?"
 CS "How tough am I?! How, tough, am, I?! I beat Cuphead!"
 Copguy "So?"
 CS "In under 90 minutes!"
 Copguy "Okay! You’re tough enough to get your choice of cellmate, which one do you want?"
-
 menu:
 
      "Who do you want for your cellmate?"
@@ -902,6 +901,7 @@ menu:
 label arceuscellmate:
 CS "I choose Arceus."
 Copguy "Alright, but be warned. This person was arrested for cutting a tax collector with his nose."
+hide Copguy
 CS "Alrighty then…."
 CS "Hello, Arceus."
 show Arceus at right
@@ -994,6 +994,7 @@ CS "Works for me, free healthcare."
 Arceus "Well, you have to live there for a few years before you get access to that, but you should last a few years without getting sick living on that healthy diet of Ritz and EZ cheese."
 hide Arceus
 hide Annorexorcist
+hide JailCell
 jump bordercrossing
 
 label bordercrossing:
@@ -1046,6 +1047,7 @@ CS "Color is spelled with a u, eh."
 Linus "I need actual papers, the last time I hired someone who used that as proof of citizenship I got fined and had to sell one of my 1000s of GTX Titans."
 CS "Ummmm, I’ll be right back."
 hide Linus
+hide LinusOffice
 "{i}CS leaves and talks to Annorexorcist{/i}"
 show InsideHortons
 show Annorexorcist at center
@@ -1056,6 +1058,7 @@ CS "We don’t have money to get married!"
 Annorexorcist "We can have a cheap wedding at one of your Canadian fan’s houses."
 CS "Well, I know Nova lives around here, so we can have the wedding at his house."
 hide Annorexorcist
+hide InsideHortons
 jump wedding
 
 label wedding:
