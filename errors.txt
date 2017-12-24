@@ -2,8 +2,289 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 1007: is not terminated with a newline. (Check strings and parenthesis.)
+File "game/script.rpy", line 577: expected statement.
+    {i}CS researches labs he can hire to make real life neko girls{/i}
+                                                                  ^
+
+File "game/script.rpy", line 579: expected statement.
+    {i}CS picks up the phone and calls Pakoo’s the Pervert’s Genetics Lab{/i}
+                                                                         ^
+
+File "game/script.rpy", line 586: expected statement.
+    {i}The line goes quiet{/i}
+                          ^
+
+File "game/script.rpy", line 587: expected statement.
+    shpw Pakoo at right
+               ^
+
+File "game/script.rpy", line 593: expected statement.
+    CS hands over the cash
+                          ^
+
+File "game/script.rpy", line 600: expected statement.
+    {i}Pakoo takes CS to his Neko Genetics Research Lab after a bit of.. shopping{/i}
+                                                                      ^
+
+File "game/script.rpy", line 603: expected statement.
+    {i}CS stands back and Pakoo begins installing the various gadgets and gizmos that were purchased on their shopping trip{/i}
+                                                                                                                           ^
+
+File "game/script.rpy", line 607: expected statement.
+    {i}Pakoo flips a switch, various machines begin to start up and whir{/i}
+                           ^
+
+File "game/script.rpy", line 610: expected statement.
+    {i}The machines begin to slow down to a halt, followed by a pleasant ding from a bell{/i}
+                                                ^
+
+File "game/script.rpy", line 616: expected statement.
+    {i}CS jumps{/i}
+               ^
+
+File "game/script.rpy", line 626: expected statement.
+    {i}Pakoo shoves Philsuki back into the machine{/i}
+                                                  ^
+
+File "game/script.rpy", line 628: end of line expected.
 (Perhaps you left out a " at the end of the first line.)
-    "FatherDigBick "Do you, Annorexorcist, take NAME REDACTED to be your lawfully wedded husband?"
+    Philsuki "I SAWED THIS BOAT IN HA-
+    {i}His screams are drowned out by the machine{/i}
+    show Pakoo at right
+    Pakoo "Lemme fix some stuff…."
+              ^
+    {i}Pakoo fiddles around in the back of the machine{/i}
+    Pakoo "You know what, I think I know what the problem is!"
+    {i}Pakoo ignores CS’ questions and goes out shopping again{/i}
+    Pakoo "I got the RGB!"
+    CS "I thought you said it was too expensive?"
+    Pakoo "It is a scientific fact, that you cannot achieve performance without…"
+    Pakoo "Mucho RGB!"
+    CS "So will it work now?"
+    Pakoo "Probably."
+    {i}Pakoo turns on the machine again{/i}
+    Vanilla "Master!"
+    {i}Vanilla runs up to CS{/i}
+    CS "Well, I wanted Chocola, but Vanilla is good too."
+    
+    ######################################################################  
+    # _   _                      
+    #| | | |                     
+    #| |_| | ___  _ __ ___   ___ 
+    #|  _  |/ _ \| '_ ` _ \ / _ \
+    #| | | | (_) | | | | | |  __/
+    #\_| |_/\___/|_| |_| |_|\___|
+    #
+    ######################################################################
+    
+    ######################################################################
+    #  ___            _                 
+    # / _ \          | |                
+    #/ /_\ \___ _   _| |_   _ _ __ ___  
+    #|  _  / __| | | | | | | | '_ ` _ \ 
+    #| | | \__ \ |_| | | |_| | | | | | |
+    #\_| |_/___/\__, |_|\__,_|_| |_| |_|
+    #            __/ |                  
+    #           |___/                            
+    ######################################################################
+    
+    label questioning:
+    
+    show Interrogation
+    
+    show CS at left
+    
+    show Copguy at right
+    
+    Copguy "So what did you see?"
+    
+    menu:
+     "What did you see?"
+    
+     "I used YTP Magic":
+    
+         jump admit
+    
+     "He was crazy":
+    
+         jump deny
+    
+    ######################################################################
+    
+    label admit:
+    
+    show Interrogation
+    
+    show CS at left
+    
+    show Copguy at right
+    
+    CS "I made him do it using the power of YTP."
+    
+    Copguy "No joking around, this is a serious situation."
+    
+    CS "No, I really did!"
+    
+    Copguy "Yeah, you're obviously deranged, I'm calling the insane asylum!"
+    
+    CS "I really did!"
+    
+    Copguy "Sure ya did....."
+    
+    jump asylum
+    
+    ######################################################################
+    label deny:
+    
+    show Interrogation
+    
+    show CS at left
+    
+    show Copguy at right
+    
+    Copguy "So what did you see?"
+    
+    CS "I don't know what happened! I just came to get a refund and he started shooting"
+    
+    Copguy "Okay, I'm sorry you had to go through that sir."
+    
+    jump home
+    ######################################################################
+    
+    label asylum:
+    
+    show Asylum
+    
+    show CSInsane at left
+    
+    CSInsane "Let me out! I'm not crazy!"
+    
+    show CSGuard at right
+    
+    CSGuard "Quiet down! I can't let you out!"
+    
+    hide CSInsane
+    
+    hide CSGuard
+    
+    "{i}A few days pass and the guard comes back{/i}"
+    
+    show CSInsane at left
+    
+    CSInsane "Have you come to let me out?"
+    
+    CSGuard "I already told you, I can’t let you out. I came because we have an overflow of patients right now" 
+    
+    CSGuard "Due to lack of space, we need to pair you with one of our less dangerous patients."
+    
+    CSGuard "He's a schizo and he sees money everywhere, but other than that he's fine"
+    
+    hide CSGuard
+    
+    show ArceusJew at right
+    
+    Arceus "Money Money Money Money Money Money Money Money Money Money"
+    
+    CSInsane "Great, now I have to deal with this shit"
+    
+    hide ArceusJew
+    
+    hide CSInsane
+    
+    "After a few days of listening to Arceus, CS was starting to think he may need to be in this insane asylum soon, but then, a new face came."
+    
+    show CSInsane at left
+    
+    show Digi at right
+    
+    CSInsane "You don't look like just a guard... Are you the owner?"
+    
+    Digi "Indeed I am, I've come to get your cellmate here. One of the patients killed a guard, and the other guards had to take him down. So now we have an open cell and a staff shortage, hence why I'm getting him myself."
+    
+    CSInsane "Since you're the owner, you’ll be able to let me out! Please let me out I’m not insane!"
+    
+    Digi "Alright, give me something I want and I’ll let you go."
+    
+    menu:
+         "What should you bribe Digi with?"
+    
+         "Powerade.":
+    
+             jump powerade
+    
+         "Insulin.":
+    
+             jump insulin
+    
+         "Promise to be on time for streams.":
+             
+             jump ontime
+    
+    ######################################################################
+    
+    label insulin:
+    
+    show CSInsane at left
+    
+    show Digi at right
+    
+    CSInsane "I'll give you some insulin."
+    
+    Digi "I'll take it!"
+    
+    jump home
+    
+    ######################################################################
+    
+    label powerade:
+    
+    show CSInsane at left
+    
+    show Digi at right
+    
+    CSInsane "I'll give you a 36 pack of powerade."
+    
+    Digi "I'll take it."
+    
+    jump home
+    
+    ######################################################################
+    
+    label ontime:
+    
+    show CSInsane at left
+    
+    show Digi at right
+    
+    CSInsane "I'll actually be on time for streams."
+    
+    Digi "Wow, you really think you can do that? You must need to be in an Insane Asylum! C'mon Arceus, let's get you into your new cell."
+    
+    hide CSInsane
+    
+    hide Digi
+    
+    show BadEnd
+    
+    "{b}Digi leaves and CS is stuck in the insane asylum. Bad End{/b}"
+    
+    return
+    
+    ######################################################################
+    #  ___            _                 
+    # / _ \          | |                
+    #/ /_\ \___ _   _| |_   _ _ __ ___  
+    #|  _  / __| | | | | | | | '_ ` _ \ 
+    #| | | \__ \ |_| | | |_| | | | | | |
+    #\_| |_/___/\__, |_|\__,_|_| |_| |_|
+    #            __/ |                  
+    #           |___/                            
+    ######################################################################
+    
+    ######################################################################
+    #   ___       _ _ 
+    #  |_  |     (_) |
+    #    | | __ _ _| |
+    #    | |/ _` | | |
 
 Ren'Py Version: Ren'Py 6.99.13.2919

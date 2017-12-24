@@ -574,16 +574,16 @@ CS "Well, I’ve always thought that rich people should spend their money on imp
 CS "But how should I improve the world?....."
 CS "I could help people with medical expenses, but I already did that with the charity stream…."
 CS "I know, I’ll make the ultimate contribution to the human race! Create real life Neko girls!"
-{i}CS researches labs he can hire to make real life neko girls{/i}
+"{i}CS researches labs he can hire to make real life neko girls{/i}"
 CS "Ooh! This one looks good, Pakoo the Pervert’s Genetics Lab." 
-{i}CS picks up the phone and calls Pakoo’s the Pervert’s Genetics Lab{/i}
+"{i}CS picks up the phone and calls Pakoo’s the Pervert’s Genetics Lab{/i}"
 Pakoo "Pakoo the Pervert’s Genetics Lab, Dr. Pakoo speaking!"
 CS "Wait.. You sound awfully like Pakoo from my stream…"
 Pakoo "Huh? I don’t believe we’ve met before?"
 CS "Oh? I could’ve sworn."
 Pakoo "Nope! Not at all!"
 CS "In any case.. Do you think you could assist me in researching the creation of the Neko race?"
-{i}The line goes quiet{/i}
+"{i}The line goes quiet{/i}"
 shpw Pakoo at right
 Pakoo (Appearing from nowhere) "Sunny D! Alright! Let’s do this!"
 CS "How the hell did you find my house?!"
@@ -597,23 +597,23 @@ CS "You were on the Stream when I got super partnership."
 Pakoo "You kidding me? I had you in the background, I was busy creating a fan-made game called CS Bounciness Volume 2."
 CS "That’s… oddly specific."
 Pakoo "Yeah.. Anyways, let me take you to my lab."
-{i}Pakoo takes CS to his Neko Genetics Research Lab after a bit of.. shopping{/i}
+"{i}Pakoo takes CS to his Neko Genetics Research Lab after a bit of.. shopping{/i}"
 CS "Nice lab you got here."
 Pakoo "It’s about to get even better. Stand back." 
-{i}CS stands back and Pakoo begins installing the various gadgets and gizmos that were purchased on their shopping trip{/i}
+"{i}CS stands back and Pakoo begins installing the various gadgets and gizmos that were purchased on their shopping trip{/i}"
 CS "Are you sure this will work?"
 Pakoo "Nope! But It’s not my money!"
 CS "Well, damnit"
-{i}Pakoo flips a switch, various machines begin to start up and whir{/i}
+"{i}Pakoo flips a switch, various machines begin to start up and whir{/i}"
 CS "Uhm…"
 Pakoo "Almost there.."
-{i}The machines begin to slow down to a halt, followed by a pleasant ding from a bell{/i}
+"{i} "The machine begins to slow down to a halt, followed by a pleasent ding from a bell {/i}"
 CS "Well.. now I know what the bell we bought was for.."
 Pakoo "What? Aesthetics Matter. I was gonna go for RGB RAM, but…. that was a bit expensive."
 CS "So.. Did it work?"
 show Phil at right
 Philsuki "IT EVEN WORKS UNDERWATER!"
-{i}CS jumps{/i}
+"{i}CS jumps{/i}"
 CS "Holy shit! What the hell are you?!"
 show Pakoo at right
 Pakoo "Damnit.. that Neko isn’t complete.. It’s got a penis."
@@ -623,24 +623,24 @@ show Phil at right
 Philsuki "FLEX TAPE IS STUPID!"
 show Pakoo at right
 Pakoo "Yeah, so are you, back in the machine."
-{i}Pakoo shoves Philsuki back into the machine{/i}
+"{i}Pakoo shoves Philsuki back into the machine{/i}"
 show Phil at right
 Philsuki "I SAWED THIS BOAT IN HA-
-{i}His screams are drowned out by the machine{/i}
+"{i}His screams are drowned out by the machine{/i}"
 show Pakoo at right
 Pakoo "Lemme fix some stuff…."
-{i}Pakoo fiddles around in the back of the machine{/i}
+"{i}Pakoo fiddles around in the back of the machine{/i}"
 Pakoo "You know what, I think I know what the problem is!"
-{i}Pakoo ignores CS’ questions and goes out shopping again{/i}
+"{i}Pakoo ignores CS’ questions and goes out shopping again{/i}"
 Pakoo "I got the RGB!"
 CS "I thought you said it was too expensive?"
 Pakoo "It is a scientific fact, that you cannot achieve performance without…"
 Pakoo "Mucho RGB!"
 CS "So will it work now?"
 Pakoo "Probably."
-{i}Pakoo turns on the machine again{/i}
+"{i}Pakoo turns on the machine again{/i}"
 Vanilla "Master!"
-{i}Vanilla runs up to CS{/i}
+"{i}Vanilla runs up to CS{/i}"
 CS "Well, I wanted Chocola, but Vanilla is good too."
 
 ######################################################################  
