@@ -491,27 +491,7 @@ menu:
         jump rename
 
 ######################################################################
-label profits:
 
-show CS at left
-
-show Stream
-
-CS "Well of course I'm gonna go with the money, I can finally quit my shitty part time joj."
-
-James "Okay, I'll transfer the first of the money to your account now"
-
-menu:
-    
-    "Which option do you want?"
-
-    "Improve the World":
-        jump world 
-
-    "Build a Statue":
-        jump statue
-
-######################################################################
 label rename:
 
 show CS at left
@@ -537,6 +517,28 @@ James "Don’t question me!"
 CS "Okay."
 
 return
+
+######################################################################
+
+label profits:
+
+show CS at left
+
+show Stream
+
+CS "Well of course I'm gonna go with the money, I can finally quit my shitty part time joj."
+
+James "Okay, I'll transfer the first of the money to your account now"
+
+menu:
+    
+    "Which option do you want?"
+
+    "Improve the World":
+        jump world 
+
+    "Build a Statue":
+        jump statue
 
 ######################################################################
 label statue:
