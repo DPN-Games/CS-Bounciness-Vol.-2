@@ -536,10 +536,6 @@ menu:
 
 label cshappyfappytime:
 
-hide InsideHouse
-
-show Nekopara
-
 show CS at left
 
 CS "Well, I mean I was kinda getting hard for Chocola, and Pakoo always does it everyday…"
@@ -551,6 +547,10 @@ CS "As long as he doesn't find out about it, then I don't have to worry."
 CS "This is a site your dad will love!"
 
 CS "Now let's see, Chocola in heat? Oh yes, this is gonna be good!"
+
+hide InsideHouse
+
+show Nekopara
 
 CS "Ooooooh…… "
 
