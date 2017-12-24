@@ -244,14 +244,10 @@ jump jail
 ######################################################################
 
 label kick:
+    play movie "movies/kick.ogv" loop
+    hide movie with dissolve
+    stop movie
 
-hide Helipad
-
-hide Wesley
-
-hide CS
-
-play movie "movies/kick.ogv"
 
 show Helipad
 
