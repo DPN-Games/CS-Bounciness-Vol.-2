@@ -64,6 +64,7 @@ image InsideHouse = "background/inside_house.png"
 image Genetics = "background/Genetics.jpg"
 image Border = "background/CanadianBorder.jpg"
 image WeddingScene = "background/Wedding.jpg"
+image MicroCenter = "background/microcenter.png"
 
 #Character images.
 #image name = "dir/file.filetype"
