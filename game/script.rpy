@@ -32,6 +32,7 @@ define Phil = Character("Phil Swift")
 define Rich = Character("Richard")
 define Wesley = Character("Wesley")
 define James = Placeholder("boy")
+define Vanilla = Character("Vanilla")
 
 #Backgrounds.
 #image name = "dir/file.filetype"
@@ -93,6 +94,7 @@ image Pakoo = "characters/Pakoo.png"
 image Phil = "characters/Phil.jpg"
 image Rich = "characters/Richard.png"
 image Wesley = "characters/wesley-chan.png"
+image Vanilla = "characters/vanilla_shush.png"
 
 # The game starts here.
 label start:
@@ -557,7 +559,8 @@ CS "This company looks good, Dig Bick’s Building Co."
 
 "{i}CS goes to Dig Bick Building Co’s HQ{/i}"
 
-show Digbick at right
+show OfficeOutside
+show Digbick at center
 
 DigBick "Welcome! What would you like today?"
 
@@ -568,6 +571,7 @@ DigBick "Okay, that’s a weird order, how big do you want it?"
 CS "As big as you can go!"
 
 DigBick "I’ll get right on it!"
+hide Digbick
 
 return
 
@@ -628,12 +632,14 @@ show Phil at right
 Philsuki "FLEX TAPE IS STUPID!"
 show Pakoo at right
 Pakoo "Yeah, so are you, back in the machine."
+hide Phil
+hide Pakoo
 "{i}Pakoo shoves Philsuki back into the machine{/i}"
-show Phil at right
 Philsuki "I SAWED THIS BOAT IN HA-"
 "{i}His screams are drowned out by the machine{/i}"
 show Pakoo at right
 Pakoo "Lemme fix some stuff…."
+hide Pakoo
 "{i}Pakoo fiddles around in the back of the machine{/i}"
 Pakoo "You know what, I think I know what the problem is!"
 "{i}Pakoo ignores CS’ questions and goes out shopping again{/i}"
