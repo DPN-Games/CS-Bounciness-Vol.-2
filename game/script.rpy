@@ -688,7 +688,7 @@ hide CS
 
 show OfficeOutside
 
-show Digbick at right
+show DigBick at right
 
 show CS at left
 
@@ -702,7 +702,7 @@ CS "As big as you can go!"
 
 DigBick "I'll get right on it!"
 
-hide Digbick
+hide DigBick
 
 return
 
