@@ -463,7 +463,7 @@ show InsideHouse
 
 show CS at left
 
-"Now that I have my new computer What should I do?"
+"What should I do now that I have my new computer?"
 
 hide CS
 
