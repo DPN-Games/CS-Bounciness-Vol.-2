@@ -108,7 +108,6 @@ image Wesley = "characters/wesley-chan.png"
 image Vanilla = "characters/vanilla_shush.png"
 image James = "characters/James.png"
 image Chat = "characters/Chat.png"
-image TVBilly = "characters/TVBilly.png"
 
 # The game starts here.
 label start:
