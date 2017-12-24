@@ -2,14 +2,8 @@
 errors listed below, and try again.
 
 
-<<<<<<< HEAD
-File "game/script.rpy", line 433: expected statement.
+File "game/script.rpy", line 429: expected statement.
     Show Cashier at right
                  ^
-=======
-File "game/script.rpy", line 245: could not parse statement.
-    play movie "movies/kick.ogv" loop=1
-                                     ^
->>>>>>> 78512867bdc1a89b8560a6356316f48de32ffb36
 
 Ren'Py Version: Ren'Py 6.99.13.2919
