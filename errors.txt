@@ -2,27 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 610: expected statement.
-(Perhaps you left out a " at the end of the first line.)
-    "{i} "The machine begins to slow down to a halt, followed by a pleasent ding from a bell {/i}"
-                                                   ^
-    CS "Well.. now I know what the bell we bought was for.."
-    Pakoo "What? Aesthetics Matter. I was gonna go for RGB RAM, but…. that was a bit expensive."
-    CS "So.. Did it work?"
-    show Phil at right
-    Philsuki "IT EVEN WORKS UNDERWATER!"
-    "{i}CS jumps{/i}"
-    CS "Holy shit! What the hell are you?!"
-    show Pakoo at right
-    Pakoo "Damnit.. that Neko isn’t complete.. It’s got a penis."
-    CS "So?"
-    Pakoo "Well, it’s meant to be a CatGIRL, not Catguy."
-    show Phil at right
-    Philsuki "FLEX TAPE IS STUPID!"
-    show Pakoo at right
-    Pakoo "Yeah, so are you, back in the machine."
-    "{i}Pakoo shoves Philsuki back into the machine{/i}"
-    show Phil at right
-    Philsuki "I SAWED THIS BOAT IN HA-
+File "game/script.rpy", line 227: expected statement.
+    renpy.movie_cutscene("kick.mp4", delay=None, loops=0, stop_music=True)
+                                                                          ^
 
 Ren'Py Version: Ren'Py 6.99.13.2919

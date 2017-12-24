@@ -33,6 +33,7 @@ define Rich = Character("Richard")
 define Wesley = Character("Wesley")
 define James = Placeholder("boy")
 define Vanilla = Character("Vanilla")
+define Kicking = Movie("Kick")
 
 #Backgrounds.
 #image name = "dir/file.filetype"
@@ -64,6 +65,11 @@ image InsideHouse = "background/inside_house.png"
 image Genetics = "background/Genetics.jpg"
 image Border = "background/CanadianBorder.jpg"
 image WeddingScene = "background/Wedding.jpg"
+
+#Movies.
+#image name = "dir/file.filetpye"
+
+image movie = Movie(size=(800, 800),  xpos=0, ypos=0, xanchor=0, yanchor=100)
 
 #Character images.
 #image name = "dir/file.filetype"
@@ -224,7 +230,7 @@ hide Wesley
 
 hide CS
 
-$ renpy.movie_cutscene("kick.mp4")
+play movie "movies/kick.ogv"
 
 show Helipad
 

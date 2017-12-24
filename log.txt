@@ -1,25 +1,25 @@
-Sat Dec 23 20:22:42 2017
+Sat Dec 23 20:39:38 2017
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
  
 
 Bootstrap to the start of init.init took 0.15s
-Early init took 0.01s
+Early init took 0.00s
 Loader init took 0.04s
 Loading error handling took 0.03s
-Loading script took 0.46s
-Loading persistent took 0.03s
+Loading script took 0.51s
+Loading persistent took 0.04s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.14s
+Running init code took 0.18s
 Loading analysis data took 0.05s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Arceus3251\\AppData\\Roaming/RenPy/backups\\CS-Bounciness-Vol.-2':
-Dump and make backups. took 0.12s
+Dump and make backups. took 0.11s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 DPI scale factor: 1.000000
-Creating interface object took 1.43s
+Creating interface object took 1.42s
 Cleaning stores took 0.00s
 Init translation took 0.06s
 Build styles took 0.01s
@@ -338,4 +338,18 @@ Using shader environment.
 Using copy RTT.
 Using gl renderer.
 Texture testing:
-- Hardware max texture 
+- Hardware max texture size: 16384
+- 64px textures work.
+- 128px textures work.
+- 256px textures work.
+- 512px textures work.
+- 1024px textures work.
+- 2048px textures work.
+Total time until interface ready: 3.73600006104s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.025000 seconds.
+- Frame drawn at 0.037000 seconds.
+- Frame drawn at 0.054000 seconds.
+- Frame drawn at 0.071000 seconds.
+- 0.071000 seconds to render 5 frames.
