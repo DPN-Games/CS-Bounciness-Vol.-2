@@ -893,6 +893,7 @@ CS "I choose Arceus."
 Copguy "Alright, but be warned. This person was arrested for cutting a tax collector with his nose."
 CS "Alrighty then…."
 CS "Hello, Arceus."
+show Arceus at right
 Arceus "Aye, Boss. .w."
 CS "So what are you in for?"
 Arceus "Didn’t you hear the cop? \ I’m in for cutting a tax collector with my nose."
@@ -901,19 +902,21 @@ Arceus "And from my recent playthrough of CSBounciness 1, I assume you’re in f
 CS "I was 100 percent unsatisfied."
 Arceus "As was I.. As was I.."
 "{i}A brief moment of silence..{/i}"
-Arceus "Welp, I’m bored of this place… Wanna break out? 3"
+Arceus "Welp, I’m bored of this place… Wanna break out? :3"
 CS "Eh.. Sure, why not, I’ve played plenty of the Escapists, I should be able to figure it out."
 CS "We should break out at least one other person though."
 Arceus "Alright, who do ya wanna break out..?"
 CS "Let’s just break out that guy next to us, I think his name was Annorexorcist-something…."
 Arceus "Annorexorcist? Eh… He’s a bit of a stick in the mud, but sure. He may be of use to us."
 CS "Alright then, let’s get going!"
+hide Arceus
 jump breakout
 
 label annorexorcellmate:
 CS "I choose Annorexorcist"
 Copguy "Okay" 
 CS "Hey Annorexorcist."
+show Annorexorcist at right
 Annorexorcist "Hey"
 CS "So what’re you in for?"
 Annorexorcist "..."
@@ -928,10 +931,12 @@ CS "Wow, can I come with?"
 Annorexorcist "Only if you can figure out a way to escape, we’ve had no success, as you can tell given that we’re still here."
 CS "I think I have some ideas, I’ve played a LOT of the escapists."
 Annorexorcist "Works for me, let’s do this"
+hide Annorexorcist
 jump breakout
 
 
 label breakout:
+show Arceus at right
 Arceus "So, what’s the plan? I’ve been tryna break outta here for 5 Years"
 CS "Well, for a start. I need to get a feel of the routine here"
 Arceus "Well, I’ll quickly describe that for you, cause I can’t stand another minute here." 
@@ -942,69 +947,105 @@ CS "I gotta grab a few plastic spoons from the mess hall, Cup of molten chocolat
 Arceus "Why a change of shorts?"
 CS "You kidding me? I’m gonna shit myself cause this is scary as hell."
 Arceus "Fair enough."
+hide Arceus
 "{i}The day ends, the next day progresses, CS and Arceus gather the required essentials for their escape. Along the way, they inform Annorexorcist, who more than happily complies with the plan.{/i}" 
 "{i}The next evening....{/i}"
 CS "Key, Check."
+show Arceus at right
 Arceus "Uniforms, Check."
+show Annorexorcist at left
 Annorexorcist "Spoons, Check."
 CS "Extra Shorts."
 CS "Check."
 CS "Alright men, let’s get the heck out of here!"
+hide Arceus
+hide Annorexorcist
 "{i}The plan goes off without a hitch, the three ditch their Prison Outfits, and put on their guard uniforms.{/i}" 
 "{i}In the midst of them changing, Annorexorcist notices CS’s butt and compliments it.{/i}"
+show Annorexorcist at right
 Annorexorcist "CS.. Nice Ass.."
 CS "Thank you."
+show Arceus at left
 Arceus "Save it for later, love birds." 
+hide Arceus
+hide Annorexorcist
 "{i}The Three dig their way out of the cell and make a break into the dark of the evening.{/i}"
 CS "Jeez.. I didn’t think that would actually work."
+show Arceus at right
 Arceus "You what?" 
+show Annorexorcist at left
 Annorexorcist "Hey, CS.. You looked sexy runnin’ outta that prison.."
-CS "Blush  Thank you.."
+CS "{i}Blush{/i}  Thank you.."
 Arceus "Guys, save this for when we’re all safe, we need to get a car and get over the border."
 Annorexorcist "How are we supposed to cross the border with the new wall?"
 Arceus "Not the Mexican border, the Canadian border, we’re in New York, it’s way closer and they’re too polite to send us back."
-CS"Works for me, free healthcare."
-Arceus"Well, you have to live there for a few years before you get access to that, but you should last a few years without getting sick living on that healthy diet of Ritz and EZ cheese."
+CS "Works for me, free healthcare."
+Arceus "Well, you have to live there for a few years before you get access to that, but you should last a few years without getting sick living on that healthy diet of Ritz and EZ cheese."
+hide Arceus
+hide Annorexorcist
 jump bordercrossing
 
 label bordercrossing:
 "{i}CS, Annorexorcist and Arceus get to the border crossing{/i}"
 "{i}A border guard appears{/i}"
+show border guard at center
 BorderGuard "I’m going to need proof of citizenship, eh."
+show Arceus at right
 Arceus "Color is spelled with a u, eh."
 BorderGuard "Works for me, eh."
+hide BorderGuard
+hide Arceus
 CS "Now that we’re over the border and can breathe easy, I wanted to ask you something Annorexorcist."
+show Annorexorcist at center
 Annorexorcist "Yeah?"
 CS "You made a couple passes at me on the trip here, was there anything behind that or were you joking around?"
 Annorexorcist "Which one would you prefer?"
 CS "The former, I mean, I’ve been single for a while I’ll take what I can get."
 Annorexorcist "Well, I suppose I have good news for you then…."
+hide Annorexorcist
+show Annorexorcist at left
+show Arceus at right
 Arceus "Are you lovebirds hungry? I’m gonna stop for food at Tim Horton’s."
+hide Arceus
+hide Annorexorcist
 "{i}At the Tim Horton’s, Annorexorcist and CS share a donut and make out{/i}"
 CS "Wow, that was great!"
 "{i}Annorexorcist blushes{/i}"
+show Annorexorcist at center
 Annorexorcist "Thanks…."
 CS "Oh, I was talking about the donut but the kiss was good too."
 CS "About 88 percent as good as the donut."
 Annorexorcist "I’ll take it."
+hide Annorexorcist
+show Annorexorcist at left
+show Arceus at right
 Arceus "Sorry to interrupt you two, but we may have a problem, that donut cost me the last of my money, so we need to find a way to make some cash."
 "{i}CS looks across the street to see Linus Media Group{/i}"
+hide Arceus
+hide Annorexorcist
 CS "I have a lot of video editing experience, maybe I can get a job there."
 "{i}CS walks into the studio and asks for a job{/i}"
+show Linus at center
 Linus "Sure, you can have a job, just show us proof of citizenship and you’re ready to go!"
 CS "Color is spelled with a u, eh."
 Linus "I need actual papers, the last time I hired someone who used that as proof of citizenship I got fined and had to sell one of my 1000s of GTX Titans."
 CS "Ummmm, I’ll be right back."
+hide Linus
 "{i}CS leaves and talks to Annorexorcist{/i}"
+show Annorexorcist at center
 CS "I need to get proof of citizenship, or at least fake proof of citizenship before I can get a joj here."
 "{i}Annorexorcist gets an idea and begins to blush{/i}"
 Annorexorcist "Trudeau is trying to make Canada more diverse by letting gay married couples get citizenship, we just have to get married and then you can work here."
 CS "We don’t have money to get married!"
 Annorexorcist "We can have a cheap wedding at one of your Canadian fan’s houses."
 CS "Well, I know Nova lives around here, so we can have the wedding at his house."
+hide Annorexorcist
 jump wedding
 
 label wedding:
+show Cshocola left
+show Annorexorcist right
+show FatherDigBick center
 FatherDigBick "Do you, Annorexorcist, take NAME REDACTED to be your lawfully wedded husband?"
 Annorexorcist "I do."
 FatherDigBick "And do you, NAME REDACTED, take Annorexorcist, to be your lawfully wedded husband?"
