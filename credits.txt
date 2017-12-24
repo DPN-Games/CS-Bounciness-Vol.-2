@@ -32,7 +32,8 @@ Image Director
 Script Coding
 	AWK
 	DigiDuncan
-	
+	Pakoo
+	Arceus3251
 Music Director
 	DigiDuncan
 	
@@ -47,7 +48,10 @@ True Ending OVA
 
 Alpha Testing
 	Arceus3251
-	
+	WithEyes
+	Pakoo
+	Irukandji Ichyouiyxl
+	AWK
 Music:
 	(credit all the songs we use here)
 	
@@ -59,5 +63,7 @@ Special Thanks to:
 Engineered in Ren.py
 
 (logos for all our stuff here)
+
+*In Memory in of ItsNovaHere
 
 (play the memorium video)
