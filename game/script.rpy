@@ -360,7 +360,7 @@ show CarInside
 
 "CS drives to MicroCenter to buy a new computer"
 
-show bg MicroCenter
+show MicroCenter
 
 CS "Ooh this one looks good, the LenOwO dQw4w9WgXcQ. It's got a Sexy T.I.T.S graphics card or I can get one with an Nvidia Jesusforce 188! And it only costs 1 Dimick donation! I gotta get this!"
 
