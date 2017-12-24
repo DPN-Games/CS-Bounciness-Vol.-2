@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 429: expected statement.
-    Show Cashier at right
-                 ^
+File "game/script.rpy", line 254: Line is indented, but the preceding hide statement statement does not expect a block. Please check this line's indentation.
+    stop movie
+    ^
 
 Ren'Py Version: Ren'Py 6.99.13.2919
