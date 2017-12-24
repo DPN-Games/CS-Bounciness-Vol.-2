@@ -31,7 +31,7 @@ define Pakoo = Character("Pakoo")
 define Phil = Character("Phil Swift")
 define Rich = Character("Richard")
 define Wesley = Character("Wesley")
-define James = Placeholder("boy")
+define James = Character("James")
 define Vanilla = Character("Vanilla")
 define Kicking = Movie("Kick")
 
@@ -104,6 +104,7 @@ image Phil = "characters/Phil.jpg"
 image Rich = "characters/Richard.png"
 image Wesley = "characters/wesley-chan.png"
 image Vanilla = "characters/vanilla_shush.png"
+image James = "characters/James.png"
 
 # The game starts here.
 label start:
