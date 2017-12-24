@@ -323,7 +323,11 @@ CS "Ahh almost home"
 
 hide CarInside
 
+hide CS
+
 show SmallHouse
+
+show CS at left
 
 "{i}CS comes home to find his house drastically smaller.{/i}"
 
@@ -331,11 +335,15 @@ CS "This is what happens when you don't get quality foundation repair"
 
 CS "Whatever, at least I'm finally home...."
 
-"CS goes inside"
+"{i}CS goes inside{/i}"
 
 hide SmallHouse
 
+hide CS
+
 show InsideHouse
+
+show CS at left
 
 CS "Man, I need to relax after that shit, what should I do?"
 
@@ -395,13 +403,21 @@ CS "I should probably go buy a new computer since HoH SiS destroyed my last one.
 
 hide InsideHouse
 
+hide CS
+
 show CarInside
+
+show CS at left
 
 "CS drives to MicroCenter to buy a new computer"
 
 hide CarInside
 
+hide CS
+
 show MicroCenter
+
+show CS at left
 
 CS "Ooh this one looks good, the LenOwO dQw4w9WgXcQ. It's got a Sexy T.I.T.S graphics card or I can get one with an Nvidia Jesusforce 188! And it only costs 1 Dimick donation! I gotta get this!"
 
@@ -413,9 +429,17 @@ hide ArceusJew
 
 hide CS
 
+hide MicroCenter
+
+show CarInside
+
+show CS at left
+
 "{i}CS returns home with his brand new computer{/i}"
 
-hide MicroCenter
+hide CarInside
+
+hide CS
 
 jump newcomputer
 
@@ -424,6 +448,8 @@ jump newcomputer
 label newcomputer:
 
 show InsideHouse
+
+show CS at left
 
 "Now that I have my new computer What should I do?"
 
@@ -471,7 +497,7 @@ show Roblox
 
 CS "Holy shit! Both founders in my stream at once?! Has this ever happened to any Mixer streamer before?"
 
-show James at center
+show James at right
 
 James "Well, when I saw your Roblox stream I had to watch and it was so funny that I had to get Matt."
 
@@ -495,6 +521,8 @@ menu:
 ######################################################################
 
 label cshappyfappytime:
+
+hide InsideHouse
 
 show Nekopara
 
@@ -530,6 +558,8 @@ CS "FUCK!!! Now I will get my partnership taken away, and everyone will know tha
 
 CS "Holy shit! Both founders saw me accidentally fapping on stream! Now I definitely need to delete my account?"
 
+show James at right
+
 James "Don't be so quick to act, CS"
 
 CS "What do you mean, I'm in violation of like every rule in the TOS right now"
@@ -562,6 +592,12 @@ menu:
 
 label rename:
 
+hide CS
+
+hide Nekopara
+
+hide Roblox
+
 show CS at left
 
 show Stream
@@ -589,6 +625,12 @@ return
 ######################################################################
 
 label profits:
+
+hide CS
+
+hide Nekopara
+
+hide Roblox
 
 show CS at left
 
