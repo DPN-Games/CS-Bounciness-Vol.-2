@@ -570,7 +570,7 @@ CS "FUCK!!! Now I will get my partnership taken away, and everyone will know tha
 
 "{i}James and Matt show up to the CStream{/i}"
 
-CS "Holy shit! Both founders saw me accidentally fapping on stream! Now I definitely need to delete my account?"
+CS "Holy shit! Both founders saw me accidentally fapping on stream! Now I definitely need to delete my account!"
 
 show James at right
 
