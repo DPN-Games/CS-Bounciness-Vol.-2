@@ -36,6 +36,7 @@ define Vanilla = Character("Vanilla")
 define Kicking = Movie("Kick")
 define TVBilly = Character("TVBilly")
 define Chat = Character("Chat")
+define DigBick = Character("DigBick")
 
 #Backgrounds.
 #image name = "dir/file.filetype"
@@ -108,6 +109,7 @@ image Wesley = "characters/wesley-chan.png"
 image Vanilla = "characters/vanilla_shush.png"
 image James = "characters/James.png"
 image Chat = "characters/Chat.png"
+image DigBick = "characters/Digbick.png"
 
 # The game starts here.
 label start:
