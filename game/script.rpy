@@ -79,7 +79,7 @@ image Annorexorcist = "characters/Anno.png"
 image Arceus = "characters/Arceus3251.png"
 image ArceusJew = "characters/Arceus3251JewishForm.png"
 image Billy = "characters/Billy_anime.png"
-image BorderGuard = "characters/WithEyesGuard"
+image BorderGuard = "characters/WithEyesGuard.png"
 image Carguy = "characters/Carguy_anime.png"
 image Copguy = "characters/Copguy_anime.png"
 image CorndogGuy = "characters/CornWorker.png"
@@ -175,6 +175,10 @@ Copguy "Hey! Get back here!"
 CS "You can't catch me, I'm the speedy Michael Rosen!"
 
 "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
+
+hide Copguy
+
+hide Helipad
 
 jump jail
 
@@ -891,7 +895,7 @@ return
 label jail:
 
 show JailCell
-show Copguy
+show Copguy at right
 Copguy "Alright, welcome to the slammer. How tough are ya?"
 CS "How tough am I?! How, tough, am, I?! I beat Cuphead!"
 Copguy "So?"
@@ -913,7 +917,7 @@ Copguy "Alright, but be warned. This person was arrested for cutting a tax colle
 hide Copguy
 CS "Alrighty then…."
 CS "Hello, Arceus."
-show Arceus at right
+show Arceus at center
 Arceus "Aye, Boss. .w."
 CS "So what are you in for?"
 Arceus "Didn't you hear the cop? \ I'm in for cutting a tax collector with my nose."
@@ -935,8 +939,9 @@ jump breakout
 label annorexorcellmate:
 CS "I choose Annorexorcist"
 Copguy "Okay" 
+hide Copguy
 CS "Hey Annorexorcist."
-show Annorexorcist at right
+show Annorexorcist at center
 Annorexorcist "Hey"
 CS "So what're you in for?"
 Annorexorcist "..."
@@ -956,7 +961,7 @@ jump breakout
 
 
 label breakout:
-show Arceus at right
+show Arceus at center
 Arceus "So, what's the plan? I've been tryna break outta here for 5 Years"
 CS "Well, for a start. I need to get a feel of the routine here"
 Arceus "Well, I'll quickly describe that for you, cause I can't stand another minute here." 
