@@ -218,17 +218,17 @@ jump jail
 
 label kick:
 
-show CS at left
-
-show Wesley at right
-
-CS "This is CraAaAazy Saturday!"
-
-"{i}CS kicks Wesley off of the building.{/i}"
+hide Helipad
 
 hide Wesley
 
-Wesley "AHHHHHH!"
+hide CS
+
+$ renpy.movie_cutscene("kick.mp4")
+
+show Helipad
+
+show CS at left
 
 CS "Well, that was satisfying. Time to go home!"
 

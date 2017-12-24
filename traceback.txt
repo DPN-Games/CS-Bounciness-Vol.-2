@@ -1,18 +1,44 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 538, in script
-    James "Okay, I'll transfer the first of the money to your account now"
-Exception: Sayer James is not a function or string.
+  File "game/script.rpy", line 233, in script
+    CS "Well, that was satisfying. Time to go home!"
+IOError: Couldn't find file 'THIS IS CRAAAAZY SATURDAY.mp4'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 538, in script
-    James "Okay, I'll transfer the first of the money to your account now"
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 603, in execute
-    raise Exception("Sayer %s is not a function or string." % self.who.encode("utf-8"))
-Exception: Sayer James is not a function or string.
+  File "game/script.rpy", line 233, in script
+    CS "Well, that was satisfying. Time to go home!"
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\ast.py", line 624, in execute
+    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\exports.py", line 1173, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\character.py", line 911, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\character.py", line 747, in do_display
+    **display_args)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\character.py", line 523, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\ui.py", line 287, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\core.py", line 2553, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\display\core.py", line 2858, in interact_core
+    renpy.audio.audio.interact()
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\audio\audio.py", line 1027, in interact
+    periodic()
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\audio\audio.py", line 960, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\audio\audio.py", line 917, in periodic_pass
+    c.periodic()
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\audio\audio.py", line 409, in periodic
+    topf = load(self.file_prefix + filename + self.file_suffix)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\audio\audio.py", line 69, in load
+    rv = renpy.loader.load(fn)
+  File "C:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\loader.py", line 548, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'THIS IS CRAAAAZY SATURDAY.mp4'.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
