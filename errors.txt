@@ -1,9 +1,0 @@
-﻿I'm sorry, but errors were detected in your script. Please correct the
-errors listed below, and try again.
-
-
-File "game/script.rpy", line 254: Line is indented, but the preceding hide statement statement does not expect a block. Please check this line's indentation.
-    stop movie
-    ^
-
-Ren'Py Version: Ren'Py 6.99.13.2919
