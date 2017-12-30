@@ -16,54 +16,78 @@ in partnership with DigiDuncan Media Group
 
 CS BOUNCINESS VOL 2.
 
-Story Director
-	AWK
+Director
+--------------
+AWK
+--------------
 
 Lead Writer
-	AWK
+--------------
+AWK
+--------------
 
-Junior Writer
-	Pakoo
-	Arceus3251
-	
-Image Director
-	Pakoo
-	
+Writers
+--------------
+Pakoo
+--------------	
+Arceus3251
+--------------	
+
+Asset Management
+--------------
+Pakoo
+--------------	
+
 Script Coding
-	AWK
-	DigiDuncan
-	Pakoo
-	Arceus3251
-Music Director
-	DigiDuncan
-	
+--------------
+AWK
+--------------	
+DigiDuncan
+--------------	
+Pakoo
+--------------	
+Arceus3251
+--------------	
+
 Intro Animation
-	DigiDuncan
+--------------
+DigiDuncan
+--------------
 
 Credits Animation
-	DigiDuncan
-	
-CrAzY  sAtUrDaY Cutscene
-	Arceus3251
+--------------
+DigiDuncan
+--------------
+
+CrAzY SaTuRdaY Cutscene
+--------------
+Arceus3251
+--------------
 
 True Ending OVA	
-	Pakoo
+--------------
+Pakoo
+--------------
 
-Alpha Testing
-	Arceus3251
-	WithEyes
-	Pakoo
-	Irukandji Ichyouiyxl
-	AWK
-Music:
-	(credit all the songs we use here)
-	
+Testing
+--------------
+Arceus3251
+--------------
+AWK
+--------------	
+Pakoo
+--------------
+WithEyesAFlame
+--------------
+Irukandji Ichyouiyxl
+--------------
 	
 Special Thanks to:
-	cs188
-	Monika
+--------------
+CS188
+--------------
 	
-Engineered in Ren.py
+Made in Ren.py
 
 (logos for all our stuff here)
 
