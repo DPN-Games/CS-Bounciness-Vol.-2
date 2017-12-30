@@ -330,7 +330,7 @@ CS "Hello, 911! Come quickly, this guy is shooting up his office!"
 "{i}CS hides under a desk until the police come and arrest Wesley{/i}"
 
 show Copguy at right
-easeinright
+with easeinright
 
 Copguy "Sir, would you come with us? We'll need you to ask you a few questions"
 
@@ -1164,7 +1164,7 @@ CSGuard "Due to lack of space, we need to pair you with one of our less dangerou
 CSGuard "He's a schizo and he sees money everywhere, but other than that he's fine"
 
 hide CSGuard
-easeoutright
+with easeoutright
 
 show ArceusJew at right
 with easeinright
