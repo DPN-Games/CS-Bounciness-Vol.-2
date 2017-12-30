@@ -120,7 +120,10 @@ show Helipad
 with fade
 
 show CS at left
+with easeinleft
+
 show Wesley at right
+with easeinright
 
 CS "You'll pay for what you did!"
 
@@ -153,18 +156,21 @@ menu:
 label punch:
 
 show CS at left
+with easeinleft
 
 show Wesley at right
-
+with easeinright
 CS "Take this!"
 
 "{i}CS punches Wesley and knocks him out{/i}"
 
 hide Wesley
+with easeoutright
 
 CS "That'll teach you not to miss with a nerd's computer!"
 
 show Ed at right
+with easeinright
 
 Ed "Hello, 911? My boss just got knocked out by a disgruntled customer and appears to be dying! Send help!"
 
@@ -175,7 +181,10 @@ Ed "911! Come quickly! He's chasing after me!"
 "{i}The police arrive and CS runs away.{/i}"
 
 hide Ed
+with easeoutright
+
 show Copguy at right
+with easeinright
 
 Copguy "Hey! Get back here!"
 
@@ -184,10 +193,13 @@ CS "You can't catch me, I'm the speedy Michael Rosen!"
 "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
 
 hide CS
+with easeoutleft
 
 hide Copguy
+with easeoutright
 
 hide Helipad
+with dissolve
 
 jump jail
 
@@ -196,8 +208,10 @@ jump jail
 label chop:
 
 show CS at left
+with easeinleft
 
 show Wesley at right
+with easeinright
 
 CS "Take this!"
 
@@ -208,16 +222,21 @@ Wesley "You'll pay for that!"
 CS "Like hell I will!"
 
 hide CS
+with easeoutleft
 
 hide Wesley
+with easeoutright
 
-show Ed at center
+show Ed at right
+with easeinright
 
 Ed "911? Help! My boss just got attacked by a customer and now they're fighting right here in the office!"
 
 hide Ed
+with easeoutright
 
 show CS at left
+with easeinleft
 
 CS "Dammit! Ed's calling the police! I need to finish this fast!"
 
@@ -226,6 +245,7 @@ CS "Dammit! Ed's calling the police! I need to finish this fast!"
 "{i}CS runs away{/i}"
 
 show Copguy at right
+with easeinright
 
 Copguy "Get back here!"
 
@@ -234,10 +254,13 @@ CS "You can't catch me, I'm the speedy Michael Rosen"
 "{i}As CS is not actually the speedy Michael Rosen, he gets caught by the police{/i}"
 
 hide Helipad
+with dissolve
 
 hide CS
+with easeoutleft
 
 hide Copguy
+with easeoutright
 
 jump jail
 
@@ -255,16 +278,21 @@ hide movie with dissolve
 stop movie
 
 hide Wesley
+with easeoutright
 
 show Helipad
+with fade 
 
 show CS at left
+with easeinleft
 
 CS "Well, that was satisfying. Time to go home!"
 
 hide CS
+with easeoutright
 
 hide Helipad
+with dissolve
 
 jump home
 
@@ -273,14 +301,18 @@ jump home
 label special:
 
 show CS at left
+with easeinleft
 
 show Wesley at right
+with easeinright
 
 CS "Take this!"
 
 hide CS
+with easeoutleft
 
 hide Wesley
+with easeoutright
 
 show Office
 with fade
@@ -288,6 +320,7 @@ with fade
 "{i}CS uses the magic of YTP to make Wesley shoot his employees.{/i}"
 
 show CS at left
+with easeinleft
 
 "{i}CS calls the police.{/i}"
 
@@ -296,21 +329,25 @@ CS "Hello, 911! Come quickly, this guy is shooting up his office!"
 "{i}CS hides under a desk until the police come and arrest Wesley{/i}"
 
 show Copguy at right
+easeinright
 
 Copguy "Sir, would you come with us? We'll need you to ask you a few questions"
 
 CS "Of course, Officer."
 
 hide Office
+with dissolve
 
 hide CS
+with dissolve
 
 hide Copguy
+with dissolve
 
 jump questioning
 
 ######################################################################
-#_   _                      
+# _   _                      
 #| | | |                     
 #| |_| | ___  _ __ ___   ___ 
 #|  _  |/ _ \| '_ ` _ \ / _ \
@@ -322,18 +359,24 @@ jump questioning
 label home:
 
 show CarInside
+with fade 
 
 show CS at left
+with easeinleft
 
 CS "Ahh almost home"
 
 hide CarInside
+with dissolve
 
 hide CS
+with dissolve
 
 show SmallHouse
+with fade 
 
 show CS at left
+with easeinleft
 
 "{i}CS comes home to find his house drastically smaller.{/i}"
 
@@ -344,16 +387,21 @@ CS "Whatever, at least I'm finally home...."
 "{i}CS goes inside{/i}"
 
 hide SmallHouse
+with dissolve
 
 hide CS
+with easeoutleft
 
 show InsideHouse
+with dissolve
 
 show CS at left
+with easeinleft
 
 CS "Man, I need to relax after that shit, what should I do?"
 
 hide CS
+with easeoutleft
 
 menu:
     
@@ -370,14 +418,17 @@ menu:
 label motorolatv:
 
 show CS at left
+with easeinleft
 
 CS "I may as well watch TV and get my mind off of things..."
 
 "CS Fiddle diddles with the knobs on his Motorola TV"
 
 hide CS
+with easeoutleft
 
 show TVBilly
+with fade
 
 TVBilly "Hi! Billy Mays here for the Noooot So Craptop, the easy way to get a better computer for FREE, that's right FREE! We can do that because this is being broadcast on analog signal from beyond the grave!"
 
@@ -396,6 +447,7 @@ TVBilly "Whatever, just take the computer....."
 CS "Sweet"
 
 hide TVBilly
+with dissolve
 
 jump newcomputer
 
@@ -404,54 +456,73 @@ jump newcomputer
 label notsocraptop:
 
 show CS at left
+with easeinleft
 
 CS "I should probably go buy a new computer since HoH SiS destroyed my last one......"
 
 hide InsideHouse
+with dissolve
 
 hide CS
+with easeoutleft
 
 show CarInside
+with fade
 
 show CS at left
+with easeinleft
 
 "CS drives to MicroCenter to buy a new computer"
 
 hide CarInside
+with dissolve
 
 hide CS
+with easeoutleft
 
 show MicroCenter
+with fade
 
 show CS at left
+with easeinleft
 
-CS "Ooh this one looks good, the LenOwO dQw4w9WgXcQ. It's got a Sexy T.I.T.S graphics card or I can get one with an Nvidia Jesusforce 188! And it only costs 1 Dimick donation! I gotta get this!"
+CS "Ooh this one looks good, the LenOwO dQw4w9WgXcQ. It's got a Sexy T.I.T.S graphics card or I can get one with an Nvidia Jesusforce 188! And it only costs 3 Dimick donations! I gotta get this!"
 
 show ArceusJew at right
+with easeinright
 
 ArceusJew "Oh boy! Good deals, I gotta get one too!"
 
 hide ArceusJew
+with easeoutright
 
 show Cashier at right
+with easeinright
 
-Cashier "That will be $19.95."
+Cashier "That will be $615.99"
 
 hide Cashier
+with easeoutright
 
 hide CS
+with easeoutleft
 
 hide MicroCenter
+with dissolve
 
 show CarInside
+with fade
 
 show CS at left
+with easeinleft
 
 "{i}CS returns home with his brand new computer{/i}"
 
 hide CarInside
+with dissolve
 
 hide CS
+with easeoutleft
 
 jump newcomputer
 
@@ -460,12 +531,15 @@ jump newcomputer
 label newcomputer:
 
 show InsideHouse
+with fade
 
 show CS at left
+with easeinleft
 
 "What should I do now that I have my new computer?"
 
 hide CS
+with easeoutleft
 
 menu:
 
@@ -502,14 +576,17 @@ CS "Well, I agreed to a apology CStream......"
 CS "Okay, but only once!"
 
 hide Stream
+with dissolve
 
 show Roblox
+with fade
 
 "{i}James and Matt show up to the CStream{/i}"
 
 CS "Holy shit! Both founders in my stream at once?! Has this ever happened to any Mixer streamer before?"
 
-show James at center
+show James at right
+with easeinright
 
 James "Well, when I saw your Roblox stream I had to watch and it was so funny that I had to get Matt."
 
@@ -522,6 +599,7 @@ CS "What's a super partner? I've never heard of that before"
 James "You've never heard of it because it's exclusive to you. You get to choose between half of all of Mixer's profits or renaming Mixer back to Beam."
 
 hide James
+with easeoutright
 
 menu:
     
@@ -537,6 +615,7 @@ menu:
 label cshappyfappytime:
 
 show CS at left
+with easeinleft
 
 CS "Well, I mean I was kinda getting hard for Chocola, and Pakoo always does it everyday…"
 
@@ -549,10 +628,13 @@ CS "This is a site your dad will love!"
 CS "Now let's see, Chocola in heat? Oh yes, this is gonna be good!"
 
 hide InsideHouse
+with dissolve
 
 show Nekopara
+with fade
 
 show CS at left
+with easeinleft
 
 CS "Ooooooh…… "
 
@@ -575,6 +657,7 @@ CS "FUCK!!! Now I will get my partnership taken away, and everyone will know tha
 CS "Holy shit! Both founders saw me accidentally fapping on stream! Now I definitely need to delete my account!"
 
 show James at right
+with easeinright
 
 James "Don't be so quick to act, CS"
 
@@ -595,7 +678,7 @@ CS "What's a super partner? I've never heard of that before"
 James "You've never heard of it because it's exclusive to you. You get to choose between half of all of Mixer's profits or renaming Mixer back to Beam."
 
 hide James
-
+with easeoutright
 menu:
     
     "Which option do you want?"
@@ -611,16 +694,22 @@ menu:
 label rename:
 
 hide CS
+with easeoutleft
 
 hide Nekopara
+with dissolve
 
 hide Roblox
+with dissolve
 
 show CS at left
+with easeinleft
 
 show Stream
+with fade
 
 show James at right
+with easeinright
 
 CS "I'll rename Mixer back to Beam!"
 
@@ -649,20 +738,26 @@ return
 label profits:
 
 hide CS
+with easeoutleft
 
 hide Nekopara
+with dissolve
 
 hide Roblox
+with dissolve
 
 show Stream
+with fade
 
 show James at right
+with easeinright
 
 CS "Well of course I'm gonna go with the money, I can finally quit my shitty part time joj."
 
 James "Okay, I'll transfer the first of the money to your account now"
 
 hide James
+with easeoutright
 
 menu:
     
@@ -678,10 +773,13 @@ menu:
 label statue:
 
 hide Stream
+with dissolve
 
 show InsideHouse
+with fade
 
 show CS at left
+with easeinleft
 
 CS "I made this community on top of YTP's, so maybe I should honor the source of my newfound riches."
 
@@ -690,22 +788,30 @@ CS "I made this community on top of YTP's, so maybe I should honor the source of
 CS "This company looks good, Dig Bick's Building Co."
 
 hide CS
+with easeoutleft
 
 show CS at left
+with easeinleft
 
 show CarInside
+with fade
 
 "{i}CS goes to Dig Bick Building Co's HQ{/i}"
 
 hide CarInside
+with dissolve
 
 hide CS
+with easeoutleft
 
 show OfficeOutside
+with fade
 
 show DigBick at right
+with easeinright
 
 show CS at left
+with easeoutright
 
 DigBick "Welcome! What would you like today?"
 
@@ -724,9 +830,17 @@ return
 ######################################################################  
 label world:
 hide Stream
+with dissolve
+
 hide CS
+with easeoutleft
+
 show InsideHouse
+with fade
+
 show CS at left
+with easeinleft
+
 CS "Well, I've always thought that rich people should spend their money on improving the world, so now that I'm rich I should do that!"
 CS "But how should I improve the world?....."
 CS "I could help people with medical expenses, but I already did that with the charity stream…."
@@ -742,8 +856,9 @@ Pakoo "Nope! Not at all!"
 CS "In any case.. Do you think you could assist me in researching the creation of the Neko race?"
 "{i}The line goes quiet{/i}"
 
-
 show Pakoo at right
+with easeinright
+
 "{i}Pakoo appears from nowhere{/i}"
 Pakoo "Sunny D! Alright! Let's do this!"
 CS "How the hell did you find my house?!"
@@ -758,16 +873,33 @@ Pakoo "You kidding me? I had you in the background, I was busy creating a fan-ma
 CS "That's… oddly specific."
 Pakoo "Yeah.. Anyways, let me take you to my lab."
 hide insidehouse
+with dissolve
+
 hide CS
+with easeoutleft
+
 hide Pakoo
+with easeoutright
+
 show Genetics
+with fade
+
 show CS at left
+with easeinleft
+
 show Pakoo at right
+with easeinright
+
 "{i}Pakoo takes CS to his Neko Genetics Research Lab after a bit of.. shopping{/i}"
 CS "Nice lab you got here."
 Pakoo "It's about to get even better. Stand back." 
+
 hide CS
+with easeoutleft
+
 hide Pakoo
+with easeoutright
+
 "{i}CS stands back and Pakoo begins installing the various gadgets and gizmos that were purchased on their shopping trip{/i}"
 CS "Are you sure this will work?"
 Pakoo "Nope! But It's not my money!"
@@ -778,54 +910,113 @@ Pakoo "Almost there.."
 "{i} The machine begins to slow down to a halt, followed by a pleasant ding from a bell {/i}"
 show CS at left
 CS "Well.. now I know what the bell we bought was for.."
+
 show Pakoo at right
+with easeinright
+
 Pakoo "What? Aesthetics Matter. I was gonna go for RGB RAM, but…. that was a bit expensive."
 CS "So.. Did it work?"
+
 hide CS
+with easeoutleft
+
 hide Pakoo
+with easeoutright
+
 show Phil at right
+with easeinright
+
 Phil "IT EVEN WORKS UNDERWATER!"
 "{i}CS jumps{/i}"
 CS "Holy shit! What the hell are you?!"
+
 show Pakoo at left
+with easeinleft
+
 Pakoo "dammit.. that Neko isn't complete.. It's got a penis."
+
 hide Phil
+with easeoutright
+
 show CS at left
+with easeinleft
+
 CS "So?"
 Pakoo "Well, it's meant to be a CatGIRL, not Catguy."
+
 hide Pakoo
+with easeoutright
+
 hide CS
-show Phil at right
-Phil "FLEX TAPE IS STUPID!"
+with easeoutleft
+
 show Pakoo at left
+with easeinleft
+
+show Phil at right
+with easeinright
+
+Phil "FLEX TAPE IS STUPID!"
 Pakoo "Yeah, so are you, back in the machine."
 hide Phil
+with easeoutright
+
 hide Pakoo
+with easeoutleft
+
 "{i}Pakoo shoves Philsuki back into the machine{/i}"
 Phil "I SAWED THIS BOAT IN HA-"
 "{i}His screams are drowned out by the machine{/i}"
+
+show CS at left
+with easeinleft
+
 show Pakoo at right
+with easeinright
+
 Pakoo "Lemme fix some stuff…."
+
 hide Pakoo
+with easeoutright
+
 "{i}Pakoo fiddles around in the back of the machine{/i}"
 Pakoo "You know what, I think I know what the problem is!"
 "{i}Pakoo ignores CS’ questions and goes out shopping again{/i}"
-show Pakoo at left
+
+show Pakoo at right
+with easeinright
+
 Pakoo "I got the RGB!"
+
 show CS at left
+with easeinleft
+
 CS "I thought you said it was too expensive?"
 Pakoo "It is a scientific fact, that you cannot achieve performance without…"
 Pakoo "Mucho RGB!"
 CS "So will it work now?"
 Pakoo "Probably."
+
 hide CS
+with easeoutleft
+
 hide Pakoo
+with easeoutright
+
 "{i}Pakoo turns on the machine again{/i}"
+
 show Vanilla at right
+with easeinright
+
 Vanilla "Master!"
 show CS at left
+with easeinleft
+
 "{i}Vanilla runs up to CS{/i}"
 CS "Well, I wanted Chocola, but Vanilla is good too."
+hide CS with easeoutleft
+
+"{b}{i}Good End: CS lives happily ever after with his neko waifu.{/i}{/b}"
 return
 ######################################################################  
 # _   _                      
