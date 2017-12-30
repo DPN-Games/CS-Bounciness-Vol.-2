@@ -70,7 +70,8 @@ image Genetics = "background/Genetics.jpg"
 image Border = "background/CanadianBorder.jpg"
 image WeddingScene = "background/Wedding.jpg"
 image MicroCenter = "background/microcenter.png"
-
+image GoodEnd = "background/Good_End.png"
+image TrueEnd = "background/True_End.png"
 #Movies.
 #image name = "dir/file.filetpye"
 
@@ -730,6 +731,15 @@ James "Don't question me!"
 
 CS "Okay."
 
+hide CS 
+with easeoutleft
+
+hide James
+with easeoutright
+
+show GoodEnd
+with fade
+
 "{b}Good End: CS is hailed as a hero for getting Mixer renamed to Beam. He becomes the most popular streamer on Beam and is able to live off of the donations{/b}"
 
 return
@@ -1021,7 +1031,7 @@ with easeinleft
 CS "Well, I wanted Chocola, but Vanilla is good too."
 hide CS with easeoutleft
 
-"{b}{i}Good End: CS lives happily ever after with his neko waifu.{/i}{/b}"
+"{b}Good End: CS lives happily ever after with his neko waifu.{/b}"
 return
 ######################################################################  
 # _   _                      
@@ -1623,6 +1633,9 @@ with easeoutright
 
 hide FatherDigBick
 with easeoutbottom
+
+show TrueEnd
+with fade
 
 "{b}{i}True End CS marries Annorexorcist and lives in Canada working for LMG{/i}{/b}"
 
