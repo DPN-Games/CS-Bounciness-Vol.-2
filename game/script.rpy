@@ -255,6 +255,8 @@ hide movie with dissolve
 hide movie with dissolve
 stop movie
 
+show black
+
 show Helipad
 with fade
 
@@ -1662,6 +1664,9 @@ with easeoutright
 
 hide Annorexorcist
 with easeoutleft
+
+hide Border
+with fade
 
 show OutsideHortons
 with fade
