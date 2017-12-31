@@ -3,6 +3,8 @@
 #Characters.
 #define varname = Character("name")
 
+renpy.music.stop(priceisrice.ogg)
+
 define Annorexorcist = Character("Annorexorcist")
 define Arceus = Character("Arceus3251")
 define ArceusJew = Character("Arceus3251")
@@ -422,7 +424,7 @@ jump jail
 ######################################################################
 
 label kick:
-    play movie "movies/kick.ogv" loop
+    play movie "kick.ogv" loop
     hide movie with dissolve
 hide movie with dissolve
 hide movie with dissolve
