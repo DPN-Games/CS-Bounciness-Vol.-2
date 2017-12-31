@@ -1523,6 +1523,9 @@ CS "Alright then, let's get going!"
 hide Arceus
 with easeoutbottom
 
+hide CS
+with easeoutleft
+
 jump breakout
 
 label annorexorcellmate:
