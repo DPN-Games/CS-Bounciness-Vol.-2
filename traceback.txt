@@ -1,50 +1,36 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 272, in script
-    Wesley "Do you want a refund?"
-Exception: Audio channel 'movie_intro.ogv_None' is unknown.
+  File "game/script.rpy", line 121, in script
+    hide movie with dissolve
+IOError: Couldn't find file 'movies/intro.ogv'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\bootstrap.py", line 305, in bootstrap
-    renpy.main.main()
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\main.py", line 499, in main
-    run(restart)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\main.py", line 147, in run
-    renpy.execution.run_context(True)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\execution.py", line 795, in run_context
-    context.run()
-  File "game/script.rpy", line 272, in script
-    Wesley "Do you want a refund?"
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\ast.py", line 624, in execute
-    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\exports.py", line 1173, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\character.py", line 911, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, **display_args)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\character.py", line 747, in do_display
-    **display_args)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\character.py", line 523, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\ui.py", line 287, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "game/script.rpy", line 121, in script
+    hide movie with dissolve
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\ast.py", line 1289, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\exports.py", line 1406, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\display\core.py", line 2123, in do_with
+    clear=clear)
   File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\display\core.py", line 2553, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\display\core.py", line 2977, in interact_core
-    if renpy.display.video.frequent():
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\display\video.py", line 406, in frequent
-    update_playing()
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\display\video.py", line 395, in update_playing
-    m.stop()
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\display\video.py", line 358, in stop
-    renpy.audio.music.stop(channel=self.channel)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\audio\music.py", line 252, in stop
-    c = get_channel(channel)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\audio\audio.py", line 764, in get_channel
-    raise Exception("Audio channel %r is unknown." % name)
-Exception: Audio channel 'movie_intro.ogv_None' is unknown.
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\display\core.py", line 3104, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\audio\audio.py", line 960, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\audio\audio.py", line 917, in periodic_pass
+    c.periodic()
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\audio\audio.py", line 409, in periodic
+    topf = load(self.file_prefix + filename + self.file_suffix)
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\audio\audio.py", line 69, in load
+    rv = renpy.loader.load(fn)
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\loader.py", line 548, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'movies/intro.ogv'.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919

@@ -117,7 +117,10 @@ image Cashier = "characters/Kashier.png"
 # The game starts here.
 label start:
 
-play movie "movies/intro.ogv" 
+play movie "intro.ogv" 
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
 hide movie with dissolve
 hide movie with dissolve
 hide movie with dissolve
@@ -1829,7 +1832,10 @@ jump credits
 ######################################################################   
 
 label credits:
-play movie "movies/credits.ogv"
+play movie "credits.ogv"
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
 hide movie with dissolve
 hide movie with dissolve
 hide movie with dissolve
