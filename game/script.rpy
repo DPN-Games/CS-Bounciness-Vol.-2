@@ -291,8 +291,8 @@ menu:
             jump kick
         
         "Use Special":
-            jump special    			
-		
+            jump special    
+
 ######################################################################
 
 label punch:
@@ -1457,6 +1457,9 @@ label jail:
 show JailCell
 with fade
 
+show CS
+with easeinleft
+
 show Copguy at right
 with easeinright
 
@@ -1815,7 +1818,7 @@ return
 #
 ######################################################################   
 
-label credits
+label credits:
 play movie "movies/credits.ogv"
 hide movie with dissolve
 hide movie with dissolve
