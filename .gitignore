@@ -8,3 +8,5 @@ game/cache/bytecode.rpyb
 game/cache/screens.rpyb
 game/saves/persistent
 game/script.rpyc
+*.save
+game/saves/persistent
