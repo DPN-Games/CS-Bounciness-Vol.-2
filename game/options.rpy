@@ -14,11 +14,6 @@
 
 define config.name = _("CS Bounciness Vol. 2")
 
-
-style.default.font = "Overpass Regular.otf"
-
-define gui.interface_text_font = "Overpass Bold.otf"
-
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.
 
