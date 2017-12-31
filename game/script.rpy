@@ -981,7 +981,7 @@ DigBick "I'll get right on it!"
 hide DigBick
 with easeoutright
 
-return
+jump credits
 
 ######################################################################  
 label world:
@@ -1176,7 +1176,7 @@ CS "Well, I wanted Chocola, but Vanilla is good too."
 hide CS with easeoutleft
 
 "{b}Good End: CS lives happily ever after with his neko waifu.{/b}"
-return
+jump credits
 ######################################################################  
 # _   _                      
 #| | | |                     
@@ -1429,7 +1429,7 @@ with fade
 
 "{b}Digi leaves and CS is stuck in the insane asylum. Bad End{/b}"
 
-return
+jump credits
 
 ######################################################################
 #  ___            _                 
@@ -1807,7 +1807,7 @@ with fade
 
 "{b}{i}True End CS marries Annorexorcist and lives in Canada working for LMG{/i}{/b}"
 
-return
+jump credits
 ######################################################################
 #   ___       _ _ 
 #  |_  |     (_) |
@@ -1820,11 +1820,6 @@ return
 
 label credits:
 play movie "movies/credits.ogv"
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
 hide movie with dissolve
 hide movie with dissolve
 hide movie with dissolve
