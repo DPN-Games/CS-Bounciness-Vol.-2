@@ -291,8 +291,8 @@ menu:
             jump kick
         
         "Use Special":
-            jump special    
-
+            jump special    			
+		
 ######################################################################
 
 label punch:
@@ -886,7 +886,7 @@ with fade
 
 "{b}Good End: CS is hailed as a hero for getting Mixer renamed to Beam. He becomes the most popular streamer on Beam and is able to live off of the donations{/b}"
 
-return
+jump credits
 
 ######################################################################
 
@@ -1814,3 +1814,145 @@ return
 #\____/ \__,_|_|_|
 #
 ######################################################################   
+
+label credits
+play movie "movies/credits.ogv"
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+hide movie with dissolve
+stop movie
+
+return
