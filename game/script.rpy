@@ -3,8 +3,6 @@
 #Characters.
 #define varname = Character("name")
 
-renpy.music.stop(priceisrice.ogg)
-
 define Annorexorcist = Character("Annorexorcist")
 define Arceus = Character("Arceus3251")
 define ArceusJew = Character("Arceus3251")
