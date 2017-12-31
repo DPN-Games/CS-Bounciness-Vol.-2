@@ -1,25 +1,50 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 305, in script call
-    CS "Take this!"
-  File "renpy/common/00console.rpy", line 765, in script call
-    python in _console:
-ScriptError: could not find label 'credits'.
+  File "game/script.rpy", line 272, in script
+    Wesley "Do you want a refund?"
+Exception: Audio channel 'movie_intro.ogv_None' is unknown.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 305, in script call
-    CS "Take this!"
-  File "renpy/common/00console.rpy", line 765, in script call
-    python in _console:
-  File "<string>", line 1, in script
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\ast.py", line 1552, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\Xander\Documents\renpy-6.99.13-sdk\renpy\script.py", line 861, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'credits'.
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\bootstrap.py", line 305, in bootstrap
+    renpy.main.main()
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\main.py", line 499, in main
+    run(restart)
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\main.py", line 147, in run
+    renpy.execution.run_context(True)
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\execution.py", line 795, in run_context
+    context.run()
+  File "game/script.rpy", line 272, in script
+    Wesley "Do you want a refund?"
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\ast.py", line 624, in execute
+    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\exports.py", line 1173, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\character.py", line 911, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\character.py", line 747, in do_display
+    **display_args)
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\character.py", line 523, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\ui.py", line 287, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\display\core.py", line 2553, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\display\core.py", line 2977, in interact_core
+    if renpy.display.video.frequent():
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\display\video.py", line 406, in frequent
+    update_playing()
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\display\video.py", line 395, in update_playing
+    m.stop()
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\display\video.py", line 358, in stop
+    renpy.audio.music.stop(channel=self.channel)
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\audio\music.py", line 252, in stop
+    c = get_channel(channel)
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\audio\audio.py", line 764, in get_channel
+    raise Exception("Audio channel %r is unknown." % name)
+Exception: Audio channel 'movie_intro.ogv_None' is unknown.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
