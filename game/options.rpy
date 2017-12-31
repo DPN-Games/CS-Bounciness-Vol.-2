@@ -15,8 +15,9 @@
 define config.name = _("CS Bounciness Vol. 2")
 
 
-#style.default.font = ""
+style.default.font = "Overpass Regular.otf"
 
+define gui.interface_text_font = "Overpass Bold.otf"
 
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.
@@ -26,20 +27,20 @@ define gui.show_name = False
 
 ## The version of the game.
 
-define config.version = "0.0.1"
+define config.version = "1.0RC1"
 
 
 ## Text that is placed on the game's about screen. To insert a blank line
 ## between paragraphs, write \n\n.
 
-define gui.about = _("")
+define gui.about = _("It's the CSBounciness the Squeakuel!")
 
 
 ## A short name for the game used for executables and directories in the built
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "CSBounciness"
+define build.name = "CSBounciness2"
 
 
 ## Sounds and music ############################################################
