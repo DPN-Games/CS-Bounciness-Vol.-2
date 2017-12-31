@@ -455,6 +455,9 @@ with easeoutleft
 hide Wesley
 with easeoutright
 
+hide Helipad
+with fade
+
 show Office
 with fade
 
