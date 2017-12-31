@@ -1555,6 +1555,9 @@ Annorexorcist "Only if you can figure out a way to escape, we've had no success,
 CS "I think I have some ideas, I've played a LOT of the escapists."
 Annorexorcist "Works for me, let's do this"
 
+hide CS
+with easeoutleft
+
 hide Annorexorcist
 with easeoutbottom
 
