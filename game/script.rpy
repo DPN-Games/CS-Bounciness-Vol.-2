@@ -1951,11 +1951,6 @@ hide movie with dissolve
 hide movie with dissolve
 hide movie with dissolve
 hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
 stop movie
 
 return
