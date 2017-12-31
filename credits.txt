@@ -85,6 +85,7 @@ Irukandji Ichyouiyxl
 Special Thanks to:
 --------------
 CS188
+Monika
 --------------
 	
 Made in Ren.py
