@@ -1243,6 +1243,15 @@ CS "I really did!"
 
 Copguy "Sure ya did....."
 
+hide Interrogation
+with fade
+
+hide CS
+with easeoutleft
+
+hide Copguy
+with easeoutright
+
 jump asylum
 
 ######################################################################
@@ -1262,6 +1271,15 @@ Copguy "So what did you see?"
 CS "I don't know what happened! I just came to get a refund and he started shooting"
 
 Copguy "Okay, I'm sorry you had to go through that sir."
+
+hide Interrogation
+with fade
+
+hide CS
+with easeoutleft
+
+hide Copguy
+with easeoutright
 
 jump home
 ######################################################################
