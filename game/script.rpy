@@ -1457,7 +1457,7 @@ label jail:
 show JailCell
 with fade
 
-show CS
+show CS at left
 with easeinleft
 
 show Copguy at right
