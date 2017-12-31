@@ -422,7 +422,7 @@ jump jail
 ######################################################################
 
 label kick:
-    play movie "movies/kick.ogv" loop
+    play movie "kick.ogv" loop
     hide movie with dissolve
 hide movie with dissolve
 hide movie with dissolve
@@ -1775,7 +1775,7 @@ with easeintop
 CS "I need to get proof of citizenship, or at least fake proof of citizenship before I can get a joj here."
 "{i}Annorexorcist gets an idea and begins to blush{/i}"
 Annorexorcist "Trudeau is trying to make Canada more diverse by letting gay married couples get citizenship, we just have to get married and then you can work here."
-CS "We don't have money to get married!"
+CS "We don't have the money to get married!"
 Annorexorcist "We can have a cheap wedding at one of your Canadian fan's houses."
 CS "Well, I know Nova lives around here, so we can have the wedding at his house."
 
@@ -1833,9 +1833,6 @@ jump credits
 
 label credits:
 play movie "credits.ogv"
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
 hide movie with dissolve
 hide movie with dissolve
 hide movie with dissolve
