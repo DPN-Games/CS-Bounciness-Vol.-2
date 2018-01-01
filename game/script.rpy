@@ -167,7 +167,7 @@ show Wesley at right
 with easeinright
 CS "Take this!"
 
-"{i}CS punches Wesley and knocks him out{/i}"
+"{i}CS punches Wesley and knocks him out.{/i}"
 
 hide Wesley
 with easeoutright
@@ -232,6 +232,12 @@ with easeoutleft
 hide Wesley
 with easeoutright
 
+hide Helipad
+with fade
+
+show Office
+with fade
+
 show Ed at right
 with easeinright
 
@@ -245,27 +251,27 @@ with easeinleft
 
 CS "Dammit! Ed's calling the police! I need to finish this fast!"
 
-"{i}The fight continues and the police arrive{/i}"
+"{i}The fight continues and the police arrive.{/i}"
 
-"{i}CS runs away{/i}"
+"{i}CS runs away.{/i}"
 
 show Copguy at right
 with easeinright
 
 Copguy "Get back here!"
 
-CS "You can't catch me, I'm the speedy Michael Rosen"
+CS "You can't catch me, I'm the speedy Michael Rosen!"
 
-"{i}As CS is not actually the speedy Michael Rosen, he gets caught by the police{/i}"
-
-hide Helipad
-with dissolve
+"{i}As CS is not actually the speedy Michael Rosen, he gets caught by the police.{/i}"
 
 hide CS
 with easeoutleft
 
 hide Copguy
 with easeoutright
+
+hide Office
+with dissolve
 
 jump jail
 
@@ -320,12 +326,12 @@ with easeinleft
 
 CS "Hello, 911! Come quickly, this guy is shooting up his office!"
 
-"{i}CS hides under a desk until the police come and arrest Wesley{/i}"
+"{i}CS hides under a desk until the police come and arrest Wesley.{/i}"
 
 show Copguy at right
 with easeinright
 
-Copguy "Sir, would you come with us? We'll need you to ask you a few questions"
+Copguy "Sir, would you come with us? We'll need you to ask you a few questions."
 
 CS "Of course, Officer."
 
@@ -358,7 +364,7 @@ with fade
 show CS at left
 with easeinleft
 
-CS "Ahh almost home"
+CS "Ahh, almost home."
 
 hide CarInside
 with dissolve
@@ -374,7 +380,7 @@ with easeinleft
 
 "{i}CS comes home to find his house drastically smaller.{/i}"
 
-CS "This is what happens when you don't get quality foundation repair"
+CS "This is what happens when you don't get quality foundation repair."
 
 CS "Whatever, at least I'm finally home...."
 
@@ -416,7 +422,7 @@ with easeinleft
 
 CS "I may as well watch TV and get my mind off of things..."
 
-"CS Fiddle diddles with the knobs on his Motorola TV"
+"CS Fiddle diddles with the knobs on his Motorola TV."
 
 hide CS
 with easeoutleft
@@ -432,13 +438,13 @@ CS "Well, this is a good deal, not sure about all that stuff about interdimensio
 
 "{i}CS calls the number on the screen and Billy Mays picks up.{/i}"
 
-TVBilly "How did you get this number, it was only broadcast on Super Heaven TV"
+TVBilly "How did you get this number, it was only broadcast on Super Heaven TV."
 
-CS "Idfk, I just fiddle diddled with the knobs on my Motorola TV and you showed up"
+CS "Idfk, I just fiddle diddled with the knobs on my Motorola TV and you showed up."
 
 TVBilly "Whatever, just take the computer....."
 
-CS "Sweet"
+CS "Sweet!"
 
 hide TVBilly
 with dissolve
@@ -466,7 +472,7 @@ with fade
 show CS at left
 with easeinleft
 
-"CS drives to MicroCenter to buy a new computer"
+"{i}CS drives to MicroCenter to buy a new computer.{/i}"
 
 hide CarInside
 with dissolve
@@ -493,7 +499,7 @@ with easeoutright
 show Cashier at right
 with easeinright
 
-Cashier "That will be $615.99"
+Cashier "That will be $615.99."
 
 hide Cashier
 with easeoutright
@@ -510,7 +516,7 @@ with fade
 show CS at left
 with easeinleft
 
-"{i}CS returns home with his brand new computer{/i}"
+"{i}CS returns home with his brand new computer.{/i}"
 
 hide CarInside
 with dissolve
@@ -552,11 +558,11 @@ label stream:
 show Stream
 with fade
 
-CS "I should probably stream since it's been over a week since I've streamed"
+CS "I should probably stream since it's been over a week since I last streamed."
 
 CS "Hey guys! CS here! Sorry I've been gone so long. Some crazy shit happened to me, I'm not even gonna TRY to explain it all."
 
-"Chat Yeah, right. you just spent the week sleeping."
+Chat "Yeah, right. you just spent the week sleeping."
 
 CS "I didn't just sleep away the week! Seriously, I can't even go through the shit that happened!"
 
@@ -576,7 +582,7 @@ with dissolve
 show Roblox
 with fade
 
-"{i}James and Matt show up to the CStream{/i}"
+"{i}James and Matt show up to the CStream.{/i}"
 
 CS "Holy shit! Both founders in my stream at once?! Has this ever happened to any Mixer streamer before?"
 
@@ -587,9 +593,9 @@ James "Well, when I saw your Roblox stream I had to watch and it was so funny th
 
 CS "Wow! I'm honored you think my stream is that funny!"
 
-James "That's not all, Matt and I have decided to make you the Mixer Super Partner"
+James "That's not all, Matt and I have decided to make you the Mixer Super Partner!"
 
-CS "What's a super partner? I've never heard of that before"
+CS "What's a super partner? I've never heard of that before."
 
 James "You've never heard of it because it's exclusive to you. You get to choose between half of all of Mixer's profits or renaming Mixer back to Beam."
 
@@ -616,7 +622,7 @@ CS "Well, I mean I was kinda getting hard for Chocola, and Pakoo always does it 
 
 CS "As long as he doesn't find out about it, then I don't have to worry."
 
-"{i}opens an extra tab up and types in Porno.com{/i}"
+"{i}opens an extra tab up and types in Porno.com.{/i}"
 
 CS "This is a site your dad will love!"
 
@@ -635,9 +641,9 @@ CS "Ooooooh…… "
 
 CS "Oh yes yes yes yes yes yes yes yes! Yes yes yes yes yes yes! (CS rave)"
 
-"{i}CS shoots his True Jizz Water all over his screen{/i}"
+"{i}CS shoots his True Jizz Water all over his screen.{/i}"
 
-"{i}then notices that he left OBS open and was streaming{/i}"
+"{i}then notices that he left OBS open and was streaming.{/i}"
 
 CS "OH SHIT!!!!!!"
 
@@ -654,9 +660,9 @@ CS "Holy shit! Both founders saw me accidentally fapping on stream! Now I defini
 show James at right
 with easeinright
 
-James "Don't be so quick to act, CS"
+James "Don't be so quick to act, CS.."
 
-CS "What do you mean, I'm in violation of like every rule in the TOS right now"
+CS "What do you mean, I'm in violation of like every rule in the COC right now."
 
 James "That's true, but you've introduced me to a whole new world."
 
@@ -668,7 +674,7 @@ CS "Reward me? What do you mean?"
 
 James "I've decided to make you a super partner!"
 
-CS "What's a super partner? I've never heard of that before"
+CS "What's a super partner? I've never heard of that before."
 
 James "You've never heard of it because it's exclusive to you. You get to choose between half of all of Mixer's profits or renaming Mixer back to Beam."
 
@@ -716,7 +722,7 @@ James "Okay, I guess…"
 
 CS "So how long will this take?"
 
-James "Not long at all actually, I have a program on my desktop to change Mixer back to Beam"
+James "Not long at all actually, I have a program on my desktop to change Mixer back to Beam."
 
 CS "Why do you have that?!"
 
@@ -733,7 +739,7 @@ with easeoutright
 show GoodEnd
 with fade
 
-"{b}Good End: CS is hailed as a hero for getting Mixer renamed to Beam. He becomes the most popular streamer on Beam and is able to live off of the donations{/b}"
+"{b}Good End: CS is hailed as a hero for getting Mixer renamed to Beam. He becomes the most popular streamer on Beam and is able to live off of the donations.{/b}"
 
 jump credits
 
@@ -758,7 +764,7 @@ with easeinright
 
 CS "Well of course I'm gonna go with the money, I can finally quit my shitty part time joj."
 
-James "Okay, I'll transfer the first of the money to your account now"
+James "Okay, I'll transfer the first of the money to your account now."
 
 hide James
 with easeoutright
@@ -787,7 +793,7 @@ with easeinleft
 
 CS "I made this community on top of YTP's, so maybe I should honor the source of my newfound riches."
 
-"{i}CS sets out to build statues of Billy Mays and Michael Rosen{/i}"
+"{i}CS sets out to build statues of Billy Mays and Michael Rosen.{/i}"
 
 CS "This company looks good, Dig Bick's Building Co."
 
@@ -800,7 +806,7 @@ with easeinleft
 show CarInside
 with fade
 
-"{i}CS goes to Dig Bick Building Co's HQ{/i}"
+"{i}CS goes to Dig Bick Building Co's HQ.{/i}"
 
 hide CarInside
 with dissolve
@@ -850,27 +856,27 @@ CS "Well, I've always thought that rich people should spend their money on impro
 CS "But how should I improve the world?....."
 CS "I could help people with medical expenses, but I already did that with the charity stream…."
 CS "I know, I'll make the ultimate contribution to the human race! Create real life Neko girls!"
-"{i}CS researches labs he can hire to make real life neko girls{/i}"
+"{i}CS researches labs he can hire to make real life neko girls.{/i}"
 CS "Ooh! This one looks good, Pakoo the Pervert's Genetics Lab." 
-"{i}CS picks up the phone and calls Pakoo's the Pervert's Genetics Lab{/i}"
+"{i}CS picks up the phone and calls Pakoo's the Pervert's Genetics Lab.{/i}"
 Pakoo "Pakoo the Pervert's Genetics Lab, Dr. Pakoo speaking!"
 CS "Wait.. You sound awfully like Pakoo from my stream…"
 Pakoo "Huh? I don't believe we've met before?"
 CS "Oh? I could've sworn."
 Pakoo "Nope! Not at all!"
 CS "In any case.. Do you think you could assist me in researching the creation of the Neko race?"
-"{i}The line goes quiet{/i}"
+"{i}The line goes quiet.{/i}"
 
 show Pakoo at right
 with easeinright
 
-"{i}Pakoo appears from nowhere{/i}"
+"{i}Pakoo appears from nowhere.{/i}"
 Pakoo "Sunny D! Alright! Let's do this!"
 CS "How the hell did you find my house?!"
 Pakoo "Traced your call. Anyways, you have the cash?"
 CS "That depends, do you have the talent." 
 Pakoo "Yep, but no cash."
-CS "{i}hands over the cash{/i}" 
+CS "{i}hands over the cash.{/i}" 
 CS "I think this will be more than enough to support this cause."
 Pakoo "Holy shit, how did you come up with all this money?!"
 CS "You were on the Stream when I got super partnership."
@@ -895,7 +901,7 @@ with easeinleft
 show Pakoo at right
 with easeinright
 
-"{i}Pakoo takes CS to his Neko Genetics Research Lab after a bit of.. shopping{/i}"
+"{i}Pakoo takes CS to his Neko Genetics Research Lab after a bit of.. shopping.{/i}"
 CS "Nice lab you got here."
 Pakoo "It's about to get even better. Stand back." 
 
@@ -908,11 +914,11 @@ with easeoutright
 "{i}CS stands back and Pakoo begins installing the various gadgets and gizmos that were purchased on their shopping trip{/i}"
 CS "Are you sure this will work?"
 Pakoo "Nope! But It's not my money!"
-CS "Well, dammit"
-"{i}Pakoo flips a switch, various machines begin to start up and whir{/i}"
+CS "Well, dammit!"
+"{i}Pakoo flips a switch, various machines begin to start up and whir.{/i}"
 CS "Umm…"
 Pakoo "Almost there.."
-"{i} The machine begins to slow down to a halt, followed by a pleasant ding from a bell {/i}"
+"{i} The machine begins to slow down to a halt, followed by a pleasant ding from a bell.{/i}"
 
 show CS at left
 with easeinleft
@@ -935,13 +941,13 @@ show Phil at right
 with easeinright
 
 Phil "IT EVEN WORKS UNDERWATER!"
-"{i}CS jumps{/i}"
+"{i}CS jumps.{/i}"
 CS "Holy shit! What the hell are you?!"
 
 show Pakoo at left
 with easeinleft
 
-Pakoo "dammit.. that Neko isn't complete.. It's got a penis."
+Pakoo "Dammit.. that Neko isn't complete.. It's got a penis!"
 
 hide Phil
 with easeoutright
@@ -966,15 +972,16 @@ with easeinright
 
 Phil "FLEX TAPE IS STUPID!"
 Pakoo "Yeah, so are you, back in the machine."
+
 hide Phil
 with easeoutright
 
 hide Pakoo
 with easeoutleft
 
-"{i}Pakoo shoves Philsuki back into the machine{/i}"
+"{i}Pakoo shoves Philsuki back into the machine.{/i}"
 Phil "I SAWED THIS BOAT IN HA-"
-"{i}His screams are drowned out by the machine{/i}"
+"{i}His screams are drowned out by the machine.{/i}"
 
 show CS at left
 with easeinleft
@@ -982,14 +989,14 @@ with easeinleft
 show Pakoo at right
 with easeinright
 
-Pakoo "Lemme fix some stuff…."
+Pakoo "Lemme fix some stuff..."
 
 hide Pakoo
 with easeoutright
 
 "{i}Pakoo fiddles around in the back of the machine{/i}"
 Pakoo "You know what, I think I know what the problem is!"
-"{i}Pakoo ignores CS’ questions and goes out shopping again{/i}"
+"{i}Pakoo ignores CS’s questions and goes out shopping again.{/i}"
 
 show Pakoo at right
 with easeinright
@@ -1011,7 +1018,7 @@ with easeoutleft
 hide Pakoo
 with easeoutright
 
-"{i}Pakoo turns on the machine again{/i}"
+"{i}Pakoo turns on the machine again.{/i}"
 
 show Vanilla at right
 with easeinright
@@ -1020,7 +1027,7 @@ Vanilla "Master!"
 show CS at left
 with easeinleft
 
-"{i}Vanilla runs up to CS{/i}"
+"{i}Vanilla runs up to CS.{/i}"
 CS "Well, I wanted Chocola, but Vanilla is good too."
 hide CS with easeoutleft
 
@@ -1084,7 +1091,7 @@ with easeinleft
 show Copguy at right
 with easeinright
 
-CS "I made him do it using the power of YTP."
+CS "I made him do it using the power of YTP!"
 
 Copguy "No joking around, this is a serious situation."
 
@@ -1118,8 +1125,6 @@ with easeinleft
 
 show Copguy at right
 with easeinright
-
-Copguy "So what did you see?"
 
 CS "I don't know what happened! I just came to get a refund and he started shooting"
 
@@ -1158,7 +1163,7 @@ with easeoutleft
 hide CSGuard
 with easeoutright
 
-"{i}A few days pass and the guard comes back{/i}"
+"{i}A few days pass and the guard comes back.{/i}"
 
 show CSInsane at left
 with easeinleft
@@ -1168,11 +1173,11 @@ CSInsane "Have you come to let me out?"
 show CSGuard at right
 with easeinright
 
-CSGuard "I already told you, I can't let you out. I came because we have an overflow of patients right now" 
+CSGuard "I already told you, I can't let you out. I came because we have an overflow of patients right now."
 
 CSGuard "Due to lack of space, we need to pair you with one of our less dangerous patients."
 
-CSGuard "He's a schizo and he sees money everywhere, but other than that he's fine"
+CSGuard "He's a schizo and he sees money everywhere, but other than that he's fine."
 
 hide CSGuard
 with easeoutright
@@ -1182,7 +1187,7 @@ with easeinright
 
 Arceus "Money Money Money Money Money Money Money Money Money Money"
 
-CSInsane "Great, now I have to deal with this shit"
+CSInsane "Great, now I have to deal with this shit."
 
 hide ArceusJew
 with easeoutright
@@ -1294,7 +1299,7 @@ with easeoutright
 show BadEnd
 with fade
 
-"{b}Digi leaves and CS is stuck in the insane asylum. Bad End{/b}"
+"{b}Digi leaves and CS is stuck in the insane asylum. Bad End!{/b}"
 
 hide Asylum
 with fade
