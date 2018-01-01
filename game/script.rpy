@@ -1391,8 +1391,8 @@ with easeoutleft
 jump breakout
 
 label annorexorcellmate:
-CS "I choose Annorexorcist"
-Copguy "Okay" 
+CS "I choose Annorexorcist."
+Copguy "Okay." 
 
 hide Copguy
 with easeoutright
@@ -1402,20 +1402,20 @@ CS "Hey Annorexorcist."
 show Annorexorcist at center
 with easeintop
 
-Annorexorcist "Hey"
+Annorexorcist "Hey.."
 CS "So what're you in for?"
 Annorexorcist "..."
 "{i}Annorexorcist begins to stare longingly at CS…{/i}"
 CS "Well, you don't talk much do you?"
-Annorexorcist "Huh, sorry, I got lost in thought"
+Annorexorcist "Huh, sorry, I got lost in thought.."
 CS "About what?"
-Annorexorcist "Breaking out of here."
+Annorexorcist "Breaking out of here.."
 CS "Wow, Am I that bad of a cellmate that you want to breakout as soon as I get here?"
 Annorexorcist "No, I've been working with the prisoner in the next cell, Arceus, to breakout for 5 years now."
 CS "Wow, can I come with?"
 Annorexorcist "Only if you can figure out a way to escape, we've had no success, as you can tell given that we're still here."
 CS "I think I have some ideas, I've played a LOT of the escapists."
-Annorexorcist "Works for me, let's do this"
+Annorexorcist "Works for me, let's do this!"
 
 hide CS
 with easeoutleft
@@ -1431,10 +1431,10 @@ label breakout:
 show Arceus at center
 with easeintop
 
-Arceus "So, what's the plan? I've been tryna break outta here for 5 Years"
-CS "Well, for a start. I need to get a feel of the routine here"
+Arceus "So, what's the plan? I've been tryna break outta here for 5 Years."
+CS "Well, for a start. I need to get a feel of the routine here."
 Arceus "Well, I'll quickly describe that for you, cause I can't stand another minute here." 
-"{i}Arceus quickly describes the prison routine to CS{/i}"
+"{i}Arceus quickly describes the prison routine to CS.{/i}"
 CS "I think I got all that."
 Arceus "So, what's our plan, Boss?"
 CS "I gotta grab a few plastic spoons from the mess hall, Cup of molten chocolate, a guard outfit, and a change of shorts."
@@ -1523,8 +1523,8 @@ label bordercrossing:
 show Border
 with fade
 
-"{i}CS, Annorexorcist and Arceus get to the border crossing{/i}"
-"{i}A border guard appears{/i}"
+"{i}CS, Annorexorcist, and Arceus get to the border crossing.{/i}"
+"{i}A border guard appears.{/i}"
 
 show BorderGuard at center
 with easeintop
@@ -1534,7 +1534,7 @@ BorderGuard "I'm going to need proof of citizenship, eh."
 show Arceus at right
 with easeinright
 
-Arceus "Color is spelled with a u, eh."
+Arceus "Colour is spelled with a u, eh."
 BorderGuard "Works for me, eh."
 
 hide BorderGuard
@@ -1577,7 +1577,7 @@ with fade
 show OutsideHortons
 with fade
 
-"{i}At the Tim Horton's, Annorexorcist and CS share a donut and make out{/i}"
+"{i}At the Tim Horton's, Annorexorcist and CS share a donut and make out.{/i}"
 
 hide OutsideHortons
 with dissolve
@@ -1586,7 +1586,7 @@ show InsideHortons
 with fade
 
 CS "Wow, that was great!"
-"{i}Annorexorcist blushes{/i}"
+"{i}Annorexorcist blushes..{/i}"
 
 show Annorexorcist at center
 with easeintop
@@ -1606,7 +1606,7 @@ show Arceus at right
 with easeinright
 
 Arceus "Sorry to interrupt you two, but we may have a problem, that donut cost me the last of my money, so we need to find a way to make some cash."
-"{i}CS looks across the street to see Linus Media Group{/i}"
+"{i}CS looks across the street to see Linus Media Group.{/i}"
 
 hide Arceus
 with easeoutright
@@ -1615,7 +1615,7 @@ hide Annorexorcist
 with easeoutleft
 
 CS "I have a lot of video editing experience, maybe I can get a job there."
-"{i}CS walks into the studio and asks for a job{/i}"
+"{i}CS walks into the studio and asks for a job.{/i}"
 
 show LinusOffice
 with fade
@@ -1624,7 +1624,7 @@ show Linus at center
 with easeintop
 
 Linus "Sure, you can have a job, just show us proof of citizenship and you're ready to go!"
-CS "Color is spelled with a u, eh."
+CS "Colour is spelled with a u, eh."
 Linus "I need actual papers, the last time I hired someone who used that as proof of citizenship I got fined and had to sell one of my 1000s of GTX Titans."
 CS "Ummmm, I'll be right back."
 
@@ -1634,14 +1634,14 @@ with easeoutbottom
 hide LinusOffice
 with dissolve
 
-"{i}CS leaves and talks to Annorexorcist{/i}"
+"{i}CS leaves and talks to Annorexorcist.{/i}"
 show InsideHortons
 
 show Annorexorcist at center
 with easeintop
 
 CS "I need to get proof of citizenship, or at least fake proof of citizenship before I can get a joj here."
-"{i}Annorexorcist gets an idea and begins to blush{/i}"
+"{i}Annorexorcist gets an idea and begins to blush.{/i}"
 Annorexorcist "Trudeau is trying to make Canada more diverse by letting gay married couples get citizenship, we just have to get married and then you can work here."
 CS "We don't have the money to get married!"
 Annorexorcist "We can have a cheap wedding at one of your Canadian fan's houses."
@@ -1686,7 +1686,7 @@ with easeoutbottom
 show TrueEnd
 with fade
 
-"{b}{i}True End CS marries Annorexorcist and lives in Canada working for LMG{/i}{/b}"
+"{b}{i}True End CS marries Annorexorcist and lives in Canada working for LMG!{/i}{/b}"
 
 hide TrueEnd
 with fade
