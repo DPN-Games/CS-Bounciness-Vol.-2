@@ -75,7 +75,7 @@ image TrueEnd = "background/True_End.png"
 #Movies.
 #image name = "dir/file.filetpye"
 
-image movie = Movie(size=(800, 800),  xpos=0, ypos=0, xanchor=0, yanchor=100)
+image movie = Movie(size=(1280, 720),  xpos=0, ypos=0, xanchor=0, yanchor=100)
 
 #Character images.
 #image name = "dir/file.filetype"
@@ -118,13 +118,6 @@ image Cashier = "characters/Kashier.png"
 label start:
 
 play movie "intro.ogv" 
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
 hide movie with dissolve
 hide movie with dissolve
 hide movie with dissolve
@@ -424,7 +417,6 @@ jump jail
 label kick:
     play movie "kick.ogv" loop
     hide movie with dissolve
-hide movie with dissolve
 hide movie with dissolve
 hide movie with dissolve
 hide movie with dissolve
@@ -1399,6 +1391,15 @@ CSInsane "I'll give you some insulin."
 
 Digi "I'll take it!"
 
+hide CSInsane
+with easeoutleft
+
+hide Digi
+with easeoutright
+
+hide Asylum
+with fade
+
 jump home
 
 ######################################################################
@@ -1414,6 +1415,15 @@ with easeinright
 CSInsane "I'll give you a 36 pack of powerade."
 
 Digi "I'll take it."
+
+hide CSInsane
+with easeoutleft
+
+hide Digi
+with easeoutright
+
+hide Asylum
+with fade
 
 jump home
 
@@ -1441,6 +1451,9 @@ show BadEnd
 with fade
 
 "{b}Digi leaves and CS is stuck in the insane asylum. Bad End{/b}"
+
+hide Asylum
+with fade
 
 jump credits
 
