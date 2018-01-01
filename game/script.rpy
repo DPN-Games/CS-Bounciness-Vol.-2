@@ -117,152 +117,9 @@ image Cashier = "characters/Kashier.png"
 # The game starts here.
 label start:
 
-play movie "intro.ogv" 
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-stop movie
-
 show black
+
+$ renpy.movie_cutscene("intro.ogv")
 
 show Helipad
 with fade
@@ -415,23 +272,10 @@ jump jail
 ######################################################################
 
 label kick:
-    play movie "kick.ogv" loop
-    hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-stop movie
+$ renpy.movie_cutscene("kick.ogv")
 
 hide Wesley
 with easeoutright
-
-show Helipad
-with fade 
-
-show CS at left
-with easeinleft
 
 CS "Well, that was satisfying. Time to go home!"
 
@@ -1839,7 +1683,13 @@ with fade
 
 "{b}{i}True End CS marries Annorexorcist and lives in Canada working for LMG{/i}{/b}"
 
-jump credits
+hide TrueEnd
+with fade
+
+hide WeddingScene
+with fade
+
+jump trueend
 ######################################################################
 #   ___       _ _ 
 #  |_  |     (_) |
@@ -1850,154 +1700,11 @@ jump credits
 #
 ######################################################################   
 
+label trueend:
+$ renpy.movie_cutscene("TrueEnd.ogv")
+jump credits
+
 label credits:
-play movie "credits.ogv"
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-hide movie with dissolve
-stop movie
+$ renpy.movie_cutscene("credits.ogv")
 
 return

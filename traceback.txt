@@ -1,36 +1,24 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-IOError: Couldn't find file 'priceisrice.ogv'.
+  File "game/script.rpy", line 1704, in script
+    $ renpy.moviee_cutscene("TrueEnd.ogv")
+  File "game/script.rpy", line 1704, in <module>
+    $ renpy.moviee_cutscene("TrueEnd.ogv")
+AttributeError: 'module' object has no attribute 'moviee_cutscene'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
-    python hide:
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\ast.py", line 827, in execute
+  File "game/script.rpy", line 1704, in script
+    $ renpy.moviee_cutscene("TrueEnd.ogv")
+  File "E:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\ast.py", line 827, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\python.py", line 1764, in py_exec_bytecode
+  File "E:\Users\Arceus3251\Desktop\Arceus3251's Stuff\Tools\renpy-6.99.13-sdk\renpy\python.py", line 1764, in py_exec_bytecode
     exec bytecode in globals, locals
-  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in <module>
-    ui.interact()
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\ui.py", line 287, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\display\core.py", line 2553, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\display\core.py", line 3104, in interact_core
-    renpy.audio.audio.periodic()
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\audio\audio.py", line 960, in periodic_thread_main
-    periodic_pass()
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\audio\audio.py", line 917, in periodic_pass
-    c.periodic()
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\audio\audio.py", line 409, in periodic
-    topf = load(self.file_prefix + filename + self.file_suffix)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\audio\audio.py", line 69, in load
-    rv = renpy.loader.load(fn)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\loader.py", line 548, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'priceisrice.ogv'.
+  File "game/script.rpy", line 1704, in <module>
+    $ renpy.moviee_cutscene("TrueEnd.ogv")
+AttributeError: 'module' object has no attribute 'moviee_cutscene'
 
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
