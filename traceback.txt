@@ -1,36 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-IOError: Couldn't find file 'priceisrice.ogv'.
+  File "renpy/common/00keymap.rpy", line 404, in script
+    python hide:
+  File "renpy/common/00keymap.rpy", line 423, in <module>
+    renpy.save("_reload-1", "reload save game")
+Exception: Not saved - no valid save locations.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
+  File "renpy/common/00keymap.rpy", line 404, in script
     python hide:
   File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\ast.py", line 827, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
   File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\python.py", line 1764, in py_exec_bytecode
     exec bytecode in globals, locals
-  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in <module>
-    ui.interact()
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\ui.py", line 287, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\display\core.py", line 2553, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\display\core.py", line 3104, in interact_core
-    renpy.audio.audio.periodic()
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\audio\audio.py", line 960, in periodic_thread_main
-    periodic_pass()
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\audio\audio.py", line 917, in periodic_pass
-    c.periodic()
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\audio\audio.py", line 409, in periodic
-    topf = load(self.file_prefix + filename + self.file_suffix)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\audio\audio.py", line 69, in load
-    rv = renpy.loader.load(fn)
-  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\loader.py", line 548, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'priceisrice.ogv'.
+  File "renpy/common/00keymap.rpy", line 423, in <module>
+    renpy.save("_reload-1", "reload save game")
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\loadsave.py", line 315, in save
+    location.save(slotname, sr)
+  File "C:\Users\Andrew\Downloads\renpy-6.99.13-sdk\renpy-6.99.13-sdk\renpy\savelocation.py", line 407, in save
+    raise Exception("Not saved - no valid save locations.")
+Exception: Not saved - no valid save locations.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
