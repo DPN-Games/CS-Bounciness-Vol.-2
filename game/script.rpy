@@ -833,6 +833,20 @@ CS "As big as you can go!"
 
 DigBick "I'll get right on it!"
 
+hide Digbick
+with easeoutright
+
+hide CS
+with easeoutleft
+
+hide OfficeOutside
+with dissolve
+
+show WeddingStatue
+with fade
+
+"{b}Good End: CS gets his statue of Michael Rosen marrying Billy Mays.{/b}"
+
 hide DigBick
 with easeoutright
 
@@ -1683,16 +1697,11 @@ with easeoutright
 hide FatherDigBick
 with easeoutbottom
 
-show TrueEnd
-with fade
-
-"{b}{i}True End CS marries Annorexorcist and lives in Canada working for LMG!{/i}{/b}"
-
-hide TrueEnd
-with fade
+jump trueend
 
 hide WeddingScene
-with fade
+
+hide Helipad 
 
 jump trueend
 ######################################################################
@@ -1706,6 +1715,12 @@ jump trueend
 ######################################################################   
 
 label trueend:
+
+show TrueEnd
+with fade
+
+"{b}{i}True End: CS marries Annorexorcist and lives in Canada working for LMG!{/i}{/b}"
+
 $ renpy.movie_cutscene("TrueEnd.ogv")
 jump credits
 
