@@ -1721,7 +1721,7 @@ with fade
 
 "{b}{i}True End: CS marries Annorexorcist and lives in Canada working for LMG!{/i}{/b}"
 
-$ renpy.movie_cutscene("TrueEnd.ogv")
+#renpy.movie_cutscene("TrueEnd.avi")
 jump credits
 
 label credits:
