@@ -119,7 +119,7 @@ label start:
 
 show black
 
-$ renpy.movie_cutscene("intro.ogv")
+renpy.movie_cutscene("intro.ogv")
 
 show Helipad
 with fade
@@ -278,7 +278,7 @@ jump jail
 ######################################################################
 
 label kick:
-$ renpy.movie_cutscene("kick.ogv")
+renpy.movie_cutscene("kick.ogv")
 
 hide Wesley
 with easeoutright
@@ -1721,10 +1721,10 @@ with fade
 
 "{b}{i}True End: CS marries Annorexorcist and lives in Canada working for LMG!{/i}{/b}"
 
-$ renpy.movie_cutscene("TrueEnd.ogv")
+renpy.movie_cutscene("TrueEnd.avi")
 jump credits
 
 label credits:
-$ renpy.movie_cutscene("credits.ogv")
+renpy.movie_cutscene("credits.ogv")
 
 return
